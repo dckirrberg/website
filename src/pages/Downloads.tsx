@@ -10,9 +10,9 @@ export default function Team() {
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Downloads</h2>
             <p>Hier findest du alle wichtigen Dokumente direkt zum Download!</p>
-            <a href="/dateien/Mitgliederantrag.pdf">Mitgliederantrag.pdf</a>
+            <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Mitgliederantrag.pdf</a>
             <br />
-            <a href="/dateien/Sponsorenkonzept_DCK.pdf">Sponsorenkonzept_DCK.pdf</a>
+            <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a>
           </div>
         </div>
       </div>

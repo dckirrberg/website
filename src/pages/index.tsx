@@ -27,7 +27,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             target="_blank"
             href="http://online-mitgliedsantrag.dckirrberg.de/">
-            Zum Anmeldeforumlar
+            Zum Online-Anmeldeformular
           </a>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Herzlich Willkommen auf der Webseite des Dart Club in Kirrberg - DC Kirrberg!">
+      description="Herzlich Willkommen auf unserer Hompepage">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

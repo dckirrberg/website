@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DC Kirrberg e.V.',
-  tagline: 'Herzlich Willkommen auf der Website des Dartsportverein DC Kirrberg e.V.',
+  tagline: 'GOOD DARTS in Homburg an der Saar',
   url: 'https://dckirrberg.de',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -47,12 +47,12 @@ const config = {
         disableSwitch: false,
       },
       navbar: {
-        title: 'DC Kirrberg',
+        title: 'DC Kirrberg e.V.',
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
-          {to: '/spenden', label: 'Spenden', position: 'left'},
-          {to: '/sponsoring', label: 'Sponsor', position: 'left'},
           {to: '/blog', label: 'News', position: 'left'},
+          {to: '/spenden', label: 'Spenden', position: 'left'},
+          {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
           {to: '/downloads', label: 'Downloads', position: 'left'},
         ],
       },
@@ -86,7 +86,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Links',
             items: [
               {
                 label: 'Impressum',

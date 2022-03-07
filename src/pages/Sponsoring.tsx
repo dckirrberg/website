@@ -8,13 +8,14 @@ export default function Team() {
       <div className="hero">
         <div className="container">
           <div className="text--center margin-bottom--lg">
-            <h2 className="hero__title margin--none">Sponsoring</h2>
+            <h2 className="hero__title margin--none">Sponsoren</h2>
           </div>
           <div className="row">
             <p>
-              Der DC Kirrberg e.V. legt hierbei großes Gewicht auf die Förderung
+              Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
               von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
               Events die Beliebtheit und das Interesse der Sportart steigern.
+              Gemeinsam mit Ihrer Hilfe, können wir unsere Vereinsarbeit vollumfänglich ausüben!
             </p>
             <p>
               Im Sponsoring-Konzept stellen wir Ihnen unseren Verein vor und
@@ -28,8 +29,9 @@ export default function Team() {
             >
               Zum Sponsoring-Konzept
             </a>
+           <a></a>
             <a
-              className="button button--secondary "
+              className="button button--secondary button--lg"
               target="_blank"
               href="http://sponsoring.dckirrberg.de/"
             >

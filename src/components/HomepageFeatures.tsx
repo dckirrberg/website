@@ -16,30 +16,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Förderung des Dartsports',
-    image: '/img/darts.png',
-    description: (
-      <>
-Wir legen ein großes Gewicht auf die Förderung
-von Dartspielern und möchten mit regelmäßigen Veranstaltungen die Beliebtheit und das Interesse der Sportart steigern.
-      </>
-    ),
-  },
-  {
-    title: 'DC Kirrberg e.V.',
+    title: 'Vereinsgründung',
     image: '/img/open-book.png',
     description: (
       <>
-        Nach der Gründungsversammlung vom 15.11.2021 wurde der DC Kirrberg als gemeinnüziger Verein eigetragen. Mitglied im Landesportverband für das Saarland (LSVS).  
+        Bereits im Jahre 2020 entstand die Idee zur Gründung eines eigenen Dartsvereins.
+        Am 15.11.2021 versammelten sich 15 begeisterte Freunde des Dartssports zur Gründung des Vereins.
+        Laut Satzung ist der DC Kirrberg e.V. zudem Mitglied des LSVS. (Landessportverband für das Saarland)</>
+
+    ),
+  },
+  {
+    title: 'Trainingszeiten',
+    image: '/img/darts.png',
+    description: (
+      <>
+      Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor! <br></br>
+      Unsere aktuelle Trainingszeiten:<br></br>
+      Mittwoch: ab 18:00 Uhr<br></br>
+      Sonntag:  ab 10:00 Uhr  
+
+      <br></br>Wichtig: Wir bitten alle Besucher einen tagesaktuellen Corona-Schnelltest mitzuführen.  
       </>
     ),
   },
   {
-    title: 'Mach jetz mit!',
+    title: 'Werde ein Teil von uns!',
     image: '/img/wave.png',
     description: (
       <>
-        Lade dir hier das Mitgliederformular herunter und schick es per Mail - oder komm einfach im Vereinsheim vorbei! Wir freuen uns auf dich!
+        Verwende hierzu das Online-Anmeldeformular und hänge diesem den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> an.
+        Der Antrag beinhaltet zudem ein SEPA-Lastschiftmandat, welches im Falle einer Familienmitgliedschaft lediglich
+        von der beitragszahlenden Person auszufüllen ist.
       </>
     ),
   },

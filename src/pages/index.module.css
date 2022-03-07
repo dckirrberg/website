@@ -23,9 +23,15 @@
 }
 
 .logo_wrapper {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 100%;
-  padding: 4px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  margin: 10px;
 }
-.logo {
+/**
+ * .logo {
 }
+ */

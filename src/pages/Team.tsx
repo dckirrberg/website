@@ -12,7 +12,7 @@ export default function Team() {
             <h2 className="hero__title margin--none">Über uns</h2>
           </div>
           <div className="row">
-            <p>
+            <p >
               Darts erfreut sich seit einigen Jahren einer immer größeren
               Beliebtheit. Die Hallen sind gefüllt, die Einschaltquoten steigen
               und Darts wird auch in den Medien immer bekannter.
@@ -27,7 +27,7 @@ export default function Team() {
             </p>
             <p>
               Nach der Gründungsversammlung vom 15.11.2021 wurde der DC Kirrberg
-              als gemeinnüziger Verein eigetragen und wir sind Mitglied im
+              als gemeinnüziger Verein ins Vereinsregister aufgenommen. Wir sind zudem Mitglied im
               Landesportverband für das Saarland (LSVS).
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function Team() {
       <div className="hero">
         <div className="container">
           <div className="text--center margin-bottom--lg">
-            <h2 className="hero__title margin--none">Vorstand</h2>
+            <h2 className="hero__title margin--none">Die Vorstandschaft</h2>
           </div>
           <div className="row">
             {team &&
