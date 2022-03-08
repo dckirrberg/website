@@ -1,13 +1,15 @@
 ---
 slug: welcome
-title: Willkommen!
+title: Die Vorstandschaft
 authors: [dckirrberg]
-tags: [Gründung, Versammlung]
+tags: [Vorstand,Gründungsversammlung]
 ---
 
-Herzlich Willkommen auf der Webseite des Dart Club in Kirrberg - DC Kirrberg!
+Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.
+Im erweiterten Vorstand befindet sich 6 weitere Mitglieder. Diese wurden bei der Gründungsversammlung am 15.11.2021 ordnungsgemäß gewählt 
+und bilden somit den ersten Vorstand des DC Kirrberg e.V.
 
-Die Gründungsversammlung ist am 15.11.2021 in den Räumen des Sportverein Kirrbergs.
+Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.
 
 ![Der Vorstand](./vorstand.jpg)
-> Der Vorstand - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Thorsten Halter (2. Sportdirektor)
+> Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)

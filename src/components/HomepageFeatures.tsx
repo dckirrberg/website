@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Trainingszeiten',
-    image: '/img/darts.png',
+    image: '/img/schedule.png',
     description: (
       <>
       Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor! <br></br>
@@ -41,8 +41,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Werde ein Teil von uns!',
-    image: '/img/wave.png',
+    title: 'Werde Mitglied im Verein!',
+    image: '/img/thumpup.png',
     description: (
       <>
         Verwende hierzu das Online-Anmeldeformular und hänge diesem den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> an.
