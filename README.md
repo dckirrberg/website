@@ -38,7 +38,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - Footer im Desktop Mode zentrieren
 - Anzeige für Trainingszeiten auf der Startseite
 - Ansicht Vorstandsmitglieder (Bilder)
-- 
+- Map für Anfahrt
 
 ### TODO @Niggel
 

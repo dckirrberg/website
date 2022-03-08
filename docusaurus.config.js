@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'Impressum',
-                to: '/docs/impressum',
+                to: '/docs/Impressum',
               },
             ],
           },
