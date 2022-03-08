@@ -8,12 +8,14 @@
     <subtitle>DC Kirrberg e.V. Blog</subtitle>
     <icon>https://dckirrberg.de/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Willkommen!]]></title>
+        <title type="html"><![CDATA[Die Vorstandschaft]]></title>
         <id>welcome</id>
         <link href="https://dckirrberg.de/blog/welcome"/>
         <updated>2021-11-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Herzlich Willkommen auf der Webseite des Dart Club in Kirrberg - DC Kirrberg!]]></summary>
-        <content type="html"><![CDATA[<p>Herzlich Willkommen auf der Webseite des Dart Club in Kirrberg - DC Kirrberg!</p><p>Die Gründungsversammlung ist am 15.11.2021 in den Räumen des Sportverein Kirrbergs.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Der Vorstand - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Thorsten Halter (2. Sportdirektor)</p></blockquote>]]></content>
+        <summary type="html"><![CDATA[Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.]]></summary>
+        <content type="html"><![CDATA[<p>Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.
+Im erweiterten Vorstand befindet sich 6 weitere Mitglieder. Diese wurden bei der Gründungsversammlung am 15.11.2021 ordnungsgemäß gewählt
+und bilden somit den ersten Vorstand des DC Kirrberg e.V.</p><p>Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content>
         <author>
             <name>DC Kirrberg e.V.</name>
         </author>
