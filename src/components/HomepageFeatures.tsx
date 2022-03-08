@@ -32,11 +32,9 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
       Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor! <br></br>
-      Unsere aktuelle Trainingszeiten:<br></br>
-      Mittwoch: ab 18:00 Uhr<br></br>
-      Sonntag:  ab 10:00 Uhr  
-
-      <br></br>Wichtig: Wir bitten alle Besucher einen tagesaktuellen Corona-Schnelltest mitzuführen.  
+      Unsere aktuelle Trainingszeiten:<br />
+      <b>Mittwoch: ab 18:00 Uhr<br />
+      Sonntag:  ab 10:00 Uhr  <br /></b> 
       </>
     ),
   },
@@ -45,15 +43,16 @@ const FeatureList: FeatureItem[] = [
     image: '/img/thumpup.png',
     description: (
       <>
-        Verwende hierzu das Online-Anmeldeformular und hänge diesem den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> an.
-        Der Antrag beinhaltet zudem ein SEPA-Lastschiftmandat, welches im Falle einer Familienmitgliedschaft lediglich
-        von der beitragszahlenden Person auszufüllen ist.
+        Verwende hierzu das <b>Online-Anmeldeformular</b> und hänge diesem den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> an.
+        Alternativ kann der Antrag für Neumitglieder auch per <a href="mailto:vorstand@dckirrberg.de">E-Mail</a> / <b>persönlich</b> an uns übergeben werden.
       </>
     ),
   },
 ];
+/** Der Antrag beinhaltet zudem ein SEPA-Lastschiftmandat, welches im Falle einer Familienmitgliedschaft lediglich
+von der beitragszahlenden Person auszufüllen ist. */
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({title, image, description}: FeatureItem): JSX.Element {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

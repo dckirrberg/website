@@ -25,7 +25,7 @@ export default function Team() {
               in den letzten Jahren langsam, aber stetig gewandelt.
               Darts ist zum Trendsport geworden und dies hat gleich mehrere
               Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
-              Volkssport bezeichnet und von jedermann ausgeübt werden kann.
+              Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
             </p>
             <p>
               Nach der Gründungsversammlung wurde der DC Kirrberg e.V.
