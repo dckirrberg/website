@@ -49,7 +49,7 @@ export default function Team() {
           <div className="text--center margin-bottom--lg">
             <h1>Vielen Dank für deine Unterstützung</h1>
             <p><b>Wichtig:</b> Gerne stellen wir allen Spender:innen eine Zuwendungsbescheinigung aus.
-             Sendet uns hierzu einfach eine kurze Mitteilung, mit Bitte zur Ausstellung des Spendenbelegs an: </p>
+             Sendet uns hierzu einfach eine kurze Mitteilung mit Bitte zur Ausstellung des Spendenbelegs an: </p>
             <a href="mailto:vorstand@dckirrberg.de">vorstand@dckirrberg.de</a>
           </div>
         </div>
