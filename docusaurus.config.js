@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `E-Mail: <a href="mailto:vorstand@dckirrberg.de">vorstand@dckirrberg.de</a> - © ${new Date().getFullYear()} DC Kirrberg e.V.`,
+        copyright: `© ${new Date().getFullYear()} DC Kirrberg e.V.`,
       },
       prism: {
         theme: lightCodeTheme,

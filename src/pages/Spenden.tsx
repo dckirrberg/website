@@ -44,7 +44,9 @@ export default function Team() {
 
           </div>
           <div className="text--center margin-bottom--lg">
-            <p><b>Wichtig:</b> Die Ausstellung der Zuwendungsbescheinigung erfolgt möglichst zügig nach Eingang der Zahlung, insofern diese benötigt wird.</p>
+            <p><b>Wichtig:</b> Die Ausstellung der Zuwendungsbescheinigung erfolgt möglichst zügig nach Eingang der Zahlung, insofern diese benötigt wird.
+            Sendet uns hierzu eine kurze Mitteilung an: </p>
+            <a href="mailto:vorstand@dckirrberg.de">vorstand@dckirrberg.de</a>
           </div>
         </div>
       </div>
