@@ -31,10 +31,9 @@ const FeatureList: FeatureItem[] = [
     image: '/img/schedule.png',
     description: (
       <>
-      Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor! <br></br>
-      Unsere aktuelle Trainingszeiten:<br />
       <b>Mittwoch: ab 18:00 Uhr<br />
-      Sonntag:  ab 10:00 Uhr  <br /></b> 
+      Sonntag:  ab 10:00 Uhr  <br /></b>  <br />
+      Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor!
       </>
     ),
   },

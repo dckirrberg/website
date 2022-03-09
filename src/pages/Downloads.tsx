@@ -25,7 +25,7 @@ export default function Team() {
               </div>
               <div className="row row--no-gutters">
                 <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
-                <div className="col"> <a href="" target="_blank"></a></div>
+                <div className="col"><a href="/dateien/Kreuztabelle.pdf" target="_blank">Kreuztabelle.pdf</a></div>
               </div>
               <div className="row row--no-gutters">
                 <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
