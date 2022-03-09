@@ -16,24 +16,24 @@ export default function Team() {
             </p>
             <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>
             
-              <table>
-                <tr>
-                    <td>Empfänger:</td>
-                    <td>DC Kirrberg e.V.</td>
-                </tr>
-                <tr>
-                    <td>IBAN:</td>
-                    <td>DE10594500101030607392</td>
-                </tr>
-                <tr>
-                    <td>BIC:</td>
-                    <td>SALADE51HOM</td>
-                </tr>
-                <tr>
-                    <td>Name der Bank:</td>
-                    <td>Kreissparkasse Saarpfalz</td>
-                </tr>
-              </table>  
+            <div className="container">
+              <div className="row row--no-gutters">
+                <div className="col">Empfänger:</div>
+                <div className="col">DC Kirrberg e.V.</div>
+              </div>
+              <div className="row row--no-gutters">
+                <div className="col">IBAN:</div>
+                <div className="col">DE10594500101030607392</div>
+              </div>
+              <div className="row row--no-gutters">
+                <div className="col">BIC:</div>
+                <div className="col">SALADE51HOM</div>
+              </div>
+              <div className="row row--no-gutters">
+                <div className="col">Name der Bank:</div>
+                <div className="col">Kreissparkasse Saarpfalz</div>
+              </div>
+            </div> 
             
             <a
               className="button button--secondary button--lg"

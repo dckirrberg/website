@@ -13,21 +13,19 @@ function SocialLink({ link }) {
 }
 
 const TeamMember = function (props) {
-  let { name, title, image_url, social_links } = props;
+  let { name, title, image_url, email, social_links } = props;
 
   return (
     <div className='col margin-vert--md'>
       <div className='card card--full-height'>
         <div className='card__header'>
           <div className='avatar avatar--vertical'>
-            <img
-              className='avatar__photo avatar__photo--xl margin-vert--md'
-              src={image_url}
-            />
+            <img className='avatar__photo avatar__photo--xl margin-vert--md'src={image_url}/>           
             <div className='avatar__intro'>
               <div className='avatar__name'>{name}</div>
-              <small className='avatar__subtitle'>{title}</small>
             </div>
+              <small className='avatar__subtitle'>{title}</small>
+              <a href="mailto:">{email}</a>         
           </div>
         </div>
 
@@ -54,5 +52,6 @@ TeamMember.propTypes = {
   name: PropTypes.string,
   title: PropTypes.string,
   image_url: PropTypes.string,
+  image_email: PropTypes.string,
   social_links: PropTypes.arrayOf(PropTypes.string),
 };
