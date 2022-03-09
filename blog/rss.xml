@@ -4,17 +4,29 @@
         <title>DC Kirrberg e.V. Blog</title>
         <link>https://dckirrberg.de/blog</link>
         <description>DC Kirrberg e.V. Blog</description>
-        <lastBuildDate>Mon, 15 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Die Gründungsversammlung]]></title>
+            <title><![CDATA[1. Mitgliederversammlung]]></title>
+            <link>https://dckirrberg.de/blog/firstmv</link>
+            <guid>firstmv</guid>
+            <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mit der 1. Mitgliederversammlung stimmte die Versammlung über die erforderlichen Vereins- bzw. Satzungsordungen ab.]]></description>
+            <content:encoded><![CDATA[<p>Mit der 1. Mitgliederversammlung stimmte die Versammlung über die erforderlichen Vereins- bzw. Satzungsordungen ab.
+Unsere Vereinssatzung und Ordnungen findet ihr unter <a href="/downloads">Downloads</a>.
+Der Vorstand verkündete zudem, dass die Räumlichkeit der alten Bücherei im Bürgerhaus Kirrberg, künftig als
+Trainingsraum genutzt werden darf.</p><p><img src="./firstmv.jpg" alt="Hier wird der Grundstein gelegt!"/></p><blockquote><p>Mit viel Enthusiasmus wurde der Grundstein für eine erfolgreiche Vereinsarbeit gelegt</p></blockquote>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Gründungsversammlung]]></title>
             <link>https://dckirrberg.de/blog/founding</link>
             <guid>founding</guid>
             <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Stelldarts zur Gründung des Vereins im Vereinsheim des SV Kirrberg 1945 e.V.]]></description>
-            <content:encoded><![CDATA[<p>Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Stelldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 e.V.</a>
-In der ersten ordentlichen Vereinssitzung, wählte die Versammlung den Vorstand, sowie die erweiterte Vorstandschaft. </p><p><img src="./vorstand.jpg" alt="Die Gruendungsmitglieder"/></p><blockquote><p>Die Gründungsmitglieder - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content:encoded>
+            <description><![CDATA[Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des SV Kirrberg 1945 e.V.]]></description>
+            <content:encoded><![CDATA[<p>Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 e.V.</a>
+In der ersten ordentlichen Vereinssitzung, wählte die Versammlung den Vorstand und beriet im Anschluss die weiteren Maßnahmen.</p><p><img src="./gruender.jpg" alt="Unsere Gruendungsmitglieder"/></p><blockquote><p>Die Gründungsmitglieder - v.l.n.r. Leon Yilmaz, Michael Didion, Maurice Didion, André Didion, Philipp Kasper, Nicola Kniest, Tobias Mallmann, Daniel Knecht,
+Patrick Bentz, Markus Didion, Sebastian Bauer, Sebastian Planz, Pascal Kittel, Torsten Halter, Julia Didion</p></blockquote>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Die Vorstandschaft]]></title>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"1. Mitgliederversammlung","permalink":"/blog/firstmv"},{"title":"Gr\xfcndungsversammlung","permalink":"/blog/founding"},{"title":"Die Vorstandschaft","permalink":"/blog/welcome"}]}')}}]);
