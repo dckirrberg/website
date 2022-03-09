@@ -45,7 +45,7 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
         
-        {<SimplleMap />}
+        {/* <SimplleMap /> */}
       </main>
 
     </Layout>
