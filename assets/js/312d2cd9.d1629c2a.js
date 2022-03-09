@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[380],{486:function(g){g.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/grundungsversammlung","name":"Gr\xfcndungsversammlung","count":2,"permalink":"/blog/tags/grundungsversammlung"}')}}]);

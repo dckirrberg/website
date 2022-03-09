@@ -8,6 +8,18 @@
     <subtitle>DC Kirrberg e.V. Blog</subtitle>
     <icon>https://dckirrberg.de/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Die Gründungsversammlung]]></title>
+        <id>founding</id>
+        <link href="https://dckirrberg.de/blog/founding"/>
+        <updated>2021-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Stelldarts zur Gründung des Vereins im Vereinsheim des SV Kirrberg 1945 e.V.]]></summary>
+        <content type="html"><![CDATA[<p>Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Stelldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 e.V.</a>
+In der ersten ordentlichen Vereinssitzung, wählte die Versammlung den Vorstand, sowie die erweiterte Vorstandschaft. </p><p><img src="./vorstand.jpg" alt="Die Gruendungsmitglieder"/></p><blockquote><p>Die Gründungsmitglieder - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content>
+        <author>
+            <name>DC Kirrberg e.V.</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Die Vorstandschaft]]></title>
         <id>welcome</id>
         <link href="https://dckirrberg.de/blog/welcome"/>
