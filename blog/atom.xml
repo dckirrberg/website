@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dckirrberg.de/blog</id>
     <title>DC Kirrberg e.V. Blog</title>
-    <updated>2021-12-28T00:00:00.000Z</updated>
+    <updated>2022-01-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dckirrberg.de/blog"/>
     <subtitle>DC Kirrberg e.V. Blog</subtitle>
     <icon>https://dckirrberg.de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wir starten durch!]]></title>
+        <id>newboards</id>
+        <link href="https://dckirrberg.de/blog/newboards"/>
+        <updated>2022-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Genau 3 Tage nach der ersten Trainingseinheit, konnten wir bereits unsere Kontakte spielen lassen.]]></summary>
+        <content type="html"><![CDATA[<p>Genau 3 Tage nach der ersten Trainingseinheit, konnten wir bereits unsere Kontakte spielen lassen.
+Der Darts Profi - Jens Kniest - war bei uns zu Gast und hatte gleich die ersten Boards und Surrounds mitgebracht.</p><p>Der Saarländer Jens Kniest nahm 2018 an der PDC Q-School teil, wonach er regelmäßig bei den Qualifiern für die Events der European Tour mit dabei war, der Sprung auf die große ET-Bühne sollte ihm bisher noch nicht gelingen. Auch ein Jahr später nahm der Deutsche die Q-School in Angriff, anschließend nahm Kniest auch eine Großzahl an Challenge Tour Events mit, bevor er bei den Luxembourg Open die Runde der letzten 32 erreichte. Mitte November gelang dem Dartspieler des DC Olympia dann der große Coup, als er sich für die Super League Darts Germany qualifizieren konnte. 2020 begann Kniest erneut in der Q-School, auf der Challenge Tour ging es zum ersten Mal unter die letzten 32. Auch 2021 war Kniest bei der Q-School mit dabei, ebenso bei der Super League Darts Germany 2021, wo er nach dem Ausscheiden in der Vorrundengruppe die Liga aber vorläufig verlassen muste.</p><p><img src="./jensk1.png" alt="Uebergabe"/></p><blockquote><p>Der 1. Vorsitzende Markus Didion nimmt die neuen Boards mit Freuden entgegen</p></blockquote><p><img src="./jensk2.jpg" alt="GameOn"/></p><blockquote><p>Natürlich wurden die neu erworbenen Scheiben direkt montiert und bespielt!</p></blockquote>]]></content>
+        <author>
+            <name>DC Kirrberg e.V.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unser Vereinsheim]]></title>
+        <id>firststeps</id>
+        <link href="https://dckirrberg.de/blog/firststeps"/>
+        <updated>2022-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wie unschwer zu erkennen ist, ist unsere aktuelle Trainingslocation etwas in die Jahre gekommen.]]></summary>
+        <content type="html"><![CDATA[<p>Wie unschwer zu erkennen ist, ist unsere aktuelle Trainingslocation etwas in die Jahre gekommen.
+Wir hoffen natürlich, uns hier langfristig niederlassen zu dürfen und mit städtischer Unterstützung den Raum zu neuem Glanz zu verhelfen.
+Da zu diesem Zeitpunkt noch keine Spielgeräteanschaffung möglich war, begnügten wir uns voerst mit der Montage einer einzigen Scheibe.</p><p><img src="./firststeps.jpg" alt="Die Dartscheibe"/></p><blockquote><p>Die erste Scheibe wurde erfolgreich angebracht!</p></blockquote>]]></content>
+        <author>
+            <name>DC Kirrberg e.V.</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1. Mitgliederversammlung]]></title>
         <id>firstmv</id>
@@ -22,27 +47,27 @@ Trainingsraum genutzt werden darf.</p><p><img src="./firstmv.jpg" alt="Hier wird
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Gründungsversammlung]]></title>
+        <title type="html"><![CDATA[Die Vereinsgründung]]></title>
         <id>founding</id>
         <link href="https://dckirrberg.de/blog/founding"/>
         <updated>2021-11-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des SV Kirrberg 1945 e.V.]]></summary>
         <content type="html"><![CDATA[<p>Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 e.V.</a>
-In der ersten ordentlichen Vereinssitzung, wählte die Versammlung den Vorstand und beriet im Anschluss die weiteren Maßnahmen.</p><p><img src="./gruender.jpg" alt="Unsere Gruendungsmitglieder"/></p><blockquote><p>Die Gründungsmitglieder - v.l.n.r. Leon Yilmaz, Michael Didion, Maurice Didion, André Didion, Philipp Kasper, Nicola Kniest, Tobias Mallmann, Daniel Knecht,
+In der ersten ordenstlichen Vereinssitzung, wählte die Versammlung den Vorstand und beriet im Anschluss die weiteren Maßnahmen.</p><p><img src="./gruender.jpg" alt="Unsere Gruendungsmitglieder"/></p><blockquote><p>Die Gründungsmitglieder - v.l.n.r. Leon Yilmaz, Michael Didion, Maurice Didion, André Didion, Philipp Kasper, Nicola Kniest, Tobias Mallmann, Daniel Knecht,
 Patrick Bentz, Markus Didion, Sebastian Bauer, Sebastian Planz, Pascal Kittel, Torsten Halter, Julia Didion</p></blockquote>]]></content>
         <author>
             <name>DC Kirrberg e.V.</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Die Vorstandschaft]]></title>
+        <title type="html"><![CDATA[Unsere Vorstandschaft]]></title>
         <id>welcome</id>
         <link href="https://dckirrberg.de/blog/welcome"/>
         <updated>2021-11-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.]]></summary>
-        <content type="html"><![CDATA[<p>Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.
+        <summary type="html"><![CDATA[Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dessen Stellvertreter (2. Vorsitzender) und dem 1. Kassenwart.]]></summary>
+        <content type="html"><![CDATA[<p>Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dessen Stellvertreter (2. Vorsitzender) und dem 1. Kassenwart.
 Im erweiterten Vorstand befinden sich 6 weitere Mitglieder. Diese wurden bei der Gründungsversammlung am 15.11.2021 ordnungsgemäß gewählt
-und bilden somit den ersten Vorstand des DC Kirrberg e.V.</p><p>Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content>
+und bilden somit die Vorstandschaft des DC Kirrberg e.V.</p><p>Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content>
         <author>
             <name>DC Kirrberg e.V.</name>
         </author>
