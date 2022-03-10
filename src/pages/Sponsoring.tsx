@@ -9,7 +9,9 @@ export default function Team() {
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Sponsoren des Vereins</h2>
+            <br />
             <div className="row">
+            <div className="text--left margin-bottom--lg">
               <p>
                 Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
                 von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
@@ -19,6 +21,7 @@ export default function Team() {
                 
                 Unser Vereinsbeauftragter zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
               </p>
+              </div>
             </div>
           </div>
         </div>
