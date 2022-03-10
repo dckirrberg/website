@@ -53,7 +53,7 @@ export default function Team() {
                 target="_blank"
                 href="http://sponsoring.dckirrberg.de/"
               >
-                Zum Sponsorenformular
+                Zum Online-Sponsorenformular
               </a>
             <a></a>
           </div>

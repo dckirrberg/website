@@ -28,7 +28,7 @@ const TeamMember = function (props) {
               <a href="mailto:">{email}</a>         
           </div>
         </div>
-
+    
         <div className='card__footer'>
           <div className='link-list'>
             {social_links &&
@@ -37,6 +37,7 @@ const TeamMember = function (props) {
               ))}
           </div>
         </div>
+
       </div>
     </div>
   );

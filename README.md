@@ -39,9 +39,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - Anzeige für Trainingszeiten auf der Startseite
 - Ansicht Vorstandsmitglieder (Bilder)
 - Map für Anfahrt
-- Spendenseite --> Tabelle zentrieren bzw. optisch verschönern
-- Downloads --> Dokumente gruppieren nach Satzung/Ordnungen und Sonstiges
-- Text in mobiler Ansicht zentrieren
 
 ### TODO @Niggel
 
