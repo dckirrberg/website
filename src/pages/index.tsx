@@ -5,7 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-
 import SimplleMap from '../components/google_map.component'
 
 
@@ -16,8 +15,7 @@ function HomepageHeader() {
       <div className="container">
         <div className={styles.buttons}>
           <div className={styles.logo_wrapper}>
-
-          <img className={styles.logo} src="/img/logo.svg" />
+             <img className={styles.logo} src="/img/logo.svg" />
           </div>
         </div>
         <h1 className="hero__title">{siteConfig.title}</h1>

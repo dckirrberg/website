@@ -9,13 +9,12 @@ export default function Team() {
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Spenden</h2><br />
-            <p>Als neu gegründeter Verein sind unsere Mittel aktuell noch begrenzt.<br />
-              Damit wir unseren Neumitgliedern einen professionellen Einstieg ermöglichen können,
+            <p>Als neu gegründeter Verein sind unsere Mittel aktuell begrenzt.<br />
+              Damit wir unseren Neumitgliedern einen professionellen Einstieg und ein gut ausgerüstetes Vereinsheim ermöglichen können,
               würden wir uns über eine Geldspende natürlich sehr freuen. 
               Für eine langfristige Unterstützung, findet ihr unter <a href="/Sponsoring">Sponsoren</a> weitere Infornationen. 
             </p>
-            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>
-            
+            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>           
             <div className="container">
               <div className="row row--no-gutters">
                 <div className="col">Empfänger:</div>
@@ -34,7 +33,6 @@ export default function Team() {
                 <div className="col">Kreissparkasse Saarpfalz</div>
               </div>
             </div> 
-            
             <a
               className="button button--secondary button--lg"
               target="_blank"

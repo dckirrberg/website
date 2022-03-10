@@ -12,24 +12,28 @@ export default function Team() {
             <p>Hier findest du alle wichtigen Dokumente direkt zum Download!</p>
             <div className="container">
               <div className="row row--no-gutters">
-                <div className="col">Satzung und Ordnungen</div>
-                <div className="col">Sonstiges</div>
+                <div className="col"><b>Satzung/Ordnungen</b></div>
               </div>
-              <div className="row row--no-gutters">
+              <div className="column column--no-gutters">
                 <div className="col"><a href="/dateien/DC_Kirrberg_Satzung.pdf" target="_blank">Vereinssatzung.pdf</a></div>
                 <div className="col"><a href="/dateien/Mitgliederantrag.pdf" target="_blank">Mitgliedsantrag.pdf</a></div>
-              </div>
-              <div className="row row--no-gutters">
                 <div className="col"><a href="/dateien/Beitragsordnung.pdf" target="_blank">Beitragsordnung.pdf</a></div>
+                <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
+                <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
+                <div className="col"><a href="/dateien/Kreuztabelle.pdf" target="_blank">Kreuztabelle.pdf</a></div>
                 <div className="col"> <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a></div>
               </div>
+            </div> 
+
+            <br />
+
+            <div className="container">
               <div className="row row--no-gutters">
-                <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
-                <div className="col"><a href="/dateien/Kreuztabelle.pdf" target="_blank">Kreuztabelle.pdf</a></div>
+                <div className="col"><b>Sonstiges</b></div>
               </div>
-              <div className="row row--no-gutters">
-                <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
-                <div className="col"> <a href="" target="_blank"></a></div>
+              <div className="column column--no-gutters">
+                <div className="col"><a href="/dateien/Kreuztabelle.pdf" target="_blank">Kreuztabelle.pdf</a></div>
+                <div className="col"> <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a></div>
               </div>
             </div> 
           </div>

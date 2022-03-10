@@ -1,13 +1,13 @@
 ---
 slug: welcome
-title: Die Vorstandschaft
+title: Unsere Vorstandschaft
 authors: [dckirrberg]
 tags: [Vorstand,Gründungsversammlung]
 ---
 
-Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dem 2. Vorsitzenden und dem Kassenwart.
+Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dessen Stellvertreter (2. Vorsitzender) und dem 1. Kassenwart.
 Im erweiterten Vorstand befinden sich 6 weitere Mitglieder. Diese wurden bei der Gründungsversammlung am 15.11.2021 ordnungsgemäß gewählt 
-und bilden somit den ersten Vorstand des DC Kirrberg e.V.
+und bilden somit die Vorstandschaft des DC Kirrberg e.V.
 
 Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.
 

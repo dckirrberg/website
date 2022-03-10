@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import TeamMember from "../components/member";
 import team from "../team.json";
+import styles from "./index.module.css";
 
 export default function Team() {
   return (
@@ -11,28 +12,31 @@ export default function Team() {
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Über uns</h2>
           </div>
-          <div className="row">
-            <p>
-              Darts erfreut sich seit einigen Jahren einer immer größeren
-              Beliebtheit. Die Hallen sind gefüllt, die Einschaltquoten steigen
-              und der Sport wird auch in den Medien immer bekannter.
-              Bereits im Jahr 2020 entstand daher die Idee zur Gründung eines eigenen Dartvereins,
-              die durch die Gründungsversammlung vom 15.11.2021 mit der Teilnahme von 15 Personen durchgeführt wurde.
-            </p>
-            <p>
-              Darts war jahrelang eine Randsportart im Schatten der großen
-              Events wie Fußball, Handball oder Basketball. Dies hat sich jedoch
-              in den letzten Jahren langsam, aber stetig gewandelt.
-              Darts ist zum Trendsport geworden und dies hat gleich mehrere
-              Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
-              Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
-            </p>
-            <p>
-              Nach der Gründungsversammlung wurde der DC Kirrberg e.V.
-              als gemeinnüziger Verein ins Vereinsregister aufgenommen und ist seitdem Mitglied im
-              Landesportverband für das Saarland (LSVS).
-            </p>
-          </div>
+            <div className="row">
+              <p>
+                Darts erfreut sich seit einigen Jahren einer immer größeren
+                Beliebtheit. Die Hallen sind gefüllt, die Einschaltquoten steigen
+                und der Sport wird auch in den Medien immer bekannter.
+                Bereits im Jahr 2020 entstand daher die Idee zur Gründung eines eigenen Dartvereins,
+                die durch die Gründungsversammlung vom 15.11.2021 mit der Teilnahme von 15 Personen durchgeführt wurde.
+              </p>
+              <p>
+                Darts war jahrelang eine Randsportart im Schatten der großen
+                Events wie Fußball, Handball oder Basketball. Dies hat sich jedoch
+                in den letzten Jahren langsam, aber stetig gewandelt.
+                Darts ist zum Trendsport geworden und dies hat gleich mehrere
+                Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
+                Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
+              </p>
+              <p>
+                Nach der Gründungsversammlung wurde der DC Kirrberg e.V.
+                als gemeinnüziger Verein ins Vereinsregister aufgenommen und ist seitdem Mitglied im
+                Landesportverband für das Saarland (LSVS).
+              </p>
+              <p>
+                Unsere ersten Schritte als Verein wurden zudem im Bereich <a href="/blog">News</a> festgehalten.  
+              </p>
+            </div>
         </div>
       </div>
       <div className="hero">

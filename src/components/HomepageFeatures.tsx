@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
       <b>Mittwoch: ab 18:00 Uhr<br />
-      Sonntag:  ab 10:00 Uhr  <br /></b>  <br />
+      Sonntag:  ab 10:00 Uhr  <br /></b><i>Bürgerhaus Kirrberg<br />Ortsstraße 1 | Homburg/Kirrberg</i>  <br />
       Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im ersten Gründungsjahr auf den Ligabetrieb 2023 vor!
       </>
     ),

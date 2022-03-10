@@ -18,16 +18,27 @@ export default function Team() {
               Gemeinsam mit Ihrer Hilfe, können wir die Bekanntheit des Vereins stetig steigern und unsere Angebote attraktiv gestalten.
               Alle Informationen sind dem Sponsorenkonzept zu entnehmen. 
               
-              Unser Vereinsbeauftragter zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung.
-              <br></br>
-              <br></br>Ansprechpartner: <br></br>
-              <b>Michael Didion</b><br></br>
-              E-Mail: <a href="mailto:michael.didion@web.de">michael.didion@web.de</a><br></br>
-              Telefon: <a href="tel:+491731325417">+49 173 1325 417</a>
+              Unser Vereinsbeauftragter zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
             </p>
           </div>
         </div>
       </div>
+      <div className="hero">
+        <div className="container">
+          <div className="text--center margin-bottom--lg">
+            <div className="container">
+              <div className="row row--no-gutters">              
+              </div>
+              <div className="column column--no-gutters">
+                <div className="col"><b>Michael Didion:</b></div>
+                <div className="col"><a href="mailto:michael.didion@web.de">michael.didion@web.de</a></div>
+                <div className="col"><a href="tel:+491731325417">+49 173 1325 417</a></div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
 
       <div className="hero">
         <div className="container">
