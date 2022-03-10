@@ -11,7 +11,6 @@ export default function Team() {
             <h2 className="hero__title margin--none">Sponsoren des Vereins</h2>
             <br />
             <div className="row">
-            <div className="text--left margin-bottom--lg">
               <p>
                 Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
                 von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
@@ -20,38 +19,22 @@ export default function Team() {
                 Alle Informationen sind dem Sponsorenkonzept zu entnehmen. 
                 
                 Unser Vereinsbeauftragter zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
+                <br /><br />
+                <div className="column column--no-gutters">
+                          <div className="col"><b>Michael Didion:</b></div>
+                          <div className="col"><a href="mailto:michael.didion@web.de">michael.didion@web.de</a></div>
+                          <div className="col"><a href="tel:+491731325417">+49 173 1325 417</a></div>
+                </div>
               </p>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="hero">
-        <div className="container">
-          <div className="text--center margin-bottom--lg">
-            <div className="container">
-              <div className="row row--no-gutters">              
-              </div>
-              <div className="column column--no-gutters">
-                <div className="col"><b>Michael Didion:</b></div>
-                <div className="col"><a href="mailto:michael.didion@web.de">michael.didion@web.de</a></div>
-                <div className="col"><a href="tel:+491731325417">+49 173 1325 417</a></div>
-              </div>
-            </div> 
-          </div>
-        </div>
-      </div>
-
-      <div className="hero">
-        <div className="container">
-          <div className="text--center margin-bottom--lg">
-            <h1>Das Sponsorenkonzept</h1>
-            <div className="row">
+            <h1>Unser Sponsorenkonzept</h1>
+          
             <p>
                 Im Sponsorenkonzept stellen wir Ihnen unseren Verein vor und
                 zeigen Ihnen die Möglichkeiten auf, wie Sie uns unterstützen und
                 gleichzeitig davon profitieren können.
+                Über unser Sponsorenformular könnt ihr uns ganz bequem eine unverbindliche Anfrage senden.
+                Unser Vereinsbeauftragter zum Thema Sponsoring, nimmt im Anschluss Kontakt mit ihnen auf.
             </p><a></a>
               <a
                 className="button button--secondary button--lg btn-block"
@@ -61,19 +44,9 @@ export default function Team() {
                 Zum Sponsorenkonzept
               </a>
             <a></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="hero">
-        <div className="container">
-          <div className="text--center margin-bottom--lg">
-            <h1>Anfragen</h1>
-            <div className="row">
+            <br />   
             <p>
-                Über unser Sponsorenformular könnt ihr uns ganz bequem eine unverbindliche Anfrage senden.
-                Unser Vereinsbeauftragter zum Thema Sponsoring, nimmt im Anschluss Kontakt mit ihnen auf.
+
             </p><a></a>
             <a
                 className="button button--secondary button--lg"
@@ -83,7 +56,6 @@ export default function Team() {
                 Zum Sponsorenformular
               </a>
             <a></a>
-            </div>
           </div>
         </div>
       </div>
