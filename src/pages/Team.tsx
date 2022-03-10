@@ -11,7 +11,7 @@ export default function Team() {
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Über uns</h2>
-          </div>
+          
             <div className="row">
               <p>
                 Darts erfreut sich seit einigen Jahren einer immer größeren
@@ -37,6 +37,7 @@ export default function Team() {
                 Unsere ersten Schritte als Verein wurden zudem im Bereich <a href="/blog">News</a> festgehalten.  
               </p>
             </div>
+          </div>
         </div>
       </div>
       <div className="hero">
