@@ -2,7 +2,7 @@
 slug: newboards
 title: Wir starten durch!
 authors: [dckirrberg]
-tags: [WINMAU Board,Bürgerhaus Kirrberg,Vereinsheim]
+tags: [Jens Kniest,Bürgerhaus Kirrberg,Vereinsheim]
 ---
 
 Genau 3 Tage nach der ersten Trainingseinheit, konnten wir bereits unsere Kontakte spielen lassen.
