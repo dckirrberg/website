@@ -33,6 +33,7 @@ export default function Team() {
                 <div className="col">Kreissparkasse Saarpfalz</div>
               </div>
             </div> 
+            <br />
             <a
               className="button button--secondary button--lg"
               target="_blank"

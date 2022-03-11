@@ -20,8 +20,6 @@ export default function Team() {
                 <div className="col"><a href="/dateien/Beitragsordnung.pdf" target="_blank">Beitragsordnung.pdf</a></div>
                 <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
                 <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
-                <div className="col"><a href="/dateien/Kreuztabelle.pdf" target="_blank">Kreuztabelle.pdf</a></div>
-                <div className="col"> <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a></div>
               </div>
             </div> 
 
