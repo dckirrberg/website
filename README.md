@@ -35,10 +35,12 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### TODO @Huhn
 
-- Footer im Desktop Mode zentrieren
-- Anzeige für Trainingszeiten auf der Startseite
-- Ansicht Vorstandsmitglieder (Bilder)
-- Map für Anfahrt
+- Footer im Desktop Mode zentrieren (falls möglich)
+- Bilder der Vorstandsmitglieder vergrößern
+- Mailto für Vorstandsmitglieder einbauen (aktuell ist keine Mail hinterlegt)
+- Map für Anfahrt aktivieren
+
+- Danke für die Unterstützung :) 
 
 ### TODO @Niggel
-
+- Done
