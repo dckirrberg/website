@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
     image: '/img/open-book.png',
     description: (
       <>
-        Bereits im Jahre 2020 entstand die Idee zur Gründung eines eigenen Dartsvereins.
+        Bereits im Jahr 2020 entstand die Idee zur Gründung eines eigenen Dartsvereins.
         Am 15.11.2021 versammelten sich 15 begeisterte Freunde des Dartssports zur Gründung des Vereins.
         Laut Satzung ist der DC Kirrberg e.V. zudem Mitglied des LSVS. (Landessportverband für das Saarland)</>
 

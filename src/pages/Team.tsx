@@ -22,7 +22,7 @@ export default function Team() {
 
                   Darts war jahrelang eine Randsportart im Schatten der großen
                   Events wie Fußball, Handball oder Basketball. Dies hat sich jedoch
-                  in den letzten Jahren langsam, aber stetig gewandelt.
+                  in den letzten n langsam, aber stetig gewandelt.
                   Darts ist zum Trendsport geworden und dies hat gleich mehrere
                   Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
                   Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
