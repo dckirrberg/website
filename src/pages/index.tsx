@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
-import SimplleMap from '../components/google_map.component'
+import SimpleMap from '../components/google_map.component'
 
 
 function HomepageHeader() {
@@ -42,7 +42,8 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        {<SimplleMap />}
+        
+        {<SimpleMap />}
       </main>
 
     </Layout>
