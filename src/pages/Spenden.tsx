@@ -14,7 +14,7 @@ export default function Team() {
               würden wir uns über eine Geldspende natürlich sehr freuen. 
               Für eine langfristige Unterstützung, findet ihr unter <a href="/Sponsoring">Sponsoren</a> weitere Infornationen. 
             </p>
-            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>           
+            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung/en:</p>           
             <div className="container">
               <div className="row row--no-gutters">
                 <div className="col">Empfänger:</div>
@@ -34,13 +34,15 @@ export default function Team() {
               </div>
             </div> 
             <br />
-            <a
+            {/*             <a
               className="button button--secondary button--lg"
               target="_blank"
               href="http://paypal.de"
+              
             >
               PayPal
-            </a>
+            </a> */}
+
             <br />
 
           </div>

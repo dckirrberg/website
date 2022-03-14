@@ -41,9 +41,8 @@ export default function Home(): JSX.Element {
       description="Herzlich Willkommen auf unserer Hompepage">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
-        
-        {/* <SimpleMap /> */}
+        <HomepageFeatures />  
+        <SimpleMap />
       </main>
 
     </Layout>
