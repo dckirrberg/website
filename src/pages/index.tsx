@@ -42,7 +42,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />  
-        <SimpleMap />
+        {/* <SimpleMap /> */}
       </main>
 
     </Layout>
