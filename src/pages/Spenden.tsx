@@ -10,7 +10,7 @@ export default function Team() {
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Spenden</h2><br />
             <p>Als neu gegründeter Verein sind unsere Mittel aktuell begrenzt.<br />
-              Damit wir unseren Neumitgliedern einen professionellen Einstieg und ein gut ausgerüstetes Vereinsheim ermöglichen können,
+              Damit wir unseren Neumitgliedern einen professionellen Einstieg und eine gut ausgerüstetes Trainingsstätte ermöglichen können,
               würden wir uns über eine Geldspende natürlich sehr freuen. 
               Für eine langfristige Unterstützung, findet ihr unter <a href="/Sponsoring">Sponsoren</a> weitere Infornationen. 
             </p>

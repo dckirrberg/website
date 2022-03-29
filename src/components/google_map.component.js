@@ -44,11 +44,11 @@ class SimpleMap extends Component {
           {/* <AnyReactComponent
             lat={49.300919}
             lng={7.369322}
-            text="Vereinsheim"
+            text="Trainingsstätte"
             /> */}
            <Marker
                 key={1}
-                text="Vereinsheim"
+                text="Trainingsstätte"
                 lng={7.369322}
                 lat={49.300919}
                 onClick={click}
