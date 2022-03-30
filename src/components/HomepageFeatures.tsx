@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Bereits im Jahr 2020 entstand die Idee zur Gründung eines eigenen Dartsvereins.
         Am 15.11.2021 versammelten sich 15 begeisterte Freunde des Dartssports zur Gründung des Vereins.
-        Laut Satzung ist der DC Kirrberg e.V. zudem Mitglied des LSVS. (Landessportverband für das Saarland)</>
+        Laut Satzung ist der DC Kirrberg  zudem Mitglied des LSVS. (Landessportverband für das Saarland)</>
 
     ),
   },
@@ -43,10 +43,17 @@ const FeatureList: FeatureItem[] = [
     title: 'Werde Mitglied im Verein!',
     image: '/img/thumpup.png',
     description: (
+     
       <>
+      {/*
         Verwende hierzu das <b>Online-Anmeldeformular</b> und hänge diesem den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> an.
         Alternativ kann der Antrag für Neumitglieder auch per <a href="mailto:vorstand@dckirrberg.de">E-Mail</a> / <b>persönlich</b> an uns übergeben werden.
+        */}
+        Sende uns hierzu den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> per <a href="mailto:vorstand@dckirrberg.de">E-Mail</a> zu. 
+        Das Anmeldeformular kann auch alternativ direkt in unsere Trainigsstätte unterzeichnet werden.
       </>
+       
+
     ),
   },
 ];

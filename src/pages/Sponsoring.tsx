@@ -12,7 +12,7 @@ export default function Team() {
             <br />
             <div className="row">
               <p>
-                Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
+                Der DC Kirrberg  legt stets großes Gewicht auf die Förderung
                 von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
                 Events die Beliebtheit und das Interesse der Sportart steigern.
                 Gemeinsam mit Ihrer Hilfe, können wir die Bekanntheit des Vereins stetig steigern und unsere Angebote attraktiv gestalten.

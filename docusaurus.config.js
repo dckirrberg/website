@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DC Kirrberg e.V.',
+  title: 'DC Kirrberg',
   tagline: 'GOOD DARTS in Homburg an der Saar',
   url: 'https://dckirrberg.de',
   baseUrl: '/',
@@ -47,11 +47,11 @@ const config = {
         disableSwitch: false,
       },
       navbar: {
-        title: 'DC Kirrberg e.V.',
+        title: 'DC Kirrberg ',
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
           {to: '/blog', label: 'News', position: 'left'},
-          {to: '/spenden', label: 'Spenden', position: 'left'},
+         /** {to: '/spenden', label: 'Spenden', position: 'left'},*/
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
           {to: '/downloads', label: 'Downloads', position: 'left'},
         ],
@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} DC Kirrberg e.V.`,
+        copyright: `© ${new Date().getFullYear()} DC Kirrberg `,
       },
       prism: {
         theme: lightCodeTheme,

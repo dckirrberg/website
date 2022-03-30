@@ -18,7 +18,7 @@ export default function Team() {
             <div className="container">
               <div className="row row--no-gutters">
                 <div className="col">Empfänger:</div>
-                <div className="col">DC Kirrberg e.V.</div>
+                <div className="col">DC Kirrberg </div>
               </div>
               <div className="row row--no-gutters">
                 <div className="col">IBAN:</div>

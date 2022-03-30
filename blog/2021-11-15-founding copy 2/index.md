@@ -5,8 +5,8 @@ authors: [dckirrberg]
 tags: [Mitglieder,Gründungsversammlung]
 ---
 
-Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 e.V.</a>
-In der ersten ordenstlichen Vereinssitzung, wählte die Versammlung den Vorstand und beriet im Anschluss die weiteren Maßnahmen.
+Am 15.11.2021 versammleten sich 15 begeisterte Freunde des Steeldarts zur Gründung des Vereins im Vereinsheim des <a href="http://www.svkirrberg.de">SV Kirrberg 1945 </a>.
+In der ersten ordentlichen Vereinssitzung, wählte die Versammlung den Vorstand und beriet im Anschluss die weiteren Maßnahmen.
 
 
 ![Unsere Gruendungsmitglieder](./gruender.jpg)
