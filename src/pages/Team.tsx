@@ -27,8 +27,8 @@ export default function Team() {
                   Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
                   Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
                   Als gemeinnütziger Verein haben wir es uns somit zur Aufgabe gemacht, die Bekanntheit der Sportart mit regelmäßigen Veranstaltungen
-                  zu steigern. Zudem sind wir als bisher einziger Verein in 66424 Homburg sehr daran interessiert, dartsbegeisterte Neumitglieder in unserem Verein willkommen heißen
-                  zu düfen.
+                  zu steigern. Zudem sind wir als bisher einziger Verein in 66424 Homburg sehr daran interessiert, begeisterte Dartsspieler als Neumitglieder in unserem Verein willkommen heißen
+                  zu dürfen.
                 </p>
                 <p>
                   {/*
