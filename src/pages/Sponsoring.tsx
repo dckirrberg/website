@@ -22,7 +22,7 @@ export default function Team() {
                 <br /><br />
                 <div className="column column--no-gutters">
                           <div className="col"><b>Michael Didion:</b></div>
-                          <div className="col"><a href="mailto:michael.didion@web.de">michael.didion@web.de</a></div>
+                          <div className="col"><a href="mailto:michael.didion@web.de">michael.didion@dckirrberg.de</a></div>
                           <div className="col"><a href="tel:+491731325417">+49 173 1325 417</a></div>
                 </div>
               </p>
