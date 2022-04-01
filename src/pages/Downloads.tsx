@@ -12,7 +12,7 @@ export default function Team() {
             <p>Hier findest du alle wichtigen Dokumente direkt zum Download!</p>
             <div className="container">
               <div className="row row--no-gutters">
-                <div className="col"><b>Satzung/Ordnungen</b></div>
+                <div className="col"><b>Dokumente</b></div>
               </div>
               <div className="column column--no-gutters">
               <div className="col"><a href="/dateien/Mitgliederantrag.pdf" target="_blank">Mitgliedsantrag.pdf</a></div>
