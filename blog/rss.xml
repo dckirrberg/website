@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>DC Kirrberg Blog</title>
+        <title>DC Kirrberg e.V. Blog</title>
         <link>https://dckirrberg.de/blog</link>
-        <description>DC Kirrberg Blog</description>
+        <description>DC Kirrberg e.V. Blog</description>
         <lastBuildDate>Fri, 28 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -55,7 +55,7 @@ Patrick Bentz, Markus Didion, Sebastian Bauer, Sebastian Planz, Pascal Kittel, T
             <description><![CDATA[Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dessen Stellvertreter (2. Vorsitzender) und dem 1. Kassenwart.]]></description>
             <content:encoded><![CDATA[<p>Der Kernvorstand besteht laut unserer Satzung aus dem 1. Vorsitzenden, dessen Stellvertreter (2. Vorsitzender) und dem 1. Kassenwart.
 Im erweiterten Vorstand befinden sich 6 weitere Mitglieder. Diese wurden bei der Gründungsversammlung am 15.11.2021 ordnungsgemäß gewählt
-und bilden somit die Vorstandschaft des DC Kirrberg </p><p>Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content:encoded>
+und bilden somit die Vorstandschaft des DC Kirrberg e.V.</p><p>Die Verteilung der einzelnen Posten findet ihr in der nachfolgenden Bildbeschreibung.</p><p><img src="./vorstand.jpg" alt="Der Vorstand"/></p><blockquote><p>Die Vorstandschaft - v.l.n.r. Nicola Kniest (Schriftführer), Maurice Didion (stellv. Schriftführer), Pascal Kittel (1. Beisitzer, Pressesprecher), Phillip Kasper (Kassenwart), Markus Didion (1. Vorsitzender), André Didion (2. Vorsitzender), Patrick Bentz (1. Sportdirektor), Tobias Mallmann (2. Beisitzer), Torsten Halter (2. Sportdirektor)</p></blockquote>]]></content:encoded>
         </item>
     </channel>
 </rss>
