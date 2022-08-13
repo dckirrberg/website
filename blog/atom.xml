@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dckirrberg.de/blog</id>
     <title>DC Kirrberg e.V. Blog</title>
-    <updated>2022-01-28T00:00:00.000Z</updated>
+    <updated>2022-08-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dckirrberg.de/blog"/>
     <subtitle>DC Kirrberg e.V. Blog</subtitle>
     <icon>https://dckirrberg.de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Was lange währt, wird endlich gut!]]></title>
+        <id>renovierung</id>
+        <link href="https://dckirrberg.de/blog/renovierung"/>
+        <updated>2022-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Unere Renovierungsarbeiten sind nun fast abgeschlossen und schon jetzt ist die ehem. Bücherei]]></summary>
+        <content type="html"><![CDATA[<p>Unere Renovierungsarbeiten sind nun fast abgeschlossen und schon jetzt ist die ehem. Bücherei
+im Bürgerhaus Kirrberg kaum wiederzuerkennen.</p><p>Unser Dank geht an dieser Stelle an die vielen Unterstützer und fleißigen Helfer der letzte Tage
+und Wochen. Ohne euch, hätten wir den Traum von einer modernen Spielstätte nicht realisieren können.</p><p><img src="./1.jpg" alt="Uebergabe"/></p><p><img src="./2.jpg" alt="GameOn"/></p><p><img src="./3.jpg" alt="GameOn"/></p><p><img src="./4.jpg" alt="GameOn"/></p>]]></content>
+        <author>
+            <name>DC Kirrberg e.V.</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wir starten durch!]]></title>
         <id>newboards</id>

@@ -4,9 +4,19 @@
         <title>DC Kirrberg e.V. Blog</title>
         <link>https://dckirrberg.de/blog</link>
         <description>DC Kirrberg e.V. Blog</description>
-        <lastBuildDate>Fri, 28 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Was lange währt, wird endlich gut!]]></title>
+            <link>https://dckirrberg.de/blog/renovierung</link>
+            <guid>renovierung</guid>
+            <pubDate>Fri, 12 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unere Renovierungsarbeiten sind nun fast abgeschlossen und schon jetzt ist die ehem. Bücherei]]></description>
+            <content:encoded><![CDATA[<p>Unere Renovierungsarbeiten sind nun fast abgeschlossen und schon jetzt ist die ehem. Bücherei
+im Bürgerhaus Kirrberg kaum wiederzuerkennen.</p><p>Unser Dank geht an dieser Stelle an die vielen Unterstützer und fleißigen Helfer der letzte Tage
+und Wochen. Ohne euch, hätten wir den Traum von einer modernen Spielstätte nicht realisieren können.</p><p><img src="./1.jpg" alt="Uebergabe"/></p><p><img src="./2.jpg" alt="GameOn"/></p><p><img src="./3.jpg" alt="GameOn"/></p><p><img src="./4.jpg" alt="GameOn"/></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Wir starten durch!]]></title>
             <link>https://dckirrberg.de/blog/newboards</link>
