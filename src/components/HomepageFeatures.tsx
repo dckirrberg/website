@@ -35,7 +35,6 @@ const FeatureList: FeatureItem[] = [
       {/* Sonntag:  ab 10:00 Uhr  <br /> */}
       <b>Trainingsstätte:</b><br />
       </b>Bürgerhaus Kirrberg<br />Ortsstraße 1 | Homburg/Kirrberg<br />
-      Wir spielen Steeldarts aus Leidenschaft und bereiten uns aktuell im Gründungsjahr auf den Ligabetrieb 2023 vor!
       </>
     ),
   },
