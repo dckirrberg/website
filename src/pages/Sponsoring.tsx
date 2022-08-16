@@ -15,7 +15,7 @@ export default function Team() {
             <a href="https://www.dvag.de/sebastian.bauer/index.html" target="_blank">
 
             <ThemedImage
-              alt="Hauptsponsor" width="490" height="470"
+              alt="Hauptsponsor" width="400" height="400"
               sources={{
                 light: ('/img/dvag3.png'),
                 dark: ('/img/dvag4.png'),
@@ -27,9 +27,6 @@ export default function Team() {
             <br></br>
             <h4>Weitere Sponsoren</h4>
             <div className="container">
-            <a href="https://www.elektromeisterbetrieb-zimmermann.de/" target="_blank">
-              <img className="text--center padding-horiz--md" width="190" height="170" src="/img/zimmermann.jpg"/>
-            </a>
             <a href="https://web2.cylex.de/firma-home/malerbetrieb-marco-kirchner-9835392.html" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.png"/>
             </a>
