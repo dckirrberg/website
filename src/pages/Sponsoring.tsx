@@ -17,8 +17,8 @@ export default function Team() {
             <ThemedImage
               alt="Hauptsponsor" width="400" height="400"
               sources={{
-                light: ('/img/dvag3.png'),
-                dark: ('/img/dvag4.png'),
+                light: ('/img/sebastian.png'),
+                dark: ('/img/sebastian_white.png'),
               }}
             />
             </a>

@@ -54,5 +54,6 @@ TeamMember.propTypes = {
   title: PropTypes.string,
   image_url: PropTypes.string,
   image_email: PropTypes.string,
+  email: PropTypes.string,
   social_links: PropTypes.arrayOf(PropTypes.string),
 };

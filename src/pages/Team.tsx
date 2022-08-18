@@ -46,7 +46,7 @@ export default function Team() {
             <h2 className="hero__title margin--none">Die Vorstandschaft</h2>
           </div>
           <div>
-            {team &&
+            {team && 
               team.map((props, idx) => <TeamMember key={idx} {...props} />)}
           </div>
         </div>
