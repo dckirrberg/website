@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[1198],{7599:function(r){r.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/burgerhaus-kirrberg","name":"B\xfcrgerhaus Kirrberg","count":4,"permalink":"/blog/tags/burgerhaus-kirrberg"}')}}]);

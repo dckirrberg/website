@@ -4,9 +4,19 @@
         <title>DC Kirrberg e.V. Blog</title>
         <link>https://dckirrberg.de/blog</link>
         <description>DC Kirrberg e.V. Blog</description>
-        <lastBuildDate>Fri, 12 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Unser erster Vereinssponsor kommt an(s) Board]]></title>
+            <link>https://dckirrberg.de/blog/sponsor</link>
+            <guid>sponsor</guid>
+            <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wir vermelden mit großer Freude die Zusammenarbeit mit unserem ersten Vereins- und Hauptsponsor.]]></description>
+            <content:encoded><![CDATA[<p>Wir vermelden mit großer Freude die Zusammenarbeit mit unserem ersten Vereins- und Hauptsponsor.
+Sebastian ist als DCK Gründungsmitglied bereits fester Bestandteil des Vereins, ist selbst begeisterter Dartsspieler
+und und unterstützt uns künftig als Trikotsponsor in seiner Funktion als Vermögensberater der <a href="https://www.dvag.de/sebastian.bauer/index.html">DVAG</a>. (Deutsche Vermögensberatung)</p><p><img src="./dck_dvag2.png" alt="Uebergabe"/></p><blockquote><p>Wir freuen uns auf die Zusammenarbeit und die gemeinsamen sportlichen Erfolge!</p></blockquote><p><img src="./markus_seb.png" alt="GameOn"/></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Was lange währt, wird endlich gut!]]></title>
             <link>https://dckirrberg.de/blog/renovierung</link>
