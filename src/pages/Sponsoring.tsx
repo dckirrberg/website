@@ -23,16 +23,14 @@ export default function Team() {
             />
             </a>
 
-            {/* <br></br>
-            <br></br>
             <h4>Weitere Sponsoren</h4>
             <div className="container">
-            <a href="https://web2.cylex.de/firma-home/malerbetrieb-marco-kirchner-9835392.html" target="_blank">
-              <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.png"/>
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
             </a>
             </div>
             <br></br>
-            <br></br> */}
+            <br></br>
             <div className="row">
               <p>
                 Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
