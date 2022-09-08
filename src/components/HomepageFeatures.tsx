@@ -31,8 +31,8 @@ const FeatureList: FeatureItem[] = [
     image: '/img/schedule.png',
     description: (
       <>
-      <b>Mittwoch: ab 18:00 Uhr<br />
-      {/* Sonntag:  ab 10:00 Uhr  <br /> */}
+      <b>Montag: ab 18:00 Uhr<br />
+      Mittwoch:  ab 18:00 Uhr  <br />
       <b>Trainingsstätte:</b><br />
       </b>Bürgerhaus Kirrberg<br />Ortsstraße 1 | Homburg/Kirrberg<br />
       </>

@@ -22,11 +22,13 @@ export default function Team() {
               }}
             />
             </a>
-
             <h4>Weitere Sponsoren</h4>
             <div className="container">
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
+            </a>
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.jpg"/>
             </a>
             </div>
             <br></br>
