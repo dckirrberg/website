@@ -17,7 +17,7 @@ export default function Teams() {
             Die Mannschaften inkl. Fotos, werden in den kommenden Wochen hier veröffentlicht.
 
             <br></br>
-            Der Spielplan steht zudem im Bereich "Downloads" zum  <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
+            Der Spielplan steht zudem im Bereich "Downloads" zum <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
             <br></br><br></br>           
           </div> 
           <br></br>
