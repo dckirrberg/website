@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import ThemedImage from '@theme/ThemedImage';
 import styles from "./index.module.css";
 
-export default function Ergenisse() {
+export default function Teams() {
   return (
     <Layout>
       <div className="hero">
@@ -18,14 +18,13 @@ export default function Ergenisse() {
 
             <br></br>
             Der Spielplan steht zudem im Bereich "Downloads" zum  <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
-            <br></br><br></br>
-            <img className="text--center padding-horiz--md" width="1280" height="720" src="/dateien/Spielplan 22_23.jpg"/>
+            <br></br><br></br>           
           </div> 
           <br></br>
           <div className="text--center margin-bottom--lg">
             <br></br> 
             <h3>Spielplan | Tabelle | Spieler</h3>
-            <iframe width="1280" height="820" src="http://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe width="100%" height="100%" src="http://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
          </div>   
         </div>
       </div>
