@@ -51,6 +51,7 @@ const config = {
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
           {to: '/blog', label: 'News', position: 'left'},
+          {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
           {to: '/spenden', label: 'Spenden', position: 'left'},
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
           {to: '/downloads', label: 'Downloads', position: 'left'},
