@@ -17,14 +17,14 @@ export default function Teams() {
             Die Mannschaften inkl. Fotos, werden in den kommenden Wochen hier veröffentlicht.
 
             <br></br>
-            Der Spielplan steht zudem im Bereich "Downloads" zum <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
+            Der Spielplan steht zudem im Bereich "Downloads" zum  <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
             <br></br><br></br>           
           </div> 
           <br></br>
           <div className="text--center margin-bottom--lg">
             <br></br> 
             <h3>Spielplan | Tabelle | Spieler</h3>
-            <iframe width="100%" height="100%" src="http://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
+            <iframe width="1280" height="820" src="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
          </div>   
         </div>
       </div>
