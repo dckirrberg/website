@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import ThemedImage from '@theme/ThemedImage';
 import styles from "./index.module.css";
+import clsx from 'clsx';
 
 export default function Teams() {
   return (
@@ -24,7 +25,10 @@ export default function Teams() {
           <div className="text--center margin-bottom--lg">
             <br></br> 
             <h3>Spielplan | Tabelle | Spieler</h3>
-            <iframe width="1280" height="820" src="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
+            <div className={clsx('hero', styles.heroBanner)}>
+             <iframe width="1280" height="820" src="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
+  
+            </div>
          </div>   
         </div>
       </div>
