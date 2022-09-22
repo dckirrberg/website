@@ -27,6 +27,13 @@ export default function Team() {
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
             </a>
+            <ThemedImage
+              alt="Hauptsponsor" width="200" height="60"
+              sources={{
+                light: ('/img/tassen_b.png'),
+                dark: ('/img/tassen_w.png'),
+              }}
+            />
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.jpg"/>
             </a>
