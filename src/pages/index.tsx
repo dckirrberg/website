@@ -8,7 +8,6 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import ThemedImage from '@theme/ThemedImage';
 import SimpleMap from '../components/google_map.component'
 
-
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -82,7 +81,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />  
-        {<SimpleMap /> }
+        {/* {<SimpleMap /> } */}
       </main>
 
     </Layout>
