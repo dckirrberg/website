@@ -12,7 +12,6 @@ import SimpleMap from '../components/google_map.component'
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-      
     <header className={clsx('hero', styles.heroBanner)}>
       <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3185617&v=11463&q=420547&r=1151355" target="_blank">
         <img src="https://www.awin1.com/cshow.php?s=3185617&v=11463&q=420547&r=1151355"></img>
@@ -48,16 +47,21 @@ function HomepageHeader() {
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="200" height="100" src="/img/logo_clemens.jpg"/>
             </a>
+
+            <a href="https://tassenkarton.de/" target="_blank">
             <ThemedImage
-              alt="Hauptsponsor" width="200" height="60"
+              alt="Sponsor" width="200" height="50"
               sources={{
                 light: ('/img/tassen_b.png'),
                 dark: ('/img/tassen_w.png'),
               }}
             />
+            </a>
+
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="200" height="100" src="/img/kirchner.jpg"/>
             </a>
+            
            </div>
         </a>
       </div>
@@ -78,7 +82,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />  
-        {/* <SimpleMap /> */}
+        {<SimpleMap /> }
       </main>
 
     </Layout>

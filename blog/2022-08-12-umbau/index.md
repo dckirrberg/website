@@ -2,7 +2,7 @@
 slug: renovierung
 title: Was lange währt, wird endlich gut!
 authors: [dckirrberg]
-tags: [Bürgerhaus Kirrberg,Trainingsstätte]
+tags: [Bürgerhaus Kirrberg,Vereinsheim]
 ---
 
 Unere Renovierungsarbeiten sind nun fast abgeschlossen und schon jetzt ist die ehem. Bücherei 

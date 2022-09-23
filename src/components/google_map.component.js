@@ -28,7 +28,7 @@ class SimpleMap extends Component {
       let marker = new maps.Marker({
       position: { lat: 49.300919, lng: 7.369322 },
       map,
-      title: 'Hello World!'
+      title: ' Unser Vereinsheim'
       });
       return marker;
      };
@@ -41,14 +41,14 @@ class SimpleMap extends Component {
           defaultZoom={this.props.zoom}
           onGoogleApiLoaded={({ map, maps }) => renderMarkers(map, maps)}
         >
-          {/* <AnyReactComponent
+          { <AnyReactComponent
             lat={49.300919}
             lng={7.369322}
             text="Trainingsstätte"
-            /> */}
+            /> }
            <Marker
                 key={1}
-                text="Trainingsstätte"
+                text="Vereinsheim"
                 lng={7.369322}
                 lat={49.300919}
                 onClick={click}

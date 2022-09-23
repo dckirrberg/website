@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
       <>
       <b>Montag: ab 18:00 Uhr<br />
       Mittwoch:  ab 18:00 Uhr  <br />
-      <b>Trainingsstätte:</b><br />
+      <b>Vereinsheim:</b><br />
       </b>Bürgerhaus Kirrberg<br />Ortsstraße 1 | Homburg/Kirrberg<br />
       </>
     ),

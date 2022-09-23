@@ -1,8 +1,8 @@
 ---
 slug: firststeps
-title: Unsere Trainingsstätte
+title: Unser Vereinsheim
 authors: [dckirrberg]
-tags: [WINMAU Board,Bürgerhaus Kirrberg,Trainingsstätte]
+tags: [WINMAU Board,Bürgerhaus Kirrberg,Vereinsheim]
 ---
 
 Wie unschwer zu erkennen ist, ist unsere aktuelle Trainingslocation etwas in die Jahre gekommen.

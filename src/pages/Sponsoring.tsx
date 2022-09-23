@@ -27,13 +27,15 @@ export default function Team() {
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
             </a>
+            <a href="https://tassenkarton.de/" target="_blank">
             <ThemedImage
-              alt="Hauptsponsor" width="200" height="60"
+              alt="Hauptsponsor" width="200" height="50"
               sources={{
                 light: ('/img/tassen_b.png'),
                 dark: ('/img/tassen_w.png'),
               }}
             />
+            </a>
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.jpg"/>
             </a>

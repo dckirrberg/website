@@ -15,7 +15,7 @@ export default function Teams() {
           <br></br>
           <div className="text--center margin-bottom--lg">
             <br></br> 
-            <h3>BULLs Ligaübersicht</h3>
+            <h3>SADV Ligaübersicht</h3>
             <a href="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#" target="_blank">
             Direktlink zum Spielplan
             </a>
