@@ -12,9 +12,6 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3185617&v=11463&q=420547&r=1151355" target="_blank">
-        <img src="https://www.awin1.com/cshow.php?s=3185617&v=11463&q=420547&r=1151355"></img>
-      </a>
       <div className="container">
         <div className={styles.buttons}>
           <div className={styles.logo_wrapper}>
@@ -64,9 +61,6 @@ function HomepageHeader() {
            </div>
         </a>
       </div>
-     <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3185609&v=11463&q=420545&r=1151355" target="_blank">
-          <img src="https://www.awin1.com/cshow.php?s=3185609&v=11463&q=420545&r=1151355"></img>
-      </a> 
 
     </header>
   );

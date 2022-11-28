@@ -15,38 +15,24 @@
       "social_links": []
     },
     {
-      "name": "Pascal Kittel",
-      "title": "1. Beisitzer & Pressesprecher",
-      "image_url": "/dateien/vorstand/Pascal.Kittel.png",
-      "email": "pascal.kittel@dckirrberg.de",
-      "social_links": []
-    },
-    {
-      "name": "Tobias Mallmann",
-      "title": "2. Beisitzer",
-      "image_url": "/dateien/vorstand/Tobias.Mallmann.png",
-      "email": "tobias.mallmann@dckirrberg.de",
-      "social_links": []
-    },
-    {
-      "name": "Philipp Kasper",
+      "name": "Sebastian Bauer",
       "title": "1. Kassenwart",
-      "image_url": "/dateien/vorstand/Philipp.Kasper.png",
-      "email": "philipp.kasper@dckirrberg.de",
-      "social_links": []
-    },
-    {
-      "name": "Patrick Bentz",
-      "title": "1. Sportdirektor",
-      "image_url": "/dateien/vorstand/Patrick.Bentz.png",
-      "email": "patrick.bentz@dckirrberg.de",
+      "image_url": "/dateien/vorstand/Bauer.png",
+      "email": "sebastian.bauer@dckirrberg.de",
       "social_links": []
     },
     {
       "name": "Torsten Halter",
-      "title": "2. Sportdirektor",
+      "title": "1. Sportdirektor",
       "image_url": "/dateien/vorstand/Torsten.Halter.png",
       "email": "torsten.halter@dckirrberg.de",
+      "social_links": []
+    },
+    {
+      "name": "Carsten Dietz",
+      "title": "2. Sportdirektor",
+      "image_url": "/dateien/vorstand/carsten.png",
+      "email": "carsten.dietz@dckirrberg.de",
       "social_links": []
     },
     {
@@ -57,10 +43,24 @@
       "social_links": []
     },
     {
-      "name": "Maurice Didion",
+      "name": "Torsten Kratz",
       "title": "stellv. Schriftführer",
-      "image_url": "/dateien/vorstand/Maurice.Didion.png",
-      "email": "maurice.didion@dckirrberg.de",
+      "image_url": "/dateien/vorstand/kratzi.png",
+      "email": "torsten.kratz@dckirrberg.de",
+      "social_links": []
+    },
+    {
+      "name": "Patrick Bentz",
+      "title": "1. Beisitzer",
+      "image_url": "/dateien/vorstand/Patrick.Bentz.png",
+      "email": "patrick.bentz@dckirrberg.de",
+      "social_links": []
+    },
+    {
+      "name": "Julia Didion",
+      "title": "2. Beisitzerin & Pressesprecherin",
+      "image_url": "/dateien/vorstand/Julia.png",
+      "email": "julia.didion@dckirrberg.de",
       "social_links": []
     }
   ]
