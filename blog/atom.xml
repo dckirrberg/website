@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dckirrberg.de/blog</id>
     <title>DC Kirrberg e.V. Blog</title>
-    <updated>2022-09-10T00:00:00.000Z</updated>
+    <updated>2022-12-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dckirrberg.de/blog"/>
     <subtitle>DC Kirrberg e.V. Blog</subtitle>
     <icon>https://dckirrberg.de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Unsere aktiven Spieler]]></title>
+        <id>Unsere aktiven Spieler</id>
+        <link href="https://dckirrberg.de/blog/Unsere aktiven Spieler"/>
+        <updated>2022-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GameOn]]></summary>
+        <content type="html"><![CDATA[<p><img src="./Mannschaft.png" alt="GameOn"/></p><blockquote><p>vlnr. Maurice Didion, Sebastian Bauer, Pascal Kittel, Tobias Mallmann, Michael Didion,
+Leon Yilmaz, Thomas Ewald, Sebastian Planz, Markus Didion, Carsten Dietz, Thorsten Barthelmie,
+Torsten Halter, Patrick Bentz, Michael Clemens, Torsten Kratz, Nicola Kniest.</p></blockquote>]]></content>
+        <author>
+            <name>DC Kirrberg e.V.</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Die Saision startet!]]></title>
         <id>Saision 22/23</id>

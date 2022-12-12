@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[9043],{3102:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/saison-22-23","name":"Saison 22/23","count":1,"permalink":"/blog/tags/saison-22-23"}')}}]);
