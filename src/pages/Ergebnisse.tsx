@@ -13,11 +13,16 @@ export default function Teams() {
             <h2 className="hero__title margin--none">Unsere Aktiven & Ergebnisse</h2>             
          </div> 
          <br></br>
-         <div className="text--center margin-bottom--lg">
-            <a href="" target="_blank">
-              <img className="text--center padding-horiz--md" width="1080" height="720" src="/dateien/team/Mannschaft.png"/>
-            </a>
-          </div> 
+    
+          <div className="text--center margin-bottom--lg">
+          <ThemedImage
+              alt="Hauptsponsor" width="auto" height="auto"
+              sources={{
+                light: ('/dateien/team/Mannschaft.png'),
+                dark: ('/dateien/team/Mannschaft.png'),
+              }}
+            />
+            </div> 
           <br></br>
           <div className="text--center margin-bottom--lg">
             <br></br> 
