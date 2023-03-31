@@ -9,12 +9,11 @@ export default function Team() {
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Spenden</h2><br />
-            <p>Als neu gegründeter Verein sind unsere Mittel aktuell begrenzt.<br />
-              Damit wir unseren Neumitgliedern einen professionellen Einstieg und eine gut ausgerüstetes Trainingsstätte ermöglichen können,
-              würden wir uns über eine Geldspende natürlich sehr freuen. 
-              Für eine langfristige Unterstützung, findet ihr unter <a href="/Sponsoring">Sponsoren</a> weitere Infornationen. 
+            <p>Als neugegründeter Verein verfügen wir momentan über begrenzte Mittel. <br />Um unseren neuen Mitgliedern einen professionellen Einstieg sowie eine gut ausgestattete Trainingsstätte zu ermöglichen, 
+              würden wir uns über Geldspenden sehr freuen. <br />
+              Für langfristige Unterstützung finden Sie weitere Informationen unter dem Abschnitt <a href="/Sponsoring">Sponsoren</a>. 
             </p>
-            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung/en:</p>           
+            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>           
             <div className="container">
               <div className="row row--no-gutters">
                 <div className="col">Empfänger:</div>

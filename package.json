@@ -25,6 +25,7 @@
     "google-map-react": "^2.1.10",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
+    "react-big-calendar": "^1.6.9",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.3",
     "url-loader": "^4.1.1"

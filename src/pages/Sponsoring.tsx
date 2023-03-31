@@ -50,15 +50,16 @@ export default function Team() {
                 Gemeinsam mit Ihrer Hilfe, können wir die Bekanntheit des Vereins stetig steigern und unsere Angebote attraktiv gestalten.
                 Alle Informationen sind dem Sponsorenkonzept zu entnehmen.
 
-                Unser Vereinsbeauftragter zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
+                Unsere Beisitzerin zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
                 <br /><br />
                 <div className="column column--no-gutters">
-                          <div className="col"><b>Michael Didion:</b></div>
-                          <div className="col"><a href="mailto:michael.didion@dckirrberg.de">michael.didion@dckirrberg.de</a></div>
-                          <div className="col"><a href="tel:+491731325417">+49 173 1325 417</a></div>
+                          <div className="col"><b>Julia Didion:</b></div>
+                          <div className="col"><a href="mailto:julia.didion@dckirrberg.de">julia.didion@dckirrberg.de</a></div>
                 </div>
               </p>
             </div>
+
+            <br /><br />
             <h1>Unser Sponsorenkonzept</h1>
 
             <p>
