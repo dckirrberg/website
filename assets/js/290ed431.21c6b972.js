@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[7806],{2092:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/sposnor","name":"Sposnor","count":2,"permalink":"/blog/tags/sposnor"}')}}]);
