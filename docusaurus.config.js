@@ -51,8 +51,8 @@ const config = {
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
           {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
-          {to: 'https://www.betterplace.org/de/projects/124593?utm_campaign=user_share&utm_medium=ppp_stats&utm_source=Link', label: 'Projekte', position: 'left'},
-          {to: '/blog', label: 'News', position: 'left'},
+        //*  {to: 'https://www.betterplace.org/de/projects/124593?utm_campaign=user_share&utm_medium=ppp_stats&utm_source=Link', label: 'Projekte', position: 'left'},*//  
+        {to: '/blog', label: 'News', position: 'left'},
           {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
           {to: '/spenden', label: 'Spenden', position: 'left'},
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
