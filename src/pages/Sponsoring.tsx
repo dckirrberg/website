@@ -22,11 +22,24 @@ export default function Team() {
               }}
             />
             </a>
+
             <h4>Weitere Sponsoren</h4>
+            <div className="container">
+              <a href="https://www.facebook.com/underwoodtattoo/" target="_blank">
+                <ThemedImage
+                  alt="Leger" width="220" height="180"
+                  sources={{
+                  light: ('/img/leger.png'),
+                  dark: ('/img/leger_white.png'),
+                  }}
+                />
+              </a>
+           </div>
             <div className="container">
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
             </a>
+
             <a href="https://tassenkarton.de/" target="_blank">
             <ThemedImage
               alt="Hauptsponsor" width="200" height="50"
