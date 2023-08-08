@@ -20,6 +20,6 @@ Jetzt ist es an der Zeit, den Titel gebührend zu feiern! 🍻
 
 Oioioi, DCK aus Kerbrich, do strahlt de Stern vom Tussberch hinab! Tussberch hinab! Tussberch hinab!
 DCK aus Kerbrich 🥳🎉
-
+ 
 
 ![GameOn](./meister.png)
