@@ -10,7 +10,7 @@ We are the Champions!
 Was für ein heißes Duell am letzten Spieltag!
 Nachdem wir bereits den Aufstieg sicher hatten, standen wir heute am vorletzten Spieltag den DC Steelers 1 gegenüber.
 
-Mit einem fantastischen Ergebnis von 10:2 konnten wir das Meisterschaftsspiel vor unseren eigenen Fans für uns entschieden und den ersten Titel in der Vereinsgeschichte einfahren
+Mit einem fantastischen Ergebnis von 10:2 konnten wir das Meisterschaftsspiel vor unseren eigenen Fans für uns entschieden und den ersten Titel in der Vereinsgeschichte einfahren.
 
 Wir sind noch immer total überwältigt von der Unterstützung unserer Fans vor Ort, das war heute wirklich etwas ganz besonderes. Ihr habt uns stets zu Höchstleistungen angespornt und seid ein nicht unwesentlicher Teil für unseren Erfolg. Danke, für diese geilen Momente.
 
