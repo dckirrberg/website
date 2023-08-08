@@ -2,7 +2,7 @@
 slug: leger
 title: Neuer Sponsor
 authors: [dckirrberg]
-tags: [Sposnor,UnderWood Tattoos]
+tags: [Sponsor,UnderWood Tattoos]
 ---
 
 Wir freuen uns sehr, euch unseren neuen Sponsor vorzustellen: "Underwood Tattoos" @underwoodtattoos_ug - der angesagte Tattoo-Laden von Andreas Leger!

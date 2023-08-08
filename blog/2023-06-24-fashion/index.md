@@ -2,7 +2,7 @@
 slug: fashion
 title: Vereinskollektion
 authors: [dckirrberg]
-tags: [Sposnor,UnderWood Tattoos]
+tags: [Merch, Vereinskollektion]
 ---
 
 Hallo zusammen! Wir freuen uns, euch mitteilen zu können, dass unsere Vereinskollektion nun endlich zur Verfügung steht.
@@ -27,4 +27,3 @@ Wir hoffen, dass euch unsere moderne Vereinskollektion gefällt und wünschen eu
 
 
 ![GameOn](./fashion.jpg)
- > vlnr. 

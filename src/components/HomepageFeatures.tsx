@@ -49,7 +49,7 @@ const FeatureList: FeatureItem[] = [
         Alternativ kann der Antrag für Neumitglieder auch per <a href="mailto:vorstand@dckirrberg.de">E-Mail</a> / <b>persönlich</b> an uns übergeben werden.
         */}
         Sende uns hierzu den unterschriebenen <a href="/dateien/Mitgliederantrag.pdf" target="_blank">Antrag für Neumitglieder</a> per <a href="mailto:vorstand@dckirrberg.de">E-Mail</a> zu. 
-        Das Anmeldeformular kann auch alternativ direkt in unsere Trainigsstätte unterzeichnet werden.
+        Das Anmeldeformular kann auch alternativ direkt im Vereinsheim unterzeichnet werden.
       </>
        
 
