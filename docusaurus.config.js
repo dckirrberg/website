@@ -49,7 +49,6 @@ const config = {
       navbar: {
         title: 'DC Kirrberg e.V.',
         items: [
-          {to: '/blog', label: 'News', position: 'left'},
           {to: '/team', label: 'Über uns', position: 'left'},
           {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
           {to: 'https://spendenaktion.dckirrberg.de', label: 'SCOLIA Projekt', position: 'left'},
