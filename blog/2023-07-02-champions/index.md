@@ -12,7 +12,7 @@ Nachdem wir bereits den Aufstieg sicher hatten, standen wir heute am vorletzten 
 
 Mit einem fantastischen Ergebnis von 10:2 konnten wir das Meisterschaftsspiel vor unseren eigenen Fans für uns entschieden und den ersten Titel in der Vereinsgeschichte einfahren
 
-Wir sind noch immer total überwältigt von der Unterstützung unserer Fans vor Ort, das war heute wirklich etwas ganz besonderes. Ihr habt uns stets zu Höchstleistungen angespornt und seid ein nicht unwesentlicher Teil für unseren Erfolg. Danke, für diese geilen Momente 🖤❤️
+Wir sind noch immer total überwältigt von der Unterstützung unserer Fans vor Ort, das war heute wirklich etwas ganz besonderes. Ihr habt uns stets zu Höchstleistungen angespornt und seid ein nicht unwesentlicher Teil für unseren Erfolg. Danke, für diese geilen Momente.
 
 Ein riesiges Dankeschön geht auch an unsere Jungs aus der 1. Mannschaft! Ihr habt die gesamte Saison über herausragende Darts gespielt und seid verdient als Meister in den Ligaspielbetrieb eingestiegen. Was für ein beeindruckendes Debüt!
 
