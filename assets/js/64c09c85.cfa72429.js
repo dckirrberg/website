@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[4559],{1895:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/under-wood-tattoos","name":"UnderWood Tattoos","count":2,"permalink":"/blog/tags/under-wood-tattoos"}')}}]);

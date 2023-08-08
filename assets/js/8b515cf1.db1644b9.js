@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[2110],{6672:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vereinskollektion","name":"Vereinskollektion","count":1,"permalink":"/blog/tags/vereinskollektion"}')}}]);

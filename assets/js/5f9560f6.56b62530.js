@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[5065],{9899:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/sponsor","name":"Sponsor","count":2,"permalink":"/blog/tags/sponsor"}')}}]);
