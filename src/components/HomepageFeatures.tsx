@@ -31,10 +31,11 @@ const FeatureList: FeatureItem[] = [
     image: '/img/schedule.png',
     description: (
       <>
-      <b>Montag: ab 18:00 Uhr<br />
-      Mittwoch:  ab 18:00 Uhr  <br />
-      <b>Vereinsheim:</b><br />
-      </b>Bürgerhaus Kirrberg<br />Ortsstraße 1 | Homburg/Kirrberg<br />
+      <b>Offenes Training</b><br></br>
+      Montags ab 18:00 Uhr<br></br><br></br>
+      <b>Aktiventraining</b><br></br>
+      Mittwochs ab 18:00 Uhr<br></br>
+      Donnerstags ab 18:00 Uhr<br></br>
       </>
     ),
   },
