@@ -8,10 +8,10 @@
     
     },
     {
-      "name": "André Didion",
+      "name": "Torsten Kratz",
       "title": "2. Vorsitzender",
-      "image_url": "/dateien/vorstand/Andre.Didion.jpg",
-      "email": "andre.didion@dckirrberg.de",
+      "image_url": "/dateien/vorstand/Torsten.Kratz.jpg",
+      "email": "torsten.kratz@dckirrberg.de",
       "social_links": []
     },
     {
@@ -22,17 +22,17 @@
       "social_links": []
     },
     {
-      "name": "Torsten Halter",
+      "name": "Carsten Dietz",
       "title": "1. Sportdirektor",
-      "image_url": "/dateien/vorstand/Torsten.Halter.jpg",
-      "email": "torsten.halter@dckirrberg.de",
+      "image_url": "/dateien/vorstand/Carsten.Dietz.jpg",
+      "email": "carsten.dietz@dckirrberg.de",
       "social_links": []
     },
     {
-      "name": "Carsten Dietz",
+      "name": "Thorsten Barthelmie",
       "title": "2. Sportdirektor",
-      "image_url": "/dateien/vorstand/Carsten.Dietz.jpg",
-      "email": "carsten.dietz@dckirrberg.de",
+      "image_url": "",
+      "email": "thorsten.barthelmie@dckirrberg.de",
       "social_links": []
     },
     {
@@ -43,10 +43,10 @@
       "social_links": []
     },
     {
-      "name": "Torsten Kratz",
+      "name": "Nadine Tobi-Kratz",
       "title": "stellv. Schriftführer",
-      "image_url": "/dateien/vorstand/Torsten.Kratz.jpg",
-      "email": "torsten.kratz@dckirrberg.de",
+      "image_url": "",
+      "email": "nadine.tobi-kratz@dckirrberg.de",
       "social_links": []
     },
     {
@@ -57,10 +57,17 @@
       "social_links": []
     },
     {
-      "name": "Julia Didion",
-      "title": "2. Beisitzerin & Pressesprecherin",
-      "image_url": "/dateien/vorstand/Julia.Didion.jpg",
-      "email": "julia.didion@dckirrberg.de",
+      "name": "Marc Schmitt",
+      "title": "2. Beisitzer",
+      "image_url": "",
+      "email": "marc.schmitt@dckirrberg.de",
+      "social_links": []
+    },
+    {
+      "name": "Sven Wagner",
+      "title": "3. Beisitzer",
+      "image_url": "",
+      "email": "sven.wagner@dckirrberg.de",
       "social_links": []
     }
   ]

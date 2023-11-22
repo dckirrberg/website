@@ -27,11 +27,11 @@ export default function Teams() {
           <div className="text--center margin-bottom--lg">
             <br></br> 
             <h3>SADV Ligaübersicht</h3>
-            <a href="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#" target="_blank">
+            <a href="https://spielplan.dckirrberg.de" target="_blank">
             Direktlink zum Spielplan
             </a>
             <div className={clsx('hero', styles.heroBanner)}>
-             <iframe width="1280" height="820" src="https://www.sadv.2k-dart-software.de/index.php/de/component/dartliga/index.php?option=com_dartliga&controller=showligagameplan&layout=showdashboard&filVbKey=100&filCompKey=1&filSaiKey=119&filVbsubKey=31&filStaffKey=793&filStaffFsGrpdataKey=0#"></iframe>
+             <iframe width="1280" height="820" src="https://spielplan.dckirrberg.de"></iframe>
             </div>
          </div>   
          
