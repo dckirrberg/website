@@ -61,18 +61,18 @@ export default function Team() {
                 von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
                 Events die Beliebtheit und das Interesse der Sportart steigern.
                 Gemeinsam mit Ihrer Hilfe, können wir die Bekanntheit des Vereins stetig steigern und unsere Angebote attraktiv gestalten.
-                Alle Informationen sind dem Sponsorenkonzept zu entnehmen.
-
-                Unsere Beisitzerin zum Thema Sponsoring, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
+                {/* Alle Informationen sind dem Sponsorenkonzept zu entnehmen. */}
+                <br></br>
+                Unser 1. Vositzender, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
                 <br /><br />
                 <div className="column column--no-gutters">
-                          <div className="col"><b>Julia Didion:</b></div>
-                          <div className="col"><a href="mailto:julia.didion@dckirrberg.de">julia.didion@dckirrberg.de</a></div>
+                          <div className="col"><b>Markus Didion:</b></div>
+                          <div className="col"><a href="mailto:markus.didion@dckirrberg.de">markus.didion@dckirrberg.de</a></div>
                 </div>
               </p>
             </div>
 
-            <br /><br />
+            {/* <br /><br />
             <h1>Unser Sponsorenkonzept</h1>
 
             <p>
@@ -91,9 +91,9 @@ export default function Team() {
               </a>
             <a></a>
             <br />
-            <p>
+            <p> */}
 
-            </p><a></a>
+            {/* </p><a></a> */}
             {/* <a
                 className="button button--secondary button--lg"
                 target="_blank"

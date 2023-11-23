@@ -13,7 +13,7 @@ export default function Team() {
               würden wir uns über Geldspenden sehr freuen. <br />
               Für langfristige Unterstützung finden Sie weitere Informationen unter dem Abschnitt <a href="/Sponsoring">Sponsoren</a>. 
             </p>
-            <p>Überweist hierzu euren Sprendenbetrag an die nachfolgende Kontoverbindung:</p>           
+            <p>Überweist hierzu euren Spendenbetrag an die nachfolgende Kontoverbindung:</p>           
             <div className="container">
               <div className="row row--no-gutters">
                 <div className="col">Empfänger:</div>

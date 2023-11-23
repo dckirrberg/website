@@ -30,8 +30,8 @@ export default function Team() {
                 <div className="col"><b>Sonstiges</b></div>
               </div>
               <div className="column column--no-gutters">
-                <div className="col"> <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a></div>
-                <div className="col"> <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Spielplan 22_23.jpg</a></div>
+                {/* <div className="col"> <a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept.pdf</a></div> */}
+                {/* <div className="col"> <a href="/dateien/Spielplan 23_24.jpg" target="_blank">Spielplan 22_23.jpg</a></div> */}
               </div>
             </div> 
           </div>
