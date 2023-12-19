@@ -14,6 +14,7 @@ DTSTART:20231028T150000
 DTEND:20231028T180000
 DESCRIPTION:DC Kirrberg 1 : DC Waldeck 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -23,6 +24,7 @@ DTSTART:20231111T150000
 DTEND:20231111T180000
 DESCRIPTION:DC El Torro 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Sportheim TSC Zweibrücken\nWattweiler Str. 36\n66482 Zweibrücken
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -32,6 +34,7 @@ DTSTART:20231203T150000
 DTEND:20231203T180000
 DESCRIPTION:DC Fishermen & Friends 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Fischerhütte Belzemühle\nBelzemühle \n66892 Bruchmühlbach-Misau
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -41,6 +44,7 @@ DTSTART:20231216T150000
 DTEND:20231216T180000
 DESCRIPTION:DC Kirrberg 1 : Dart Akademiker 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -50,6 +54,7 @@ DTSTART:20240106T150000
 DTEND:20240106T180000
 DESCRIPTION:Mystic Flights 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Haus der Musik\nKirkeler Str. 39\n66440 Blieskastel-Niederwürzbach
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -59,6 +64,7 @@ DTSTART:20240127T150000
 DTEND:20240127T180000
 DESCRIPTION:DC Kirrberg 1 : DC City Löwen 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -68,6 +74,7 @@ DTSTART:20240210T150000
 DTEND:20240210T180000
 DESCRIPTION:DC Kirrberg 1 : DC Just The Best 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -77,6 +84,7 @@ DTSTART:20240225T150000
 DTEND:20240225T180000
 DESCRIPTION:SV Neunkirchen 2 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Vereinsheim Miesau\nSchulstraße 1\n66892 Miesau
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -86,6 +94,7 @@ DTSTART:20240309T150000
 DTEND:20240309T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 1
 SUMMARY:Spielfrei: DC Kirrberg 1
+LOCATION:Vereinsheim Miesau\nSchulstraße 1\n66892 Miesau
 COMMENT:Spielfrei: DC Kirrberg 1
 PRIORITY:0
 ORGANIZER:Niggel
@@ -95,6 +104,7 @@ DTSTART:20240323T150000
 DTEND:20240323T180000
 DESCRIPTION:DC Waldeck 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Gasthaus Waldeck\nJungenwaldstr. 42\n66265 Heusweiler
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -104,6 +114,7 @@ DTSTART:20240427T150000
 DTEND:20240427T180000
 DESCRIPTION:DC Kirrberg 1 : DC El Torro 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -113,6 +124,7 @@ DTSTART:20240511T150000
 DTEND:20240511T180000
 DESCRIPTION:DC Kirrberg 1 : DC Fishermen & Friends 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -122,6 +134,7 @@ DTSTART:20240525T150000
 DTEND:20240525T180000
 DESCRIPTION:Dart Akademiker 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Dart Akademie Saarland\nEisenbahnschachtanlage 17\n66280 Sulzbach
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -131,6 +144,7 @@ DTSTART:20240608T150000
 DTEND:20240608T180000
 DESCRIPTION:DC Kirrberg 1 : Mystic Flights 1
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -140,6 +154,8 @@ DTSTART:20240629T150000
 DTEND:20240629T180000
 DESCRIPTION:DC City Löwen 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Vereinsheim Darthaus\nNeunkircher Str.  55\n66440 Blieskastel-Laut
+ zkirchen
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -149,6 +165,7 @@ DTSTART:20240714T150000
 DTEND:20240714T180000
 DESCRIPTION:DC Just The Best 1 : DC Kirrberg 1
 SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Bistrorante Alt Göttelborn\nHauptstr. 256\n66287 Quierschied
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -158,6 +175,7 @@ DTSTART:20240720T150000
 DTEND:20240720T180000
 DESCRIPTION:DC Kirrberg 1 : SV Neunkirchen 2
 SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -167,6 +185,7 @@ DTSTART:20231007T150000
 DTEND:20231007T180000
 DESCRIPTION:DC Kirrberg 2 : DC Burbach 22 1
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -176,6 +195,7 @@ DTSTART:20231028T150000
 DTEND:20231028T180000
 DESCRIPTION:Hill Billies Saarland 1 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Zum Kraftwerk\nHostenbacher Str. 6\n66333 Völklingen
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -185,6 +205,7 @@ DTSTART:20231111T150000
 DTEND:20231111T180000
 DESCRIPTION:DC Kirrberg 2 : DC Ladis Eck 3
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -194,6 +215,7 @@ DTSTART:20231202T150000
 DTEND:20231202T180000
 DESCRIPTION:DC Kirrberg 2 : A-Team 1
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -203,6 +225,7 @@ DTSTART:20231217T150000
 DTEND:20231217T180000
 DESCRIPTION:DC Ladis Eck 2 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Gasthaus Ladis Eck\nMaximinstraße 33\n66763 Dillingen
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -212,6 +235,7 @@ DTSTART:20240106T150000
 DTEND:20240106T180000
 DESCRIPTION:DC Kirrberg 2 : Mad Woodys 1
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -221,6 +245,7 @@ DTSTART:20240127T150000
 DTEND:20240127T180000
 DESCRIPTION:DC Bliestal 2 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Vereinsheim TUS Mimbach\nMolkereistr. 1\n66440 Blieskastel
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -230,6 +255,7 @@ DTSTART:20240210T150000
 DTEND:20240210T180000
 DESCRIPTION:DC Los Locos 1 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:JUZ Beckingen\nReihersbergstraße 35\n66701 Beckingen
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -239,6 +265,7 @@ DTSTART:20240224T150000
 DTEND:20240224T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 2
 SUMMARY:Spielfrei: DC Kirrberg 2
+LOCATION:JUZ Beckingen\nReihersbergstraße 35\n66701 Beckingen
 COMMENT:Spielfrei: DC Kirrberg 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -248,6 +275,7 @@ DTSTART:20240310T150000
 DTEND:20240310T180000
 DESCRIPTION:DC Burbach 22 1 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Gasthaus Kunzler\nBergstraße 15\n66115 Saarbrücken
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -257,6 +285,7 @@ DTSTART:20240323T150000
 DTEND:20240323T180000
 DESCRIPTION:DC Kirrberg 2 : Hill Billies Saarland 1
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -266,6 +295,7 @@ DTSTART:20240428T150000
 DTEND:20240428T180000
 DESCRIPTION:DC Ladis Eck 3 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Gasthaus Ladis Eck\nMaximinstraße 33\n66763 Dillingen
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -275,6 +305,7 @@ DTSTART:20240511T150000
 DTEND:20240511T180000
 DESCRIPTION:A-Team 1 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Vereinsheim A-Team\nZur Bliesquelle 1\n66625 Nohfelden/Selbach
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -284,6 +315,7 @@ DTSTART:20240525T150000
 DTEND:20240525T180000
 DESCRIPTION:DC Kirrberg 2 : DC Ladis Eck 2
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -293,6 +325,7 @@ DTSTART:20240609T150000
 DTEND:20240609T180000
 DESCRIPTION:Mad Woodys 1 : DC Kirrberg 2
 SUMMARY:Auswärtsspiel: DC Kirrberg 2
+LOCATION:Gasthaus Waldeck\nJungenwaldstr. 42\n66265 Heusweiler
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -302,6 +335,7 @@ DTSTART:20240629T150000
 DTEND:20240629T180000
 DESCRIPTION:DC Kirrberg 2 : DC Bliestal 2
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -311,6 +345,7 @@ DTSTART:20240713T150000
 DTEND:20240713T180000
 DESCRIPTION:DC Kirrberg 2 : DC Los Locos 1
 SUMMARY:Heimspiel: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -320,6 +355,7 @@ DTSTART:20240720T150000
 DTEND:20240720T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 2
 SUMMARY:Spielfrei: DC Kirrberg 2
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Spielfrei: DC Kirrberg 2
 PRIORITY:0
 ORGANIZER:Niggel
@@ -329,6 +365,7 @@ DTSTART:20231015T150000
 DTEND:20231015T180000
 DESCRIPTION:DC Prowefläschja 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Clubheim SC Hühnerfeld\nSchachtstraße 2\n66280 Sulzbach
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -338,6 +375,7 @@ DTSTART:20231029T150000
 DTEND:20231029T180000
 DESCRIPTION:DC Kirrberg 3 : DC Hasborn 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -347,6 +385,7 @@ DTSTART:20231111T150000
 DTEND:20231111T180000
 DESCRIPTION:DC Bulldozer 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Kreizgass\nAm Sportplatz 3\n66663 Merzig-Besseringen
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -356,6 +395,7 @@ DTSTART:20231203T150000
 DTEND:20231203T180000
 DESCRIPTION:DC Checknix 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Pfarrheim Britten\nAud der Fels 7\n66679 Britten
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -365,6 +405,7 @@ DTSTART:20231217T150000
 DTEND:20231217T180000
 DESCRIPTION:DC Kirrberg 3 : DC Steelers 2
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -374,6 +415,7 @@ DTSTART:20240107T150000
 DTEND:20240107T180000
 DESCRIPTION:DC Knoche 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Gasthaus Thaler Eck\nSaabrückerstr. 54\n66299 Friedrichsthal
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -383,6 +425,7 @@ DTSTART:20240128T150000
 DTEND:20240128T180000
 DESCRIPTION:DC Kirrberg 3 : DC Steelers 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -392,6 +435,7 @@ DTSTART:20240211T150000
 DTEND:20240211T180000
 DESCRIPTION:DC Kirrberg 3 : DC Checknix 2
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -401,6 +445,7 @@ DTSTART:20240224T150000
 DTEND:20240224T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 3
 SUMMARY:Spielfrei: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Spielfrei: DC Kirrberg 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -410,6 +455,7 @@ DTSTART:20240310T150000
 DTEND:20240310T180000
 DESCRIPTION:DC Kirrberg 3 : DC Prowefläschja 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -419,6 +465,7 @@ DTSTART:20240323T150000
 DTEND:20240323T180000
 DESCRIPTION:DC Hasborn 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Altes Rathaus Hasborn\nPostweg 8\n66636 Tholey-Hasborn
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -428,6 +475,7 @@ DTSTART:20240428T150000
 DTEND:20240428T180000
 DESCRIPTION:DC Kirrberg 3 : DC Bulldozer 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -437,6 +485,7 @@ DTSTART:20240512T150000
 DTEND:20240512T180000
 DESCRIPTION:DC Kirrberg 3 : DC Checknix 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -446,6 +495,8 @@ DTSTART:20240525T150000
 DTEND:20240525T180000
 DESCRIPTION:DC Steelers 2 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Vereinsheim KG Pfaffenkopf\nRentrischer Str. 42\n66125 Saarbrücken
+ -Dudweiler
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -455,6 +506,7 @@ DTSTART:20240609T150000
 DTEND:20240609T180000
 DESCRIPTION:DC Kirrberg 3 : DC Knoche 1
 SUMMARY:Heimspiel: DC Kirrberg 3
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -464,6 +516,8 @@ DTSTART:20240629T150000
 DTEND:20240629T180000
 DESCRIPTION:DC Steelers 1 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Vereinsheim KG Pfaffenkopf\nRentrischer Str. 42\n66125 Saarbrücken
+ -Dudweiler
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -473,6 +527,7 @@ DTSTART:20240713T150000
 DTEND:20240713T180000
 DESCRIPTION:DC Checknix 2 : DC Kirrberg 3
 SUMMARY:Auswärtsspiel: DC Kirrberg 3
+LOCATION:Pfarrheim Britten\nAud der Fels 7\n66679 Britten
 COMMENT:Saarliga 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -482,6 +537,7 @@ DTSTART:20240721T150000
 DTEND:20240721T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 3
 SUMMARY:Spielfrei: DC Kirrberg 3
+LOCATION:Pfarrheim Britten\nAud der Fels 7\n66679 Britten
 COMMENT:Spielfrei: DC Kirrberg 3
 PRIORITY:0
 ORGANIZER:Niggel
@@ -491,6 +547,7 @@ DTSTART:20231008T150000
 DTEND:20231008T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 4
 SUMMARY:Spielfrei: DC Kirrberg 4
+LOCATION:Pfarrheim Britten\nAud der Fels 7\n66679 Britten
 COMMENT:Spielfrei: DC Kirrberg 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -500,6 +557,7 @@ DTSTART:20231028T150000
 DTEND:20231028T180000
 DESCRIPTION:DC Hasborn 2 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Altes Rathaus Hasborn\nPostweg 8\n66636 Tholey-Hasborn
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -509,6 +567,7 @@ DTSTART:20231112T150000
 DTEND:20231112T180000
 DESCRIPTION:DC Kirrberg 4 : DC City Löwen 2
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -518,6 +577,7 @@ DTSTART:20231203T150000
 DTEND:20231203T180000
 DESCRIPTION:DC Kirrberg 4 : DC Black Bull 1
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -527,6 +587,7 @@ DTSTART:20231216T150000
 DTEND:20231216T180000
 DESCRIPTION:DC Crazy Darts 1 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Dart Akademie Saarland\nEisenbahnschachtanlage 17\n66280 Sulzbach
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -536,6 +597,7 @@ DTSTART:20240107T150000
 DTEND:20240107T180000
 DESCRIPTION:DC Kirrberg 4 : DSV Turbo Roden 1
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -545,6 +607,7 @@ DTSTART:20240128T150000
 DTEND:20240128T180000
 DESCRIPTION:DC Burbach 22 2 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Gasthaus Kunzler\nBergstraße 15\n66115 Saarbrücken
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -554,6 +617,7 @@ DTSTART:20240211T150000
 DTEND:20240211T180000
 DESCRIPTION:DC Dartort 1 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Schützenhaus Seelbach\nSchützenstraße 5\n66440 Blieskastel
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -563,6 +627,7 @@ DTSTART:20240225T150000
 DTEND:20240225T180000
 DESCRIPTION:DC Kirrberg 4 : DC Tresentiger 2
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -572,6 +637,7 @@ DTSTART:20240309T150000
 DTEND:20240309T150000
 DESCRIPTION:Spielfrei: DC Kirrberg 4
 SUMMARY:Spielfrei: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Spielfrei: DC Kirrberg 4
 PRIORITY:0
 ORGANIZER:Niggel
@@ -581,6 +647,7 @@ DTSTART:20240324T150000
 DTEND:20240324T180000
 DESCRIPTION:DC Kirrberg 4 : DC Hasborn 2
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -590,6 +657,8 @@ DTSTART:20240427T150000
 DTEND:20240427T180000
 DESCRIPTION:DC City Löwen 2 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Vereinsheim Darthaus\nNeunkircher Str.  55\n66440 Blieskastel-Laut
+ zkirchen
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -599,6 +668,8 @@ DTSTART:20240512T150000
 DTEND:20240512T180000
 DESCRIPTION:DC Black Bull 1 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Schützenhaus Neunkirchen/Nahe\nAm Freizeitpark 2\n66625 Nohfelden-
+ Neunkirchen/Nahe
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -608,6 +679,7 @@ DTSTART:20240526T150000
 DTEND:20240526T180000
 DESCRIPTION:DC Kirrberg 4 : DC Crazy Darts 1
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -617,6 +689,7 @@ DTSTART:20240608T150000
 DTEND:20240608T180000
 DESCRIPTION:DSV Turbo Roden 1 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Verlängerung Clubheim 1. SC\nWinterstraße 115\n66740 Saarlouis
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -626,6 +699,7 @@ DTSTART:20240630T150000
 DTEND:20240630T180000
 DESCRIPTION:DC Kirrberg 4 : DC Burbach 22 2
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -635,6 +709,7 @@ DTSTART:20240714T150000
 DTEND:20240714T180000
 DESCRIPTION:DC Kirrberg 4 : DC Dartort 1
 SUMMARY:Heimspiel: DC Kirrberg 4
+LOCATION:Bürgerhaus Kirrberg\nOrtsstraße 1\n66424 Homburg-Kirrberg
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
@@ -644,6 +719,7 @@ DTSTART:20240720T150000
 DTEND:20240720T180000
 DESCRIPTION:DC Tresentiger 2 : DC Kirrberg 4
 SUMMARY:Auswärtsspiel: DC Kirrberg 4
+LOCATION:Kreizgass\nAm Sportplatz 3\n66663 Merzig-Besseringen
 COMMENT:Saarliga 5
 PRIORITY:0
 ORGANIZER:Niggel
