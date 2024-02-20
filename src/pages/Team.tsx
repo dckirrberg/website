@@ -34,7 +34,6 @@ export default function Team() {
                   Nach der Gründungsversammlung wurde der DC Kirrberg e.V.
                   als gemeinnüziger Verein ins Vereinsregister aufgenommen und ist seitdem Mitglied im
                   Landessportverband für das Saarland (LSVS).
-                  Unsere ersten Schritte als Verein wurden zudem im Bereich <a href="/blog">News</a> festgehalten.                   
                 </p>
               </div>
           </div>

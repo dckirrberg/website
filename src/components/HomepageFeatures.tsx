@@ -31,11 +31,13 @@ const FeatureList: FeatureItem[] = [
     image: '/img/schedule.png',
     description: (
       <>
-      <b>Offenes Training</b><br></br>
-      Montags ab 18:00 Uhr<br></br><br></br>
-      <b>Aktiventraining</b><br></br>
-      Mittwochs ab 18:00 Uhr<br></br>
+      <b>Damentraining - Bürgerhaus Kirrberg</b><br></br>
+      Montags ab 18:00 Uhr<br></br>
+      <b>Aktiventraining - Sportpark Lerchenhübel</b><br></br>
+      Dienstags ab 18:00 Uhr<br></br>
       Donnerstags ab 18:00 Uhr<br></br>
+      <b>Offenes Training - Sportpark Lerchenhübel</b><br></br>
+      Freitags ab 18:00 Uhr<br></br>
       </>
     ),
   },
