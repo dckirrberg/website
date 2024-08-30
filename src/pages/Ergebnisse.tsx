@@ -34,8 +34,7 @@ export default function Teams() {
             </div>
          </div>   
          
-         <br></br>
-            Der Spielplan steht zudem zum <a href="/dateien/Spielplan 22_23.jpg" target="_blank">Download</a> bereit:
+
         </div>
       </div>
     </Layout>
