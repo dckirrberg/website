@@ -11,7 +11,6 @@ export default function Team() {
           <div className="text--center margin-bottom--lg">
             <h2 className="hero__title margin--none">Sponsoren des Vereins</h2>
             <br />
-            <h3>Hauptsponsor</h3>
             <a href="https://www.dvag.de/sebastian.bauer/index.html" target="_blank">
 
             <ThemedImage
@@ -23,7 +22,6 @@ export default function Team() {
             />
             </a>
 
-            <h4>Weitere Sponsoren</h4>
             <div className="container">
               <a href="https://www.facebook.com/underwoodtattoo/" target="_blank">
                 <ThemedImage
@@ -57,30 +55,40 @@ export default function Team() {
             <br></br>
             <div className="row">
               <p>
-                Der DC Kirrberg e.V. legt stets großes Gewicht auf die Förderung
-                von Dartspielern und möchte mit regelmäßigen Veranstaltungen und
-                Events die Beliebtheit und das Interesse der Sportart steigern.
-                Gemeinsam mit Ihrer Hilfe, können wir die Bekanntheit des Vereins stetig steigern und unsere Angebote attraktiv gestalten.
-                {/* Alle Informationen sind dem Sponsorenkonzept zu entnehmen. */}
-                <br></br>
-                Unser 1. Vositzender, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
-                <br /><br />
-                <div className="column column--no-gutters">
-                          <div className="col"><b>Markus Didion:</b></div>
-                          <div className="col"><a href="mailto:markus.didion@dckirrberg.de">markus.didion@dckirrberg.de</a></div>
-                </div>
+              Darts hat sich in den letzten Jahren zu einem beliebten Trendsport entwickelt, der weltweit 
+              Millionen von Menschen begeistert. Unser DC Kirrberg e.V. spiegelt diese wachsende Popularität wider. Gegründet im 
+              November 2021 mit 15 Mitgliedern, sind wir schnell gewachsen und zählen mittlerweile 121 Mitglieder, davon 51 aktive Spieler/innen. 
+              Unsere 1. Mannschaft spielt ab der Saison 24/25 in der höchsten saarländischen Liga, und unsere 2. Mannschaft tritt in der 
+              zweithöchsten Spielklasse an. Dieser rasante Anstieg und die sportlichen Erfolge zeigen das immense Potenzial unseres Vereins und des Dartsports
+              im Allgemeinen. Mit Ihrer Unterstützung als Sponsor können wir diese Erfolgsgeschichte fortsetzen und die Zukunft des Dartsports aktiv mitgestalten.
+              <br></br>
+              Alle Informationen sind dem Sponsorenkonzept zu entnehmen.
+              Unser Sponsorenbeauftragter, steht Ihnen selbstverständlich bei Fragen zur Verfügung:
+              <br /><br />
+              <div className="column column--no-gutters">
+                        <div className="col"><b>Michael Didion:</b></div>
+                        <div className="col"><a href="mailto:michael.didion@dckirrberg.de">michael.didion@dckirrberg.de</a></div>
+              </div>
               </p>
             </div>
 
-            {/* <br /><br />
+            <a href="" target="_blank">
+              <ThemedImage
+                alt="Hauptsponsor" width="400" height="400"
+                sources={{
+                  light: ('/img/sebastian.png'),
+                  dark: ('/img/sebastian_white.png'),
+                }}
+              />
+            </a>
+
+            <br /><br />
             <h1>Unser Sponsorenkonzept</h1>
 
             <p>
                 Im Sponsorenkonzept stellen wir Ihnen unseren Verein vor und
                 zeigen Ihnen die Möglichkeiten auf, wie Sie uns unterstützen und
                 gleichzeitig davon profitieren können.
-                Über unser Sponsorenformular könnt ihr uns ganz bequem eine unverbindliche Anfrage senden.
-                Unser Vereinsbeauftragter zum Thema Sponsoring, nimmt im Anschluss Kontakt mit ihnen auf.
             </p><a></a>
               <a
                 className="button button--secondary button--lg btn-block"
@@ -89,19 +97,6 @@ export default function Team() {
               >
                 Zum Sponsorenkonzept
               </a>
-            <a></a>
-            <br />
-            <p> */}
-
-            {/* </p><a></a> */}
-            {/* <a
-                className="button button--secondary button--lg"
-                target="_blank"
-                href="http://sponsoring.dckirrberg.de/"
-              >
-                Zum Online-Sponsorenformular
-              </a> */}
-            <a></a>
           </div>
         </div>
       </div>

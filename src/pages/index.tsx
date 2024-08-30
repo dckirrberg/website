@@ -40,19 +40,7 @@ function HomepageHeader() {
             dark: ('/img/sebastian_white.png'),
           }}
         />
-        <br></br>
-        <a href="https://www.facebook.com/underwoodtattoo/" target="_blank">
-        <ThemedImage
-          alt="Leger" width="220" height="180"
-          sources={{
-            light: ('/img/leger.png'),
-            dark: ('/img/leger_white.png'),
-          }}
-        />
-        </a>
-        <br></br>
-
-        
+        <br></br>       
           <div className="container">
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="200" height="100" src="/img/logo_clemens.jpg"/>

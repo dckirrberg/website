@@ -30,7 +30,12 @@ export default function Team() {
                 <div className="col"><b>Sonstiges</b></div>
               </div>
               <div className="column column--no-gutters">
-                <div className="col"> <a href="/dateien/ical.ics" target="_blank">Spieltage.ics</a></div>
+              <div className="col"> <a href="/dateien/icalAlle.ics" target="_blank">Spieltage_Alle.ics</a></div>
+                <div className="col"> <a href="/dateien/icalDCK1.ics" target="_blank">Spieltage_DCK1.ics</a></div>
+                <div className="col"> <a href="/dateien/icalDCK2.ics" target="_blank">Spieltage_DCK2.ics</a></div>
+                <div className="col"> <a href="/dateien/icalDCK3.ics" target="_blank">Spieltage_DCK3.ics</a></div>
+                <div className="col"> <a href="/dateien/icalDCK4.ics" target="_blank">Spieltage_DCK4.ics</a></div>
+                <div className="col"> <a href="/dateien/icalDCKDamen.ics" target="_blank">Spieltage_DCKDamen.ics</a></div>
                 {/* <div className="col"> <a href="/dateien/Spielplan 23_24.jpg" target="_blank">Spielplan 22_23.jpg</a></div> */}
               </div>
             </div> 

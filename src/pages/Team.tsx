@@ -14,21 +14,10 @@ export default function Team() {
             <br />
               <div className="row">
                 <p>
-                  Darts erfreut sich seit einigen Jahren einer immer größeren
-                  Beliebtheit. Die Hallen sind gefüllt, die Einschaltquoten steigen
-                  und der Sport wird auch in den Medien immer bekannter.
-                  Bereits im Jahr 2020 entstand daher die Idee zur Gründung eines eigenen Dartvereins,
-                  die durch die Gründungsversammlung vom 15.11.2021 mit der Teilnahme von 15 Personen durchgeführt wurde.
-
-                  Darts war jahrelang eine Randsportart im Schatten der großen
-                  Events wie Fußball, Handball oder Basketball. Dies hat sich jedoch
-                  in den letzten Jahren langsam, aber stetig gewandelt.
-                  Darts ist zum Trendsport geworden und dies hat gleich mehrere
-                  Gründe. Einer der wichtigsten ist,<a></a> dass Darts wohl eher als
-                  Volkssport bezeichnet wird und von jedermann ausgeübt werden kann.
-                  Als gemeinnütziger Verein haben wir es uns somit zur Aufgabe gemacht, die Bekanntheit der Sportart mit regelmäßigen Veranstaltungen
-                  zu steigern. Zudem sind wir als bisher einziger Verein in 66424 Homburg sehr daran interessiert, begeisterte Dartsspieler als Neumitglieder in unserem Verein willkommen heißen
-                  zu dürfen.
+                Unser primäres Ziel ist die Förderung des Dartsports in der Region. Wir möchten sowohl Hobbyspieler als auch ambitionierte 
+                Wettkampfspieler unterstützen und ihnen die Möglichkeit bieten, ihre Fähigkeiten zu verbessern und an verschiedenen Wettbewerben teilzunehmen. 
+                Unsere Vision ist es, den DC Kirrberg e.V. als führenden Dartverein im Saarland zu etablieren und eine starke Gemeinschaft zu schaffen, die 
+                sowohl sportliche Exzellenz als auch soziale Integration fördert.
                 </p>
                 <p>
                   Nach der Gründungsversammlung wurde der DC Kirrberg e.V.
