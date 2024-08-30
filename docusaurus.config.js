@@ -51,7 +51,6 @@ const config = {
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
           {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
-          {to: 'https://spendenaktion.dckirrberg.de', label: 'SCOLIA Projekt', position: 'left'},
           {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
           {to: '/spenden', label: 'Spenden', position: 'left'},
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
