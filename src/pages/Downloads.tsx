@@ -20,8 +20,15 @@ export default function Team() {
                 <div className="col"><a href="/dateien/Beitragsordnung.pdf" target="_blank">Beitragsordnung.pdf</a></div>
                 <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
                 <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
-                <div className="col"> <a href="/dateien/Saisonplan_DCK_2024_2025.pdf" target="_blank">Saisonplan_DCK_2024_2025.pdf</a></div>
                 <div className="col"><a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept_DCK.pdf</a></div>
+
+                <div className="col"> <a href="/dateien/Saisonplan_Alle_2024_2025.pdf" target="_blank">Saisonplan_Alle_2024_2025.pdf</a></div>
+                <div className="col"> <a href="/dateien/Saisonplan_DCK1_2024_2025.pdf" target="_blank">Saisonplan_DCK1_2024_2025.pdf</a></div>
+                <div className="col"> <a href="/dateien/Saisonplan_DCK2_2024_2025.pdf" target="_blank">Saisonplan_DCK2_2024_2025.pdf</a></div>
+                <div className="col"> <a href="/dateien/Saisonplan_DCK3_2024_2025.pdf" target="_blank">Saisonplan_DCK3_2024_2025.pdf</a></div>
+                <div className="col"> <a href="/dateien/Saisonplan_DCK4_2024_2025.pdf" target="_blank">Saisonplan_DCK4_2024_2025.pdf</a></div>
+                <div className="col"> <a href="/dateien/Saisonplan_DCKDamen_2024_2025.pdf" target="_blank">Saisonplan_DCKDamen_2024_2025.pdf</a></div>
+                
               </div>
             </div> 
 
