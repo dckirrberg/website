@@ -33,10 +33,9 @@ const FeatureList: FeatureItem[] = [
       <>
       <b>Damentraining - Bürgerhaus Kirrberg</b><br></br>
       Montags ab 18:00 Uhr<br></br>
-      <b>Aktiventraining - Sportpark Lerchenhübel</b><br></br>
+      <b>Offenes Training - Sportpark Lerchenhübel</b><br></br>
       Dienstags ab 18:00 Uhr<br></br>
       Donnerstags ab 18:00 Uhr<br></br>
-      <b>Offenes Training - Sportpark Lerchenhübel</b><br></br>
       Freitags ab 18:00 Uhr<br></br>
       </>
     ),

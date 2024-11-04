@@ -58,16 +58,6 @@ export default function Team() {
             </div>
 
             <br />
-            <a href="https://www.dvag.de/sebastian.bauer/index.html" target="_blank">
-
-            <ThemedImage
-              alt="Hauptsponsor" width="400" height="400"
-              sources={{
-                light: ('/img/sebastian.png'),
-                dark: ('/img/sebastian_white.png'),
-              }}
-            />
-            </a>
 
             <div className="container">
             <a href="" target="_blank">
@@ -82,9 +72,6 @@ export default function Team() {
                 dark: ('/img/tassen_w.png'),
               }}
             />
-            </a>
-            <a href="" target="_blank">
-              <img className="text--center padding-horiz--md" width="290" height="170" src="/img/kirchner.jpg"/>
             </a>
             </div>
             <br></br>

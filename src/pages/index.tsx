@@ -30,17 +30,6 @@ function HomepageHeader() {
           </a>
           */}
         </div>
-        
-        <h4>powered by</h4>
-        <a href="https://www.dvag.de/sebastian.bauer/index.html" target="_blank">
-        <ThemedImage
-          alt="Hauptsponsor" width="300" height="300"
-          sources={{
-            light: ('/img/sebastian.png'),
-            dark: ('/img/sebastian_white.png'),
-          }}
-        />
-        <br></br>       
           <div className="container">
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="200" height="100" src="/img/logo_clemens.jpg"/>
@@ -55,13 +44,9 @@ function HomepageHeader() {
               }}
             />
             </a>
-
-            <a href="" target="_blank">
-              <img className="text--center padding-horiz--md" width="200" height="100" src="/img/kirchner.jpg"/>
-            </a>
             
            </div>
-        </a>
+   
       </div>
 
     </header>
