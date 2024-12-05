@@ -16,7 +16,7 @@
     },
     {
       "name": "Nadine Tobi-Kratz",
-      "title": "Stellv. Schatzmeisterin",
+      "title": "1. Schatzmeisterin",
       "image_url": "/dateien/vorstand/Nadine.Tobi-Kratz.jpeg",
       "email": "nadine.tobi-kratz@dckirrberg.de",
       "social_links": []
@@ -43,24 +43,31 @@
       "social_links": []
     },
     {
-      "name": "Patrick Bentz",
-      "title": "1. Beisitzer",
-      "image_url": "/dateien/vorstand/Patrick.Bentz.jpeg",
-      "email": "patrick.bentz@dckirrberg.de",
-      "social_links": []
-    },
-    {
       "name": "Marc Schmitt",
-      "title": "2. Beisitzer",
+      "title": "2. Kassenwart & 2. Schriftführer",
       "image_url": "/dateien/vorstand/Marc.Schmitt.jpeg",
       "email": "marc.schmitt@dckirrberg.de",
       "social_links": []
     },
     {
+      "name": "Michael Didion",
+      "title": "1. Beisitzer & Sponsorenbeauftragter",
+      "image_url": "/dateien/vorstand/Michael.Didion.jpeg",
+      "email": "michael.didion@dckirrberg.de",
+      "social_links": []
+    },
+    {
       "name": "Sven Wagner",
-      "title": "3. Beisitzer",
+      "title": "2. Beisitzer",
       "image_url": "/dateien/vorstand/Sven.Wagner.jpeg",
       "email": "sven.wagner@dckirrberg.de",
+      "social_links": []
+    },
+    {
+      "name": "Saskia Schneider",
+      "title": "3. Beisitzerin",
+      "image_url": "/dateien/vorstand/Saskia.Schneider.jpeg",
+      "email": "saskia.schneider@dckirrberg.de",
       "social_links": []
     }
   ]
