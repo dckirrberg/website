@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[594],{5651:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/jens-kniest","name":"Jens Kniest","count":1,"permalink":"/blog/tags/jens-kniest"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdckirrberg=self.webpackChunkdckirrberg||[]).push([[9068],{7285:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/aktive","name":"Aktive","count":2,"permalink":"/blog/tags/aktive"}')}}]);
