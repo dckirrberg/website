@@ -9,7 +9,35 @@ export default function Team() {
       <div className="hero">
         <div className="container">
           <div className="text--center margin-bottom--lg">
-            <h2 className="hero__title margin--none">Sponsorenbeauftragter & Sponsoren des Vereins</h2>
+
+          <h2 className="hero__title margin--none">Unsere Sponsoren</h2><br></br>
+          <div className="container">
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="250" height="150" src="/img/logo_clemens.jpg"/>
+            </a>
+
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="280" height="180" src="/img/HERZ.jpeg"/>
+            </a>
+            
+            <a href="https://www.dvag.de/frank.bauer/index.html" target="_blank">
+              <img className="text--center padding-horiz--md" width="250" height="150" src="/img/DVAG_FRANK.png"/>
+            </a>
+            <br></br><br></br>
+            <a href="https://tassenkarton.de/" target="_blank">
+            <ThemedImage
+              alt="Sponsor" width="300" height="80"
+              sources={{
+                light: ('/img/tassen_b.png'),
+                dark: ('/img/tassen_w.png'),
+              }}
+            />
+            </a>
+            
+           </div>
+            <br></br>
+            <br></br>
+            <h2 className="hero__title margin--none">Unser Sponsorenbeauftragter</h2>
             <div className="row">
             <br></br>
               <p>
@@ -59,23 +87,6 @@ export default function Team() {
 
             <br />
 
-            <div className="container">
-            <a href="" target="_blank">
-              <img className="text--center padding-horiz--md" width="290" height="170" src="/img/logo_clemens.jpg"/>
-            </a>
-
-            <a href="https://tassenkarton.de/" target="_blank">
-            <ThemedImage
-              alt="Hauptsponsor" width="200" height="50"
-              sources={{
-                light: ('/img/tassen_b.png'),
-                dark: ('/img/tassen_w.png'),
-              }}
-            />
-            </a>
-            </div>
-            <br></br>
-            <br></br>
           </div>
         </div>
       </div>

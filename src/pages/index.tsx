@@ -32,12 +32,20 @@ function HomepageHeader() {
         </div>
           <div className="container">
             <a href="" target="_blank">
-              <img className="text--center padding-horiz--md" width="200" height="100" src="/img/logo_clemens.jpg"/>
+              <img className="text--center padding-horiz--md" width="250" height="150" src="/img/logo_clemens.jpg"/>
             </a>
 
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="280" height="180" src="/img/HERZ.jpeg"/>
+            </a>
+            
+            <a href="https://www.dvag.de/frank.bauer/index.html" target="_blank">
+              <img className="text--center padding-horiz--md" width="250" height="150" src="/img/DVAG_FRANK.png"/>
+            </a>
+            <br></br><br></br>
             <a href="https://tassenkarton.de/" target="_blank">
             <ThemedImage
-              alt="Sponsor" width="200" height="50"
+              alt="Sponsor" width="300" height="80"
               sources={{
                 light: ('/img/tassen_b.png'),
                 dark: ('/img/tassen_w.png'),
