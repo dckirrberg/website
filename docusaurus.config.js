@@ -50,10 +50,11 @@ const config = {
         title: 'DC Kirrberg e.V.',
         items: [
           {to: '/team', label: 'Über uns', position: 'left'},
-          {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
+          {to: 'https://antrag.dckirrberg.de', label: 'Jetzt Mitglied werden', position: 'left'},
           {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
           {to: '/spenden', label: 'Spenden', position: 'left'},
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
+          {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
           {to: '/downloads', label: 'Downloads', position: 'left'},
         ],
       },

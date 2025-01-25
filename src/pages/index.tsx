@@ -21,15 +21,17 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          {/*
+          <br></br>
+          {
           <a
             className="button button--secondary button--lg"
             target="_blank"
-            href="http://online-mitgliedsantrag.dckirrberg.de/">
+            href="http://antrag.dckirrberg.de/">
             Zum Online-Anmeldeformular
           </a>
-          */}
+          }
         </div>
+        <br></br>
           <div className="container">
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="250" height="150" src="/img/logo_clemens.jpg"/>
