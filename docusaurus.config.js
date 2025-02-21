@@ -54,6 +54,7 @@ const config = {
           {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
           {to: '/spenden', label: 'Spenden', position: 'left'},
           {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
+          {to: '/forderungsrangliste', label: 'Forderungsrangliste', position: 'left'},
           {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
           {to: '/downloads', label: 'Downloads', position: 'left'},
         ],

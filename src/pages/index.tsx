@@ -21,6 +21,8 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+        <br></br>
+
           <br></br>
           {
           <a
@@ -33,6 +35,7 @@ function HomepageHeader() {
         </div>
         <br></br>
           <div className="container">
+   
             <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="250" height="150" src="/img/logo_clemens.jpg"/>
             </a>
