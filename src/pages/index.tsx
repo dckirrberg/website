@@ -48,12 +48,16 @@ function HomepageHeader() {
               <img className="text--center padding-horiz--md" width="250" height="150" src="/img/DVAG_FRANK.png"/>
             </a>
             <br></br><br></br>
-            <a href="https://tassenkarton.de/" target="_blank">
+            <a href="https://zdart.de/" target="_blank">
+              <img className="text--center padding-horiz--md" width="300" height="250" src="/img/zeise.png"/>
+            </a>
+            <br></br>
+            <a href="https://sdwg.de//" target="_blank">
             <ThemedImage
-              alt="Sponsor" width="300" height="80"
+              alt="Sponsor" width="200" height="80"
               sources={{
-                light: ('/img/tassen_b.png'),
-                dark: ('/img/tassen_w.png'),
+                light: ('/img/schlag.png'),
+                dark: ('/img/schlag.png'),
               }}
             />
             </a>
