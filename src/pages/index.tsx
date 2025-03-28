@@ -48,19 +48,23 @@ function HomepageHeader() {
               <img className="text--center padding-horiz--md" width="250" height="150" src="/img/DVAG_FRANK.png"/>
             </a>
             <br></br><br></br>
-            <a href="https://zdart.de/" target="_blank">
-              <img className="text--center padding-horiz--md" width="300" height="250" src="/img/zeise.png"/>
-            </a>
             <br></br>
             <a href="https://sdwg.de//" target="_blank">
             <ThemedImage
-              alt="Sponsor" width="200" height="80"
+              alt="Sponsor" width="200" height="70"
               sources={{
                 light: ('/img/schlag.png'),
                 dark: ('/img/schlag.png'),
               }}
             />
+            </a><br></br>
+            <a href="https://zdart.de/" target="_blank">
+              <img className="text--center padding-horiz--md" width="300" height="250" src="/img/zeise.png"/>
             </a>
+            <a href="https://zdart.de/" target="_blank">
+              <img className="text--center padding-horiz--md" width="270" height="220" src="/img/bariel.jpeg"/>
+            </a>
+
             
            </div>
    
