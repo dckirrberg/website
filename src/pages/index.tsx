@@ -61,7 +61,7 @@ function HomepageHeader() {
             <a href="https://zdart.de/" target="_blank">
               <img className="text--center padding-horiz--md" width="300" height="250" src="/img/zeise.png"/>
             </a>
-            <a href="https://zdart.de/" target="_blank">
+            <a href="" target="_blank">
               <img className="text--center padding-horiz--md" width="270" height="220" src="/img/bariel.jpeg"/>
             </a>
 
