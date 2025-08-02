@@ -1,0 +1,199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20250914T150000
+DTEND:20250914T180000
+DESCRIPTION:DC Bischmisheim 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Bischmisheim
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20250914T150000-DCK1-1@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250928T150000
+DTEND:20250928T150000
+DESCRIPTION:Spielfrei: DC Kirrberg 1
+SUMMARY:Spielfrei: DC Kirrberg 1
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20250928T150000-DCK1-2@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251012T150000
+DTEND:20251012T180000
+DESCRIPTION:DC Flaming Star 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Bous
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20251012T150000-DCK1-3@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251025T150000
+DTEND:20251025T180000
+DESCRIPTION:DC Los Locos 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Ort Los Locos
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20251025T150000-DCK1-4@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251130T150000
+DTEND:20251130T180000
+DESCRIPTION:DC Kirrberg 1 : SV Neunkirchen 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20251130T150000-DCK1-5@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251207T150000
+DTEND:20251207T180000
+DESCRIPTION:DC Ladis Eck 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Dillingen
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20251207T150000-DCK1-6@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251221T150000
+DTEND:20251221T180000
+DESCRIPTION:DC Kirrberg 1 : DC Bliestal 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20251221T150000-DCK1-7@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260111T150000
+DTEND:20260111T180000
+DESCRIPTION:DC Kirrberg 1 : DC Fighters
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260111T150000-DCK1-8@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260124T150000
+DTEND:20260124T180000
+DESCRIPTION:DC Thats Life 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Ort Thats Life
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260124T150000-DCK1-9@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260201T150000
+DTEND:20260201T180000
+DESCRIPTION:DC Kirrberg 1 : DC Bischmisheim 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260201T150000-DCK1-10@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260222T150000
+DTEND:20260222T150000
+DESCRIPTION:Spielfrei: DC Kirrberg 1
+SUMMARY:Spielfrei: DC Kirrberg 1
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260222T150000-DCK1-11@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260301T150000
+DTEND:20260301T180000
+DESCRIPTION:DC Kirrberg 1 : DC Flaming Star 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260301T150000-DCK1-12@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260315T150000
+DTEND:20260315T180000
+DESCRIPTION:DC Kirrberg 1 : DC Los Locos 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260315T150000-DCK1-13@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260329T150000
+DTEND:20260329T180000
+DESCRIPTION:SV Neunkirchen 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Neunkirchen
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260329T150000-DCK1-14@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260412T150000
+DTEND:20260412T180000
+DESCRIPTION:DC Kirrberg 1 : DC Ladis Eck 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260412T150000-DCK1-15@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260425T150000
+DTEND:20260425T180000
+DESCRIPTION:DC Bliestal 1 : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Blieskastel
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260425T150000-DCK1-16@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260503T150000
+DTEND:20260503T180000
+DESCRIPTION:DC Fighters : DC Kirrberg 1
+SUMMARY:Auswärtsspiel: DC Kirrberg 1
+LOCATION:Völklingen
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260503T150000-DCK1-17@dckirrberg.de
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260510T150000
+DTEND:20260510T180000
+DESCRIPTION:DC Kirrberg 1 : DC Thats Life 1
+SUMMARY:Heimspiel: DC Kirrberg 1
+LOCATION:Sportpark Lerchenhübel\nEckstraße 133\n66424 Homburg-Kirrberg
+COMMENT:Saarliga 1
+PRIORITY:0
+ORGANIZER;CN="DC Kirrberg e.V.":mailto:info@dckirrberg.de
+UID:20260510T150000-DCK1-18@dckirrberg.de
+END:VEVENT
+END:VCALENDAR

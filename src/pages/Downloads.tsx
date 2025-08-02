@@ -31,6 +31,15 @@ export default function Team() {
                 <div className="col"><b>Kalenderimport</b></div>
               </div>
               <div className="column column--no-gutters">
+                <div className="col"> <a href="/dateien/DC_Kirrberg_ALLE_Teams_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_ALLE_Teams_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DC_Kirrberg_ALLE_Teams_HEIMSPIELE_2025_2026.ics" target="_blank">DC_Kirrberg_ALLE_Teams_HEIMSPIELE_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DC_Kirrberg_1_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_1_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DC_Kirrberg_2_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_2_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DC_Kirrberg_3_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_3_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DCK_Warriors_Spielplan_2025_2026.ics" target="_blank">DCK_Warriors_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DCK_Blackout_Spielplan_2025_2026.ics" target="_blank">DCK_Blackout_Spielplan_2025_2026.ics</a></div>
+                <div className="col"> <a href="/dateien/DCK_Steelsisters_Spielplan_2025_2026.ics" target="_blank">DCK_Steelsisters_Spielplan_2025_2026.ics</a></div>    
+
               </div>
             </div> 
           </div>
