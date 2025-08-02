@@ -12,37 +12,35 @@ export default function Team() {
 
           <h2 className="hero__title margin--none">Unsere Sponsoren</h2><br></br>
           <div className="container">
-              <a href="" target="_blank">
-                <img className="text--center padding-horiz--md" width="250" height="150" src="/img/logo_clemens.jpg"/>
-              </a>
+   
+            <a href="https://www.sonderpreis-baumarkt.de/" target="_blank">
+              <img className="text--center padding-horiz--md" width="180" height="150" src="/img/baumarkt.jpg"/>
+            </a>
 
-              <a href="" target="_blank">
-                <img className="text--center padding-horiz--md" width="280" height="180" src="/img/HERZ.jpeg"/>
-              </a>
-              
-              <a href="https://www.dvag.de/frank.bauer/index.html" target="_blank">
-                <img className="text--center padding-horiz--md" width="250" height="150" src="/img/DVAG_FRANK.png"/>
-              </a>
-              <br></br><br></br>
-              <br></br>
-              <a href="https://sdwg.de//" target="_blank">
-              <ThemedImage
-                alt="Sponsor" width="200" height="70"
-                sources={{
-                  light: ('/img/schlag.png'),
-                  dark: ('/img/schlag.png'),
-                }}
-              />
-              </a><br></br>
+            <a href="" target="_blank">
+              <img className="text--center padding-horiz--md" width="280" height="180" src="/img/HERZ.jpeg"/>
+            </a>
+                        <a href="https://sdwg.de//" target="_blank">
+            <ThemedImage
+              alt="Sponsor" width="200" height="70"
+              sources={{
+                light: ('/img/schlag.png'),
+                dark: ('/img/schlag.png'),
+              }}
+            />
+            </a>
+
+            <br></br><br></br>
+              <img className="text--center padding-horiz--md" width="210" height="150" src="/img/DVAG_FRANK.png"/>
+            <img className="text--center padding-horiz--md" width="210" height="150" src="/img/bariel.jpeg"/>              
+           <br></br>
+            <a href="https://www.dvag.de/frank.bauer/index.html" target="_blank">
+            </a>
               <a href="https://zdart.de/" target="_blank">
-                <img className="text--center padding-horiz--md" width="300" height="250" src="/img/zeise.png"/>
+              <img className="text--center padding-horiz--md" width="220" height="170" src="/img/zeise.png"/>
               </a>
-              <a href="" target="_blank">
-                <img className="text--center padding-horiz--md" width="270" height="220" src="/img/bariel.jpeg"/>
-              </a>
-
-              
-              </div>
+           
+           </div>
             <br></br>
             <br></br>
             <h2 className="hero__title margin--none">Unser Sponsorenbeauftragter</h2>
