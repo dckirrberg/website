@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdckirrberg=globalThis.webpackChunkdckirrberg||[]).push([[8349],{918(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/winmau-board","name":"WINMAU Board","count":1,"permalink":"/blog/tags/winmau-board"}')}}]);

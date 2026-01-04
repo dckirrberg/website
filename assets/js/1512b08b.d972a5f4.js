@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdckirrberg=globalThis.webpackChunkdckirrberg||[]).push([[6728],{2252(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/deutsche-vermogensberatung-sebastian-bauer","name":"Deutsche Verm\xf6gensberatung - Sebastian Bauer","count":1,"permalink":"/blog/tags/deutsche-vermogensberatung-sebastian-bauer"}')}}]);

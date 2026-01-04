@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdckirrberg=globalThis.webpackChunkdckirrberg||[]).push([[6429],{8495(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vorstand","name":"Vorstand","count":1,"permalink":"/blog/tags/vorstand"}')}}]);

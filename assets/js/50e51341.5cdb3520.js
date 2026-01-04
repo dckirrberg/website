@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdckirrberg=globalThis.webpackChunkdckirrberg||[]).push([[4403],{5395(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/trainingsstatte","name":"Trainingsst\xe4tte","count":1,"permalink":"/blog/tags/trainingsstatte"}')}}]);
