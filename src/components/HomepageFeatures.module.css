@@ -1,11 +1,210 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 5rem 0;
   width: 100%;
+  background: linear-gradient(180deg, #120505 0%, #0a0202 100%);
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureCard {
+  background: rgba(18, 5, 5, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: featureCardEnter 0.6s ease forwards;
+  border: 1px solid rgba(200, 49, 62, 0.15);
+}
+
+/* Left accent bar */
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #C8313E 0%, rgba(200, 49, 62, 0.3) 100%);
+  border-radius: 4px 0 0 4px;
+}
+
+@keyframes featureCardEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(200, 49, 62, 0.1);
+  border-color: rgba(200, 49, 62, 0.3);
+  background: rgba(26, 8, 8, 0.85);
+}
+
+.featureCard:hover::before {
+  background: linear-gradient(180deg, #C8313E 0%, #C8313E 100%);
+  box-shadow: 0 0 20px rgba(200, 49, 62, 0.5);
+}
+
+.featureHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.featureNumber {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #C8313E;
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.featureSubtitle {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.featureTitle {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  line-height: 1.3;
+}
+
+.featureDescription {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.featureDescription a {
+  color: #C8313E;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.featureDescription a:hover {
+  color: #d64050;
+  border-bottom-color: #d64050;
+}
+
+/* Feature CTA Button */
+.featureCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #C8313E 0%, #a02832 100%);
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.featureCta:hover {
+  background: linear-gradient(135deg, #d64050 0%, #C8313E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 49, 62, 0.4);
+  color: #ffffff;
+}
+
+.ctaArrow {
+  transition: transform 0.3s ease;
+}
+
+.featureCta:hover .ctaArrow {
+  transform: translateX(4px);
+}
+
+/* Schedule items styling */
+.scheduleItem {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.scheduleItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.scheduleItem:first-child {
+  padding-top: 0;
+}
+
+.scheduleItem strong {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.scheduleItem span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 3rem 1rem;
+  }
+
+  .featureCard {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .featureNumber {
+    font-size: 2rem;
+  }
+
+  .featureTitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features {
+    padding: 2rem 1rem;
+  }
+
+  .featureCard {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .featureNumber {
+    font-size: 1.75rem;
+  }
+
+  .featureTitle {
+    font-size: 1.1rem;
+  }
+
+  .featureDescription {
+    font-size: 0.9rem;
+  }
+
+  .featureSubtitle {
+    font-size: 0.75rem;
+  }
 }

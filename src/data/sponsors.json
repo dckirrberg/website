@@ -1,0 +1,10 @@
+{
+  "sponsors": [
+    { "name": "Sonderpreis Baumarkt", "url": "https://www.sonderpreis-baumarkt.de/", "logo": "/img/baumarkt.jpg" },
+    { "name": "HERZ", "url": "", "logo": "/img/HERZ.jpeg" },
+    { "name": "Schlag den Wirt GmbH", "url": "https://sdwg.de/", "logo": "/img/schlag.png" },
+    { "name": "DVAG Frank Bauer", "url": "https://www.dvag.de/frank.bauer/index.html", "logo": "/img/DVAG_FRANK.png" },
+    { "name": "Bariel", "url": "", "logo": "/img/bariel.jpeg" },
+    { "name": "zDart - Zeise Darts", "url": "https://zdart.de/", "logo": "/img/zeise.png" }
+  ]
+}

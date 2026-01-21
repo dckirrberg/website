@@ -1,0 +1,527 @@
+/* Ergebnisse Page Styles */
+
+/* Base Page */
+.page {
+  background: var(--dc-black, #0a0202);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center top, rgba(200, 49, 62, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 20px rgba(200, 49, 62, 0.3);
+}
+
+.heroTitle::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #C8313E, transparent);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #C8313E;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.heroIntro {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section Divider */
+.divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #C8313E 50%, transparent 100%);
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* Section Headers */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sectionSubtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Quick Links Section */
+.quickLinksSection {
+  background: linear-gradient(180deg, #120505 0%, #1a0808 50%, #120505 100%);
+  padding: 3rem 2rem;
+}
+
+.quickLinksGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quickLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  background: rgba(200, 49, 62, 0.08);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.quickLink:hover {
+  background: rgba(200, 49, 62, 0.15);
+  border-color: #C8313E;
+  transform: translateY(-3px);
+  color: #ffffff;
+}
+
+.quickLinkIcon {
+  font-size: 1.25rem;
+}
+
+.quickLinkExternal {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* Team Photo Section */
+.teamPhotoSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.teamPhotoContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.teamPhotoWrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(200, 49, 62, 0.2);
+}
+
+.teamPhoto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.teamPhotoCaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(10, 2, 2, 0.95));
+  padding: 3rem 2rem 1.5rem;
+  text-align: center;
+}
+
+.captionText {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.captionSeason {
+  color: #C8313E;
+  font-weight: 700;
+}
+
+/* Teams Overview Section */
+.teamsSection {
+  background: linear-gradient(180deg, #0a0202 0%, #150707 50%, #0a0202 100%);
+  padding: 4rem 2rem;
+}
+
+.teamsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.teamCard {
+  background: rgba(18, 5, 5, 0.7);
+  border: 1px solid rgba(200, 49, 62, 0.15);
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.teamCard:hover {
+  border-color: rgba(200, 49, 62, 0.4);
+  transform: translateY(-3px);
+  background: rgba(26, 8, 8, 0.85);
+}
+
+.teamBadge {
+  width: 48px;
+  height: 48px;
+  background: #C8313E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin: 0 auto 0.75rem;
+}
+
+.teamName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.teamLeague {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Spielplan Section */
+.spielplanSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.spielplanContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.spielplanCard {
+  background: rgba(18, 5, 5, 0.6);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.spielplanCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #C8313E, #a02832);
+}
+
+.spielplanHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(200, 49, 62, 0.15);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.spielplanTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.spielplanTitleIcon {
+  font-size: 1.5rem;
+}
+
+.spielplanLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #C8313E;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(200, 49, 62, 0.3);
+  border-radius: 6px;
+}
+
+.spielplanLink:hover {
+  background: rgba(200, 49, 62, 0.15);
+  color: #ffffff;
+}
+
+.iframeWrapper {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: #0a0202;
+}
+
+.iframeWrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.iframeOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 2, 2, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.iframeWrapper:hover .iframeOverlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fullscreenButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: #C8313E;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.fullscreenButton:hover {
+  background: #a02832;
+  transform: translateY(-2px);
+}
+
+/* Info Section */
+.infoSection {
+  background: linear-gradient(180deg, #120505 0%, #0a0202 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.infoContent {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.infoText {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.infoLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #C8313E;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.infoLink:hover {
+  color: #ffffff;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .iframeWrapper {
+    height: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heroTitle {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .iframeWrapper {
+    height: 600px;
+  }
+
+  .spielplanHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .teamsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroIntro {
+    font-size: 1rem;
+  }
+
+  .quickLinksSection,
+  .teamPhotoSection,
+  .teamsSection,
+  .spielplanSection,
+  .infoSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .quickLinksGrid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .quickLink {
+    justify-content: center;
+  }
+
+  .teamsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .teamCard {
+    padding: 1rem;
+  }
+
+  .teamBadge {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .iframeWrapper {
+    height: 500px;
+  }
+
+  .spielplanHeader {
+    padding: 1rem 1.25rem;
+  }
+
+  .spielplanTitle {
+    font-size: 1.1rem;
+  }
+
+  .teamPhotoCaption {
+    padding: 2rem 1rem 1rem;
+  }
+}

@@ -1,0 +1,668 @@
+/* Sponsoring Page Styles */
+
+/* Base Page */
+.page {
+  background: var(--dc-black, #0a0202);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center top, rgba(200, 49, 62, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 20px rgba(200, 49, 62, 0.3);
+}
+
+.heroTitle::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #C8313E, transparent);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #C8313E;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.heroIntro {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section Divider */
+.divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #C8313E 50%, transparent 100%);
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* Section Headers */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sectionSubtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Stats Section */
+.statsSection {
+  background: linear-gradient(180deg, #120505 0%, #1a0808 50%, #120505 100%);
+  padding: 3rem 2rem;
+}
+
+.statsBar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: rgba(200, 49, 62, 0.08);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 12px;
+  min-width: 140px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.statItem:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 49, 62, 0.4);
+}
+
+.statValue {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #C8313E;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Sponsors Section */
+.sponsorsSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.sponsorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sponsorCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(200, 49, 62, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  transition: all 0.3s ease;
+}
+
+.sponsorCard:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(200, 49, 62, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.sponsorLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.sponsorLogo {
+  max-width: 160px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0.95);
+  transition: all 0.3s ease;
+}
+
+.sponsorCard:hover .sponsorLogo {
+  filter: brightness(1.1);
+}
+
+/* Benefits Section */
+.benefitsSection {
+  background: linear-gradient(180deg, #0a0202 0%, #150707 50%, #0a0202 100%);
+  padding: 4rem 2rem;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefitCard {
+  background: rgba(18, 5, 5, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(200, 49, 62, 0.15);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.benefitCard:nth-child(1) { animation-delay: 0.1s; }
+.benefitCard:nth-child(2) { animation-delay: 0.2s; }
+.benefitCard:nth-child(3) { animation-delay: 0.3s; }
+.benefitCard:nth-child(4) { animation-delay: 0.4s; }
+.benefitCard:nth-child(5) { animation-delay: 0.5s; }
+.benefitCard:nth-child(6) { animation-delay: 0.6s; }
+
+.benefitCard:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(200, 49, 62, 0.1);
+  border-color: rgba(200, 49, 62, 0.3);
+  background: rgba(26, 8, 8, 0.85);
+}
+
+.benefitIcon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.benefitTitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.benefitDescription {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Packages Section */
+.packagesSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.packagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.packageCard {
+  background: rgba(18, 5, 5, 0.6);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.packageCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #C8313E, #a02832);
+}
+
+.packageCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 49, 62, 0.4);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.packageCard.featured {
+  border-color: #C8313E;
+  background: rgba(200, 49, 62, 0.08);
+}
+
+.packageCard.featured::before {
+  height: 6px;
+}
+
+.packageBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #C8313E;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.packageName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.packagePrice {
+  font-size: 1.1rem;
+  color: #C8313E;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.packageFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.packageFeatures li {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.packageFeatures li:last-child {
+  border-bottom: none;
+}
+
+.packageFeatures li::before {
+  content: '✓';
+  color: #C8313E;
+  font-weight: 700;
+}
+
+/* Contact Section */
+.contactSection {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 4rem 2rem;
+}
+
+.contactCard {
+  background: rgba(18, 5, 5, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contactImage {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #C8313E;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px rgba(200, 49, 62, 0.2);
+}
+
+.contactName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.contactRole {
+  font-size: 1rem;
+  color: #C8313E;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.contactText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+
+.contactLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #C8313E;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #C8313E;
+  border-radius: 8px;
+}
+
+.contactLink:hover {
+  background: #C8313E;
+  color: #ffffff;
+}
+
+/* CTA Section */
+.ctaSection {
+  background: linear-gradient(180deg, #150707 0%, #0a0202 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaButtonPrimary {
+  background: #C8313E;
+  color: #ffffff;
+  border: 2px solid #C8313E;
+}
+
+.ctaButtonPrimary:hover {
+  background: #a02832;
+  border-color: #a02832;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(200, 49, 62, 0.3);
+}
+
+.ctaButtonSecondary {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(200, 49, 62, 0.5);
+}
+
+.ctaButtonSecondary:hover {
+  background: rgba(200, 49, 62, 0.15);
+  border-color: #C8313E;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.buttonIcon {
+  font-size: 1.2rem;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .heroTitle {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .statsBar {
+    gap: 1rem;
+  }
+
+  .statItem {
+    padding: 1rem 1.5rem;
+    min-width: 120px;
+  }
+
+  .statValue {
+    font-size: 2rem;
+  }
+
+  .sponsorsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contactCard {
+    padding: 2rem 1.5rem;
+  }
+
+  .contactImage {
+    width: 150px;
+    height: 150px;
+  }
+
+  .ctaTitle {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroIntro {
+    font-size: 1rem;
+  }
+
+  .statsSection,
+  .sponsorsSection,
+  .benefitsSection,
+  .packagesSection,
+  .contactSection,
+  .ctaSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .statItem {
+    padding: 1rem;
+    min-width: 100px;
+  }
+
+  .statValue {
+    font-size: 1.75rem;
+  }
+
+  .statLabel {
+    font-size: 0.75rem;
+  }
+
+  .sponsorsGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .sponsorCard {
+    padding: 1rem;
+    min-height: 100px;
+  }
+
+  .sponsorLogo {
+    max-width: 120px;
+    max-height: 70px;
+  }
+
+  .benefitsGrid,
+  .packagesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefitCard {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .packageCard {
+    padding: 1.5rem;
+  }
+
+  .contactImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .contactName {
+    font-size: 1.25rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .ctaButton {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,506 @@
+/* Team Page Styles */
+
+/* Hero Section */
+.teamPage {
+  background: var(--dc-black, #0a0202);
+  min-height: 100vh;
+}
+
+.teamHero {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.teamHero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center top, rgba(200, 49, 62, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 20px rgba(200, 49, 62, 0.3);
+}
+
+.heroTitle::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #C8313E, transparent);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.teamIntro {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.teamIntro p {
+  margin-bottom: 1rem;
+}
+
+.teamIntro p:last-child {
+  margin-bottom: 0;
+}
+
+/* Section Divider */
+.divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #C8313E 50%, transparent 100%);
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* Board Section */
+.boardSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem 5rem;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sectionSubtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Team Grid */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Responsive Grid */
+@media (max-width: 1200px) {
+  .teamGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .teamHero {
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .boardSection {
+    padding: 2.5rem 1rem 3rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+}
+
+/* Stats Bar Section */
+.statsSection {
+  background: linear-gradient(180deg, #120505 0%, #1a0808 50%, #120505 100%);
+  padding: 3rem 2rem;
+}
+
+.statsBar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: rgba(200, 49, 62, 0.08);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 12px;
+  min-width: 140px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.statItem:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 49, 62, 0.4);
+}
+
+.statValue {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #C8313E;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* History Section */
+.historySection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, #C8313E 0%, rgba(200, 49, 62, 0.3) 100%);
+}
+
+.timelineItem {
+  position: relative;
+  padding-bottom: 2.5rem;
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.timelineItem:nth-child(1) { animation-delay: 0.1s; }
+.timelineItem:nth-child(2) { animation-delay: 0.2s; }
+.timelineItem:nth-child(3) { animation-delay: 0.3s; }
+.timelineItem:nth-child(4) { animation-delay: 0.4s; }
+.timelineItem:nth-child(5) { animation-delay: 0.5s; }
+.timelineItem:nth-child(6) { animation-delay: 0.6s; }
+
+.timelineItem:last-child {
+  padding-bottom: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -33px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #C8313E;
+  border-radius: 50%;
+  border: 3px solid #0a0202;
+  box-shadow: 0 0 10px rgba(200, 49, 62, 0.5);
+}
+
+.timelineDate {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #C8313E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.timelineTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.timelineDescription {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Achievements Section */
+.achievementsSection {
+  background: linear-gradient(180deg, #0a0202 0%, #150707 50%, #0a0202 100%);
+  padding: 4rem 2rem;
+}
+
+.achievementsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.achievementCard {
+  background: rgba(200, 49, 62, 0.05);
+  border: 1px solid rgba(200, 49, 62, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.achievementCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(200, 49, 62, 0.4);
+  background: rgba(200, 49, 62, 0.1);
+}
+
+.achievementIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.achievementContent {
+  flex: 1;
+}
+
+.achievementTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.achievementYear {
+  font-size: 0.85rem;
+  color: #C8313E;
+  font-weight: 500;
+}
+
+/* Teams Section */
+.teamsSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.teamsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teamCard {
+  background: linear-gradient(135deg, rgba(200, 49, 62, 0.08) 0%, rgba(200, 49, 62, 0.02) 100%);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200, 49, 62, 0.4);
+}
+
+.teamCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.teamNumber {
+  width: 36px;
+  height: 36px;
+  background: #C8313E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.teamName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.teamLeague {
+  display: inline-block;
+  background: rgba(200, 49, 62, 0.15);
+  color: #C8313E;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.teamInfo {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Responsive Styles for New Sections */
+@media (max-width: 900px) {
+  .statsBar {
+    gap: 1rem;
+  }
+
+  .statItem {
+    padding: 1rem 1.5rem;
+    min-width: 120px;
+  }
+
+  .statValue {
+    font-size: 2rem;
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timelineDot {
+    left: -28px;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .statsSection {
+    padding: 2rem 1rem;
+  }
+
+  .statsBar {
+    gap: 0.75rem;
+  }
+
+  .statItem {
+    padding: 1rem;
+    min-width: 100px;
+  }
+
+  .statValue {
+    font-size: 1.75rem;
+  }
+
+  .statLabel {
+    font-size: 0.75rem;
+  }
+
+  .historySection,
+  .achievementsSection,
+  .teamsSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .timeline {
+    padding-left: 25px;
+  }
+
+  .timeline::before {
+    left: 8px;
+  }
+
+  .timelineDot {
+    left: -22px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .timelineTitle {
+    font-size: 1.1rem;
+  }
+
+  .achievementsGrid,
+  .teamsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Animation keyframes are defined in custom.css */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

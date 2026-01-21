@@ -1,0 +1,471 @@
+/* Spenden Page Styles */
+
+/* Base Page */
+.page {
+  background: var(--dc-black, #0a0202);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center top, rgba(200, 49, 62, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 20px rgba(200, 49, 62, 0.3);
+}
+
+.heroTitle::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #C8313E, transparent);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #C8313E;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.heroIntro {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Section Divider */
+.divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #C8313E 50%, transparent 100%);
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* Section Headers */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sectionSubtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Why Donate Section */
+.whySection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+}
+
+.reasonsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reasonCard {
+  background: rgba(18, 5, 5, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(200, 49, 62, 0.15);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.reasonCard:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(200, 49, 62, 0.1);
+  border-color: rgba(200, 49, 62, 0.3);
+  background: rgba(26, 8, 8, 0.85);
+}
+
+.reasonIcon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.reasonTitle {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.reasonDescription {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Bank Details Section */
+.bankSection {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 50%, #0a0202 100%);
+  padding: 4rem 2rem;
+}
+
+.bankCard {
+  background: rgba(18, 5, 5, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.bankCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #C8313E, #a02832);
+}
+
+.bankCardTitle {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.bankIcon {
+  font-size: 1.75rem;
+}
+
+.bankDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bankRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.bankRow:hover {
+  background: rgba(200, 49, 62, 0.1);
+  border-color: rgba(200, 49, 62, 0.2);
+}
+
+.bankLabel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.bankValue {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Monaco', 'Consolas', monospace;
+  letter-spacing: 0.5px;
+}
+
+.ibanRow .bankValue {
+  color: #C8313E;
+  font-size: 1.1rem;
+}
+
+.copyHint {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+/* Thank You Section */
+.thankYouSection {
+  background: var(--dc-black, #0a0202);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.thankYouContent {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.thankYouTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.thankYouText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.infoBox {
+  background: rgba(200, 49, 62, 0.1);
+  border: 1px solid rgba(200, 49, 62, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.infoBoxTitle {
+  color: #C8313E;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.infoBoxText {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contactLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #C8313E;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #C8313E;
+  border-radius: 8px;
+}
+
+.contactLink:hover {
+  background: #C8313E;
+  color: #ffffff;
+}
+
+/* Sponsor Link Section */
+.sponsorSection {
+  background: linear-gradient(180deg, #120505 0%, #0a0202 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.sponsorContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sponsorText {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.sponsorButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: transparent;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(200, 49, 62, 0.5);
+}
+
+.sponsorButton:hover {
+  background: rgba(200, 49, 62, 0.15);
+  border-color: #C8313E;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.buttonArrow {
+  transition: transform 0.3s ease;
+}
+
+.sponsorButton:hover .buttonArrow {
+  transform: translateX(4px);
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .heroTitle {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .reasonsGrid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+
+  .bankCard {
+    padding: 2rem 1.5rem;
+  }
+
+  .bankRow {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .thankYouTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroIntro {
+    font-size: 1rem;
+  }
+
+  .whySection,
+  .bankSection,
+  .thankYouSection,
+  .sponsorSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .reasonCard {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .bankCardTitle {
+    font-size: 1.25rem;
+  }
+
+  .bankValue {
+    font-size: 0.9rem;
+    word-break: break-all;
+  }
+
+  .ibanRow .bankValue {
+    font-size: 0.95rem;
+  }
+
+  .thankYouTitle {
+    font-size: 1.5rem;
+  }
+
+  .infoBox {
+    padding: 1.25rem 1rem;
+  }
+}

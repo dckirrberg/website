@@ -1,39 +1,39 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DC Kirrberg e.V.',
-  tagline: 'GOOD DARTS in Homburg an der Saar',
-  url: 'https://dckirrberg.de',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'dckirrberg', // Usually your GitHub org/user name.
-  projectName: 'website', // Usually your repo name.
+  title: "DC Kirrberg e.V.",
+  tagline: "GOOD DARTS in Homburg an der Saar",
+  url: "https://dckirrberg.de",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "dckirrberg", // Usually your GitHub org/user name.
+  projectName: "website", // Usually your repo name.
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/dckirrberg/website/edit/main/website/',
+          editUrl: "https://github.com/dckirrberg/website/edit/main/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/dckirrberg/webiste/edit/main/website/blog/',
+            "https://github.com/dckirrberg/webiste/edit/main/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -43,58 +43,67 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'DC Kirrberg e.V.',
+        title: "DC Kirrberg e.V.",
         items: [
-          {to: '/team', label: 'Über uns', position: 'left'},
-          {to: 'https://antrag.dckirrberg.de', label: 'Jetzt Mitglied werden', position: 'left'},
-          {to: '/ergebnisse', label: 'Teams & Ergebnisse', position: 'left'},
-          {to: '/spenden', label: 'Spenden', position: 'left'},
-          {to: '/sponsoring', label: 'Sponsoren', position: 'left'},    
-          {to: '/forderungsrangliste', label: 'Forderungsrangliste', position: 'left'},
-          {to: 'https://artikel.dckirrberg.de', label: 'Webshop', position: 'left'},
-          {to: '/downloads', label: 'Downloads', position: 'left'},
+          { to: "/team", label: "Über uns", position: "left" },
+          { to: "/mitgliedwerden", label: "Mitglied werden", position: "left" },
+          { to: "/ergebnisse", label: "Teams & Ergebnisse", position: "left" },
+          { to: "/spenden", label: "Spenden", position: "left" },
+          { to: "/sponsoring", label: "Sponsoren", position: "left" },
+          {
+            to: "/forderungsrangliste",
+            label: "Forderungsrangliste",
+            position: "left",
+          },
+          { to: "/downloads", label: "Downloads", position: "left" },
+          {
+            href: "https://artikel.dckirrberg.de",
+            label: "Webshop",
+            position: "left",
+          },
         ],
       },
       footer: {
-        style: 'dark',
-        
+        style: "dark",
+
         links: [
           {
-            title: 'Mehr',
+            title: "Mehr",
             items: [
               {
-                label: 'News',
-                to: '/blog',
+                label: "News",
+                to: "/blog",
               },
               {
-                label: 'Downloads',
-                to: '/downloads',
+                label: "Downloads",
+                to: "/downloads",
               },
             ],
           },
           {
-            title: 'Social Media',
+            title: "Social Media",
             items: [
               {
-                label: 'Instagram',
-                href: 'https://instagram.com/dckirrberg',
+                label: "Instagram",
+                href: "https://instagram.com/dckirrberg",
               },
               {
-                label: 'Facebook',
-                href: 'https://facebook.com/dckirrberg',
+                label: "Facebook",
+                href: "https://facebook.com/dckirrberg",
               },
             ],
           },
           {
-            title: 'Links',
+            title: "Links",
             items: [
               {
-                label: 'Impressum',
-                to: '/docs/Impressum',
+                label: "Impressum",
+                to: "/docs/Impressum",
               },
             ],
           },

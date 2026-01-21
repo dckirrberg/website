@@ -1,0 +1,99 @@
+.instagramSection {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #C8313E;
+  margin: 0.75rem auto 0;
+}
+
+.subtitle {
+  color: #C8313E;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.feedGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+}
+
+.postWrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  min-height: 550px;
+}
+
+.postWrapper:hover {
+  transform: translateY(-4px);
+  border-color: rgba(200, 49, 62, 0.5);
+}
+
+/* Hide Instagram header */
+.postWrapper :global(iframe) {
+  margin-top: -54px;
+}
+
+.followButton {
+  display: inline-block;
+  background: linear-gradient(135deg, #C8313E 0%, #a02830 100%);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(200, 49, 62, 0.4);
+}
+
+.followButton:hover {
+  background: linear-gradient(135deg, #d64050 0%, #C8313E 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(200, 49, 62, 0.5);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .instagramSection {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .instagramSection {
+    padding: 2rem 1rem;
+  }
+
+  .followButton {
+    width: 100%;
+    max-width: 280px;
+  }
+}

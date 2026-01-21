@@ -4,25 +4,292 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* DC Kirrberg Brand Colors */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #C8313E;
+  --ifm-color-primary-dark: #b42b37;
+  --ifm-color-primary-darker: #a92834;
+  --ifm-color-primary-darkest: #8b212b;
+  --ifm-color-primary-light: #ce4651;
+  --ifm-color-primary-lighter: #d3515b;
+  --ifm-color-primary-lightest: #dc737b;
   --ifm-code-font-size: 95%;
+
+  /* Brand colors - darker/blacker */
+  --dc-heraldic-red: #C8313E;
+  --dc-dark-burgundy: #1a0808;
+  --dc-darker-burgundy: #0d0303;
+  --dc-medium-red: #2a0a0a;
+  --dc-black: #0a0202;
 }
 
+/* Dark theme overrides - more black */
+html[data-theme='dark'] {
+  --ifm-background-color: #0a0202;
+  --ifm-background-surface-color: #120505;
+  --ifm-navbar-background-color: #0a0202;
+  --ifm-footer-background-color: #0a0202;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(180deg, #0a0202 0%, #120505 100%);
+  border-bottom: 2px solid #C8313E;
+  box-shadow: 0 2px 10px rgba(200, 49, 62, 0.2);
+}
+
+.navbar__title {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.navbar__link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #C8313E;
+}
+
+/* External link icon in navbar */
+.navbar__link--external::after {
+  content: '↗';
+  display: inline-block;
+  margin-left: 0.25rem;
+  font-size: 0.75em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.navbar__link--external:hover::after {
+  opacity: 1;
+}
+
+/* Footer styling */
+.footer {
+  background: linear-gradient(180deg, #120505 0%, #0a0202 100%);
+  border-top: 2px solid #C8313E;
+}
+
+.footer__title {
+  color: #ffffff;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #C8313E;
+}
+
+/* Button styles */
+.button--primary {
+  background: linear-gradient(135deg, #C8313E 0%, #a02830 100%);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(200, 49, 62, 0.3);
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, #d64050 0%, #C8313E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 49, 62, 0.4);
+  color: #ffffff;
+}
+
+.button--secondary {
+  background: transparent;
+  border: 2px solid #C8313E;
+  color: #C8313E;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button--secondary:hover {
+  background: #C8313E;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(200, 49, 62, 0.3);
+}
+
+/* Card hover effects */
+.card {
+  background: rgba(45, 10, 10, 0.5);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(200, 49, 62, 0.2);
+  border-color: rgba(200, 49, 62, 0.4);
+}
+
+/* Code highlighting */
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(200, 49, 62, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(200, 49, 62, 0.2);
 }
+
+/* Links */
+a {
+  color: #C8313E;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #d64050;
+  text-decoration: none;
+}
+
+/* Hero CTA buttons */
+.hero .button {
+  margin: 0.5rem;
+}
+
+/* Scrollbar styling for dark theme */
+html[data-theme='dark'] ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #0a0202;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #2a0a0a;
+  border-radius: 5px;
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #C8313E;
+}
+
+/* ============================================
+   Global Animation Keyframes
+   ============================================ */
+
+/* Entrance animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Float animation for subtle movement */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Floating particles animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(100%) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(20px);
+    opacity: 0;
+  }
+}
+
+/* Glow pulse for stats */
+@keyframes glowPulse {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(200, 49, 62, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(200, 49, 62, 0.6), 0 0 30px rgba(200, 49, 62, 0.3);
+  }
+}
+
+/* Count up scale effect */
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Stagger delay utility classes */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }

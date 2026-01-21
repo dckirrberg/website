@@ -1,0 +1,183 @@
+/* Member Card Styles */
+
+.memberCard {
+  background: rgba(18, 5, 5, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(200, 49, 62, 0.2);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.memberCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #C8313E, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.memberCard:hover {
+  transform: translateY(-8px);
+  border-color: rgba(200, 49, 62, 0.5);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(200, 49, 62, 0.15);
+}
+
+.memberCard:hover::before {
+  opacity: 1;
+}
+
+/* Photo Container */
+.photoWrapper {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 1.5rem;
+  position: relative;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, rgba(200, 49, 62, 0.3), transparent, rgba(200, 49, 62, 0.3));
+  transition: all 0.3s ease;
+}
+
+.memberCard:hover .photoWrapper {
+  background: linear-gradient(135deg, #C8313E, rgba(200, 49, 62, 0.5), #C8313E);
+  box-shadow: 0 0 30px rgba(200, 49, 62, 0.4);
+}
+
+.photoInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--dc-black, #0a0202);
+}
+
+.memberPhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.memberCard:hover .memberPhoto {
+  transform: scale(1.05);
+}
+
+/* Member Info */
+.memberInfo {
+  position: relative;
+}
+
+.memberName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+/* Red accent line under name */
+.nameAccent {
+  width: 40px;
+  height: 2px;
+  background: #C8313E;
+  margin: 0 auto 0.75rem;
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+.memberCard:hover .nameAccent {
+  width: 60px;
+}
+
+.memberTitle {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 1rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* Email Link */
+.emailLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #C8313E;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: rgba(200, 49, 62, 0.1);
+  transition: all 0.3s ease;
+}
+
+.emailLink:hover {
+  background: rgba(200, 49, 62, 0.2);
+  color: #d64050;
+  text-decoration: none;
+}
+
+.emailIcon {
+  font-size: 0.9rem;
+}
+
+/* Stagger animation delays - applied via inline style */
+.stagger1 { animation-delay: 0.05s; }
+.stagger2 { animation-delay: 0.1s; }
+.stagger3 { animation-delay: 0.15s; }
+.stagger4 { animation-delay: 0.2s; }
+.stagger5 { animation-delay: 0.25s; }
+.stagger6 { animation-delay: 0.3s; }
+.stagger7 { animation-delay: 0.35s; }
+.stagger8 { animation-delay: 0.4s; }
+.stagger9 { animation-delay: 0.45s; }
+.stagger10 { animation-delay: 0.5s; }
+
+/* Animation keyframe */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .memberCard {
+    padding: 1.5rem 1rem;
+  }
+
+  .photoWrapper {
+    width: 110px;
+    height: 110px;
+  }
+
+  .memberName {
+    font-size: 1.1rem;
+  }
+
+  .memberTitle {
+    font-size: 0.85rem;
+  }
+
+  .emailLink {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
