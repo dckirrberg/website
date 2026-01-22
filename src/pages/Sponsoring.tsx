@@ -65,10 +65,9 @@ const packages = [
     price: "Verhandlungsbasis",
     features: [
       "Alle Single-Leistungen",
-      "Erwähnung in Pressemitteilungen",
+      "Erwähnung in Vereinsnewslettern",
     ],
     featured: true,
-    badge: "Beliebt",
   },
   {
     name: "Triple",
@@ -77,9 +76,9 @@ const packages = [
       "Alle Double-Leistungen",
       "Anzeige im Vereinsgelände",
       "Plakat-/Leinwandwerbung",
-      "Event-Unterstützung",
     ],
-    featured: false,
+    featured: true,
+    badge: "Beliebt",
   },
 ];
 
@@ -247,7 +246,7 @@ export default function Sponsoring(): JSX.Element {
               className={styles.contactLink}
             >
               michael.didion@dckirrberg.de
-            </a>
+            </a><br></br>
             <a
               href="tel:+491731325417"
               className={styles.contactLink}

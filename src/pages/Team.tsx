@@ -13,11 +13,12 @@ interface TeamMember {
 }
 
 const stats = [
+  { value: "✓", label: "SADV Mitglied", icon: "🔶" },
   { value: "150", label: "Mitglieder", icon: "👥" },
   { value: "64", label: "Aktive Spieler", icon: "🎯" },
   { value: "6", label: "Mannschaften", icon: "🏆" },
   { value: "2021", label: "Gegründet", icon: "📅" },
-  { value: "✓", label: "LSVS Mitglied", icon: "🏅" },
+  { value: "✓", label: "LSVS Mitglied", icon: "🔵" },
 ];
 
 const milestones = [
@@ -37,7 +38,7 @@ const milestones = [
     description: "Start in der SADV Saarliga mit zwei Mannschaften.",
   },
   {
-    date: "Mai 2023",
+    date: "Saison 22/23",
     title: "Meister & Aufstieg",
     description: "DCK1 wird Meister der Saarliga 3 - beide Teams steigen auf.",
   },
@@ -45,6 +46,11 @@ const milestones = [
     date: "2024",
     title: "Sportpark Lerchenhübel",
     description: "Kooperation mit SV Kirrberg 1945 e.V. und Umzug in den Sportpark.",
+  },
+    {
+    date: "Saison 23/24",
+    title: "Meister & Aufstieg",
+    description: "DCK1 wird Meister der Saarliga 2 - DCK2 steigt in die Saarliga 2 auf.",
   },
   {
     date: "Saison 24/25",
@@ -83,25 +89,25 @@ const teams = [
   {
     number: "3",
     name: "DC Kirrberg 3",
-    league: "Saarliga 3",
+    league: "Saarliga 3.3",
     info: "Ligabetrieb im SADV",
   },
   {
     number: "4",
     name: "DCK Blackout",
-    league: "Saarliga 3",
+    league: "Saarliga 3.4",
     info: "Ligabetrieb im SADV",
   },
   {
     number: "5",
     name: "DCK Warriors",
-    league: "Saarliga 3",
+    league: "Saarliga 3.4",
     info: "Ligabetrieb im SADV",
   },
   {
     number: "D",
     name: "DCK Steelsisters",
-    league: "Damenliga",
+    league: "Saarliga 3.1",
     info: "Ligabetrieb im SADV",
   },
 ];

@@ -15,22 +15,22 @@ const teams = [
 const quickLinks = [
   {
     icon: "📊",
-    label: "Spielplan & Tabellen",
+    label: "Saarliga Spielplan & Tabellen",
     href: "https://spielplan.dckirrberg.de",
     external: true,
   },
   {
-    icon: "🏆",
+    icon: "🔶🎯",
     label: "Saarländischer Dartverband",
     href: "https://www.sadv.de",
     external: true,
   },
-  // {
-  //   icon: "📅",.
-  //   label: "Spieltage",
-  //   href: "/docs/Spieltage/spieltage",
-  //   external: false,
-  // },
+  {
+     icon: "🏅",
+     label: "Tussberch Masters 25/26 (Rangliste)",
+     href: "https://masters.dckirrberg.de",
+     external: true,
+  },
 ];
 
 export default function Ergebnisse(): JSX.Element {
@@ -104,7 +104,7 @@ export default function Ergebnisse(): JSX.Element {
         {/* Team Photo Section */}
         <section className={styles.teamPhotoSection}>
           <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Die Mannschaft</h2>
+            <h2 className={styles.sectionTitle}>Saisonkader 24/25</h2>
             <p className={styles.sectionSubtitle}>
               Unsere Spielerinnen und Spieler
             </p>

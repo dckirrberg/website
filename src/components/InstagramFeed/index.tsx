@@ -4,7 +4,7 @@ import styles from './InstagramFeed.module.css';
 
 const instagramPosts = [
   'https://www.instagram.com/dckirrberg/p/DTgLzlZDHa-/',
-  'https://www.instagram.com/dckirrberg/p/DTdDoeHDHuc/',
+  'https://www.instagram.com/dckirrberg/p/DMXHMHxsJPg/',
   'https://www.instagram.com/dckirrberg/p/DJ1RWCYIJcP/',
 ];
 

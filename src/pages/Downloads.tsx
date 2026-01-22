@@ -1,50 +1,110 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import styles from "./index.module.css";
+import styles from "./Downloads.module.css"; // <- ggf. anpassen
 
-export default function Team() {
+type QuickLink = {
+  icon: string;
+  label: string;
+  href: string;
+  external?: boolean;
+};
+
+const dokumenteLinks: QuickLink[] = [
+  { icon: "📝", label: "Mitgliedsantrag.pdf", href: "/dateien/Mitgliederantrag.pdf", external: true },
+  { icon: "📜", label: "Vereinssatzung.pdf", href: "/dateien/DC_Kirrberg_Satzung.pdf", external: true },
+  { icon: "💶", label: "Beitragsordnung.pdf", href: "/dateien/Beitragsordnung.pdf", external: true },
+  { icon: "🏛️", label: "Geschäftsordnung Mitgliederversammlung.pdf", href: "/dateien/GO Mitgliederversammlung.pdf", external: true },
+  { icon: "🗳️", label: "Wahlordnung.pdf", href: "/dateien/Wahlordnung.pdf", external: true },
+  { icon: "🤝", label: "Sponsorenkonzept_DCK.pdf", href: "/dateien/Sponsorenkonzept_DCK.pdf", external: true },
+];
+
+const kalenderLinks: QuickLink[] = [
+  { icon: "📅", label: "ALLE Teams – Spielplan 2025/2026.ics", href: "/dateien/DC_Kirrberg_ALLE_Teams_Spielplan_2025_2026.ics", external: true },
+  { icon: "🏠📅", label: "ALLE Teams – Heimspiele 2025/2026.ics", href: "/dateien/DC_Kirrberg_ALLE_Teams_HEIMSPIELE_2025_2026.ics", external: true },
+  { icon: "1️⃣", label: "DC Kirrberg 1 – Spielplan 2025/2026.ics", href: "/dateien/DC_Kirrberg_1_Spielplan_2025_2026.ics", external: true },
+  { icon: "2️⃣", label: "DC Kirrberg 2 – Spielplan 2025/2026.ics", href: "/dateien/DC_Kirrberg_2_Spielplan_2025_2026.ics", external: true },
+  { icon: "3️⃣", label: "DC Kirrberg 3 – Spielplan 2025/2026.ics", href: "/dateien/DC_Kirrberg_3_Spielplan_2025_2026.ics", external: true },
+  { icon: "⚔️", label: "DCK Warriors – Spielplan 2025/2026.ics", href: "/dateien/DCK_Warriors_Spielplan_2025_2026.ics", external: true },
+  { icon: "🖤", label: "DCK Blackout – Spielplan 2025/2026.ics", href: "/dateien/DCK_Blackout_Spielplan_2025_2026.ics", external: true },
+  { icon: "👑", label: "DCK Steelsisters – Spielplan 2025/2026.ics", href: "/dateien/DCK_Steelsisters_Spielplan_2025_2026.ics", external: true },
+];
+
+function QuickLinksGrid({ links }: { links: QuickLink[] }) {
   return (
-    <Layout>
-      <div className="hero">
-        <div className="container">
-          <div className="text--center margin-bottom--lg">
-            <h2 className="hero__title margin--none">Downloads</h2><br />
-            <p>Hier findest du alle wichtigen Dokumente direkt zum Download!</p>
-            <div className="container">
-              <div className="row row--no-gutters">
-                <div className="col"><b>Dokumente</b></div>
-              </div>
-              <div className="column column--no-gutters">
-                <div className="col"><a href="/dateien/Mitgliederantrag.pdf" target="_blank">Mitgliedsantrag.pdf</a></div>
-                <div className="col"><a href="/dateien/DC_Kirrberg_Satzung.pdf" target="_blank">Vereinssatzung.pdf</a></div>
-                <div className="col"><a href="/dateien/Beitragsordnung.pdf" target="_blank">Beitragsordnung.pdf</a></div>
-                <div className="col"><a href="/dateien/GO Mitgliederversammlung.pdf" target="_blank">Geschäftsordnung der Mitgliederversammlung.pdf</a></div>
-                <div className="col"><a href="/dateien/Wahlordnung.pdf" target="_blank">Wahlordnung.pdf</a></div>
-                <div className="col"><a href="/dateien/Sponsorenkonzept_DCK.pdf" target="_blank">Sponsorenkonzept_DCK.pdf</a></div>                
-              </div>
-            </div> 
+    <div className={styles.quickLinksGrid}>
+      {links.map((link, idx) => (
+        <a
+          key={idx}
+          href={link.href}
+          target={link.external ? "_blank" : undefined}
+          rel={link.external ? "noopener noreferrer" : undefined}
+          className={styles.quickLink}
+        >
+          <span className={styles.quickLinkIcon}>{link.icon}</span>
+          {link.label}
+          {link.external && <span className={styles.quickLinkExternal}>↗</span>}
+        </a>
+      ))}
+    </div>
+  );
+}
 
-            <br />
-
-            <div className="container">
-              <div className="row row--no-gutters">
-                <div className="col"><b>Kalenderimport</b></div>
-              </div>
-              <div className="column column--no-gutters">
-                <div className="col"> <a href="/dateien/DC_Kirrberg_ALLE_Teams_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_ALLE_Teams_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DC_Kirrberg_ALLE_Teams_HEIMSPIELE_2025_2026.ics" target="_blank">DC_Kirrberg_ALLE_Teams_HEIMSPIELE_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DC_Kirrberg_1_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_1_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DC_Kirrberg_2_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_2_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DC_Kirrberg_3_Spielplan_2025_2026.ics" target="_blank">DC_Kirrberg_3_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DCK_Warriors_Spielplan_2025_2026.ics" target="_blank">DCK_Warriors_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DCK_Blackout_Spielplan_2025_2026.ics" target="_blank">DCK_Blackout_Spielplan_2025_2026.ics</a></div>
-                <div className="col"> <a href="/dateien/DCK_Steelsisters_Spielplan_2025_2026.ics" target="_blank">DCK_Steelsisters_Spielplan_2025_2026.ics</a></div>    
-
-              </div>
-            </div> 
+export default function Downloads(): JSX.Element {
+  return (
+    <Layout title="Downloads" description="Downloads und Dokumente des DC Kirrberg e.V.">
+      <main className={styles.page}>
+        {/* Hero */}
+        <section className={styles.hero}>
+          <div className={styles.heroContent}>
+            <h1 className={styles.heroTitle}>Downloads</h1>
+            <p className={styles.heroSubtitle}>Alles Wichtige direkt zum Download</p>
+            <p className={styles.heroIntro}>
+              Dokumente, Satzung, Ordnungen – und Kalenderimporte für alle Teams.
+            </p>
           </div>
-        </div>
-      </div> 
+        </section>
+
+        <div className={styles.divider} />
+
+        {/* Dokumente */}
+        <section className={styles.quickLinksSection}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>Dokumente</h2>
+            <p className={styles.sectionSubtitle}>PDFs rund um Verein & Mitgliedschaft</p>
+          </div>
+
+          <QuickLinksGrid links={dokumenteLinks} />
+        </section>
+
+        <div className={styles.divider} />
+
+        {/* Kalender */}
+        <section className={styles.quickLinksSection}>
+          <div className={styles.sectionHeader}>
+            <h2 className={styles.sectionTitle}>Kalenderimport</h2>
+            <p className={styles.sectionSubtitle}>
+              ICS-Dateien zum Import in Google/Apple/Outlook Kalender
+            </p>
+          </div>
+
+          <QuickLinksGrid links={kalenderLinks} />
+        </section>
+
+        <div className={styles.divider} />
+
+        {/* Info */}
+        <section className={styles.infoSection}>
+          <div className={styles.infoContent}>
+            <p className={styles.infoText}>
+              Tipp: In vielen Kalender-Apps kannst du die <strong>.ics</strong>-Datei
+              direkt öffnen – der Import startet dann automatisch.
+            </p>
+            <a href="mailto:vorstand@dckirrberg.de" className={styles.infoLink}>
+              vorstand@dckirrberg.de <span>→</span>
+            </a>
+          </div>
+        </section>
+      </main>
     </Layout>
   );
 }
