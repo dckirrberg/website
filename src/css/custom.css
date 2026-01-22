@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #d3515b;
   --ifm-color-primary-lightest: #dc737b;
   --ifm-code-font-size: 95%;
+  color-scheme: dark;
 
   /* Brand colors - darker/blacker */
   --dc-heraldic-red: #C8313E;
