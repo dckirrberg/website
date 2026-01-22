@@ -28,7 +28,8 @@ function HomepageHeader() {
           <div className={styles.logoWrapper}>
             <img className={styles.logo} src="/img/logo.svg" alt="DC Kirrberg Logo" />
           </div>
-          <span className={styles.badge}>Seit 2021 | LSVS Mitglied</span>
+     
+          <span className={styles.badge}>Steeldarts | Seit 2021 </span>
         </div>
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>Die Sterne vom Tussberch</p>

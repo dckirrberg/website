@@ -25,26 +25,31 @@ const FeatureList: FeatureItem[] = [
     title: 'Trainingszeiten',
     subtitle: 'Wann & Wo',
     description: (
-      <>
+      <>  
+        <span className={styles.scheduleItem}>
+          <strong>Offenes Training</strong>
+          <span>Sportpark Lerchenhübel</span>
+          <span>Di, Do, Fr ab 18:00 Uhr</span>
+        </span>
         <span className={styles.scheduleItem}>
           <strong>Damentraining</strong>
           <span>Bürgerhaus Kirrberg</span>
           <span>Montags ab 18:00 Uhr</span>
         </span>
         <span className={styles.scheduleItem}>
-          <strong>Offenes Training</strong>
+          <strong>Jugendtraining</strong>
           <span>Sportpark Lerchenhübel</span>
-          <span>Di, Do, Fr ab 18:00 Uhr</span>
+          <span>Mittwochs ab 17:00 Uhr</span>
         </span>
       </>
     ),
   },
   {
     title: 'Mitglied werden',
-    subtitle: 'Jetzt mitmachen',
+    subtitle: 'Jetzt anmelden',
     description: (
       <>
-        Werde Teil unserer Darts-Familie! Trainiere mit erfahrenen Spielern,
+        Werde Teil unserer Darts-Familie! Trainiere mit erfahrenen Spielern, wie Jens Kniest & Björn Quoiffy und
         nimm an Ligaspielen teil und erlebe eine starke Gemeinschaft.
       </>
     ),

@@ -5,10 +5,11 @@ import styles from "./Ergebnisse.module.css";
 const teams = [
   { badge: "1", name: "DCK 1", league: "Saarliga 1" },
   { badge: "2", name: "DCK 2", league: "Saarliga 2" },
-  { badge: "3", name: "DCK 3", league: "Saarliga" },
-  { badge: "4", name: "DCK 4", league: "Saarliga" },
-  { badge: "5", name: "DCK 5", league: "Saarliga" },
-  { badge: "D", name: "DCK Damen", league: "Damenliga" },
+  { badge: "3", name: "DCK 3", league: "Saarliga 3.3" }, 
+  { badge: "D", name: "DCK Steelsisters", league: "Saarliga 3.1" },
+  { badge: "B", name: "DCK Blackout", league: "Saarliga 3.4" },
+  { badge: "W", name: "DCK Warriors", league: "Saarliga 3.4" },
+ 
 ];
 
 const quickLinks = [
@@ -20,16 +21,16 @@ const quickLinks = [
   },
   {
     icon: "🏆",
-    label: "SADV Liga",
+    label: "Saarländischer Dartverband",
     href: "https://www.sadv.de",
     external: true,
   },
-  {
-    icon: "📅",
-    label: "Spieltage",
-    href: "/docs/Spieltage/spieltage",
-    external: false,
-  },
+  // {
+  //   icon: "📅",.
+  //   label: "Spieltage",
+  //   href: "/docs/Spieltage/spieltage",
+  //   external: false,
+  // },
 ];
 
 export default function Ergebnisse(): JSX.Element {
@@ -47,8 +48,7 @@ export default function Ergebnisse(): JSX.Element {
             <p className={styles.heroIntro}>
               Mit sechs Mannschaften sind wir im SADV-Ligabetrieb vertreten.
               Unsere erste Mannschaft spielt in der höchsten saarländischen
-              Liga, der Saarliga 1. Hier findest du alle aktuellen Ergebnisse,
-              Tabellenstände und Spielpläne.
+              Liga, der Saarliga 1.
             </p>
           </div>
         </section>
@@ -168,12 +168,12 @@ export default function Ergebnisse(): JSX.Element {
           <div className={styles.infoContent}>
             <p className={styles.infoText}>
               Die Ergebnisse und Tabellen werden vom Saarländischen
-              Automaten-Dart-Verband (SADV) bereitgestellt und automatisch
+              Dartverband e.V. (SADV) bereitgestellt und automatisch
               aktualisiert. Bei Fragen zu Spielterminen oder Ergebnissen
               wende dich an unseren Sportwart.
             </p>
-            <a href="mailto:sportwart@dckirrberg.de" className={styles.infoLink}>
-              sportwart@dckirrberg.de
+            <a href="mailto:vorstand@dckirrberg.de" className={styles.infoLink}>
+              vorstand@dckirrberg.de
               <span>→</span>
             </a>
           </div>

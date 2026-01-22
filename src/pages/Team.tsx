@@ -13,8 +13,8 @@ interface TeamMember {
 }
 
 const stats = [
-  { value: "147", label: "Mitglieder", icon: "👥" },
-  { value: "54", label: "Aktive Spieler", icon: "🎯" },
+  { value: "150", label: "Mitglieder", icon: "👥" },
+  { value: "64", label: "Aktive Spieler", icon: "🎯" },
   { value: "6", label: "Mannschaften", icon: "🏆" },
   { value: "2021", label: "Gegründet", icon: "📅" },
   { value: "✓", label: "LSVS Mitglied", icon: "🏅" },
@@ -102,7 +102,7 @@ const teams = [
     number: "D",
     name: "DCK Steelsisters",
     league: "Damenliga",
-    info: "Damenmannschaft",
+    info: "Ligabetrieb im SADV",
   },
 ];
 
@@ -161,7 +161,7 @@ export default function Team(): JSX.Element {
         <section className={styles.historySection}>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Vereinsgeschichte</h2>
-            <p className={styles.sectionSubtitle}>Von 15 auf 147 Mitglieder</p>
+            <p className={styles.sectionSubtitle}>Von 15 auf 150 Mitglieder</p>
           </div>
 
           <div className={styles.timeline}>

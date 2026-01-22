@@ -10,8 +10,8 @@ type Sponsor = {
 };
 
 const stats = [
-  { value: "147", label: "Mitglieder" },
-  { value: "54", label: "Aktive Spieler" },
+  { value: "150", label: "Mitglieder" },
+  { value: "64", label: "Aktive Spieler" },
   { value: "6", label: "Mannschaften" },
   { value: "750+", label: "Social Media Follower" },
 ];
@@ -35,12 +35,12 @@ const benefits = [
     description:
       "Zugang zu unserem Netzwerk aus Mitgliedern, Fans und Geschäftspartnern.",
   },
-  {
-    icon: "💼",
-    title: "B2B-Kontakte",
-    description:
-      "Networking-Möglichkeiten mit anderen Sponsoren und lokalen Unternehmen.",
-  },
+  // {
+  //   icon: "💼",
+  //   title: "B2B-Kontakte",
+  //   description:
+  //     "Networking-Möglichkeiten mit anderen Sponsoren und lokalen Unternehmen.",
+  // },
   {
     icon: "❤️",
     title: "Soziales Engagement",
@@ -56,7 +56,7 @@ const packages = [
     features: [
       "Logo auf der Website",
       "Erwähnung in Social Media",
-      "Nennung in Vereins-Newslettern",
+      "Nennung in Spieltagsankündigungen",
     ],
     featured: false,
   },
@@ -65,7 +65,6 @@ const packages = [
     price: "Verhandlungsbasis",
     features: [
       "Alle Single-Leistungen",
-      "Logo auf Spielertrikots",
       "Erwähnung in Pressemitteilungen",
     ],
     featured: true,
@@ -98,7 +97,7 @@ export default function Sponsoring(): JSX.Element {
             <p className={styles.heroSubtitle}>Partner des Erfolgs</p>
             <p className={styles.heroIntro}>
               Der DC Kirrberg e.V. hat sich seit der Gründung 2021 rasant
-              entwickelt. Mit 147 Mitgliedern und sechs Mannschaften im
+              entwickelt. Mit 150 Mitgliedern und sechs Mannschaften im
               Ligabetrieb bieten wir Ihnen eine attraktive Plattform für
               Ihr Unternehmen. Werden Sie Teil unserer Erfolgsgeschichte!
             </p>

@@ -14,12 +14,12 @@ const benefits = [
     description: "Nimm an offiziellen Wettkämpfen und Turnieren teil",
   },
   {
-    icon: "🎪",
-    title: "Professionelle Ausstattung",
-    description: "Zugang zu hochwertigen Dartboards und Equipment",
+    icon: "💸",
+    title: "Wir übernehmen die Ligagebühren",
+    description: "Die vom Verband für jeden Spieler berechnete Ligagebühr wird von uns zu 100% übernommen",
   },
   {
-    icon: "🤝",
+    icon: "🖤♥️",
     title: "Starke Gemeinschaft",
     description: "Werde Teil einer leidenschaftlichen Darts-Familie",
   },
@@ -139,10 +139,10 @@ export default function Mitgliedwerden(): JSX.Element {
         {/* Final CTA Section */}
         <section className={styles.ctaSection}>
           <div className={styles.ctaContent}>
-            <h2 className={styles.ctaTitle}>Bereit für GOOD DARTS?</h2>
+            <h2 className={styles.ctaTitle}>Bereit für deine erste 180?</h2>
             <p className={styles.ctaText}>
               Werde noch heute Teil unserer Gemeinschaft und erlebe den
-              Dartsport in seiner besten Form.
+              Dartsport.
             </p>
             <a
               href="https://antrag.dckirrberg.de"

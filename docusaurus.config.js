@@ -55,11 +55,11 @@ const config = {
           { to: "/ergebnisse", label: "Teams & Ergebnisse", position: "left" },
           { to: "/spenden", label: "Spenden", position: "left" },
           { to: "/sponsoring", label: "Sponsoren", position: "left" },
-          {
-            to: "/forderungsrangliste",
-            label: "Forderungsrangliste",
-            position: "left",
-          },
+          // {
+          //   to: "/forderungsrangliste",
+          //   label: "Forderungsrangliste",
+          //   position: "left",
+          // },
           { to: "/downloads", label: "Downloads", position: "left" },
           {
             href: "https://artikel.dckirrberg.de",
@@ -75,10 +75,10 @@ const config = {
           {
             title: "Mehr",
             items: [
-              {
-                label: "News",
-                to: "/blog",
-              },
+              // {
+              //   label: "News",
+              //   to: "/blog",
+              // },
               {
                 label: "Downloads",
                 to: "/downloads",
