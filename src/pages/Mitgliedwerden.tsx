@@ -6,7 +6,7 @@ const benefits = [
   {
     icon: "🎯",
     title: "Regelmäßiges Training",
-    description: "Trainiere mit erfahrenen Spielern und verbessere dein Spiel",
+    description: "Trainiere mit erfahrenen Spielern wie Jens Kniest & Björn Quoiffy und verbessere dein Spiel",
   },
   {
     icon: "🏆",

@@ -23,29 +23,45 @@ function HomepageHeader() {
         <div className={styles.particle}></div>
       </div>
 
+      {/* Animated darts (decorative) */}
+      <div className={styles.darts} aria-hidden="true">
+        <div className={styles.dartsInner}>
+          <div className={styles.dartAnchor}>
+            <img
+              className={`${styles.dart} ${styles.dart1}`}
+              src="/img/darts.svg"
+              alt=""
+              draggable={false}
+              loading="lazy"
+            />
+            <img
+              className={`${styles.dart} ${styles.dart2}`}
+              src="/img/darts.svg"
+              alt=""
+              draggable={false}
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className={styles.heroContent}>
         <div className={styles.logoContainer}>
           <div className={styles.logoWrapper}>
             <img className={styles.logo} src="/img/logo.svg" alt="DC Kirrberg Logo" />
           </div>
-     
+
           <span className={styles.badge}>Steeldarts | Seit 2021 </span>
         </div>
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>Die Sterne vom Tussberch</p>
         <p className={styles.heroTagline}>GOOD DARTS in Homburg an der Saar</p>
         <div className={styles.buttons}>
-          <a
-            className={styles.ctaPrimary}
-            href="/mitgliedwerden"
-          >
+          <a className={styles.ctaPrimary} href="/mitgliedwerden">
             Mitglied werden
             <span className={styles.ctaIcon}>&#8594;</span>
           </a>
-          <a
-            className={styles.ctaSecondary}
-            href="/team"
-          >
+          <a className={styles.ctaSecondary} href="/team">
             <span className={styles.ctaIcon}>&#9432;</span>
             Mehr erfahren
           </a>

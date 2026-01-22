@@ -53,6 +53,7 @@ const config = {
           { to: "/team", label: "Über uns", position: "left" },
           { to: "/mitgliedwerden", label: "Mitglied werden", position: "left" },
           { to: "/ergebnisse", label: "Teams & Ergebnisse", position: "left" },
+          { to: "/jugendabteilung", label: "Jugendabteilung", position: "left" },
           { to: "/spenden", label: "Spenden", position: "left" },
           { to: "/sponsoring", label: "Sponsoren", position: "left" },
           // {

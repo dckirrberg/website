@@ -406,3 +406,107 @@
   height: 40px;
   background: linear-gradient(180deg, #120505 0%, #0a0202 100%);
 }
+
+/* ===== Animated Darts (Add-on) ===== */
+
+.darts {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2; /* über particles (0), unter heroContent (1) */
+}
+
+/* Zentrierter Innenbereich */
+.dartsInner {
+  position: relative;
+  height: 100%;
+  width: min(920px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+/* Anker-Box um die Logo-Zone herum (zentriert) */
+.dartAnchor {
+  position: absolute;
+  top: 110px; /* ggf. feinjustieren */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  height: 160px;
+  pointer-events: none;
+}
+
+/* Base dart */
+.dart {
+  position: absolute;
+  height: auto;
+  opacity: 0.9;
+  transform-origin: center;
+  filter:
+    drop-shadow(0 10px 22px rgba(0, 0, 0, 0.35))
+    drop-shadow(0 0 16px rgba(200, 49, 62, 0.18));
+
+  /* WICHTIG: Animation nutzt NUR translate, NICHT transform -> kein "Flip" beim Laden */
+  animation: dartFloat 6.8s ease-in-out infinite;
+}
+
+/* links neben Logo (zeigt nach rechts, wenn SVG standardmäßig nach rechts zeigt) */
+.dart1 {
+  top: 28px;
+  left: -102px;
+  width: 94px;
+  --dart-rot: -12deg;
+  transform: rotate(var(--dart-rot));
+  animation-duration: 7.2s;
+  animation-delay: 0s;
+}
+
+/* rechts neben Logo (SOFORT gespiegelt, kein Verzögerungs-Flip) */
+.dart2 {
+  top: 28px;
+  right: -102px;
+  width: 94px;
+  --dart-rot: -10deg;
+
+  /* Spiegelung permanent von Anfang an */
+  transform: scaleX(-1) rotate(var(--dart-rot));
+
+  animation-duration: 6.2s;
+  animation-delay: 0.35s;
+  opacity: 0.85;
+}
+
+/* Animation bewegt nur per translate -> transform bleibt stabil */
+@keyframes dartFloat {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 4px -10px; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .dartsInner {
+    width: min(920px, calc(100% - 2rem));
+  }
+
+  .dartAnchor {
+    top: 92px;
+    width: 220px;
+    height: 150px;
+  }
+
+  .dart1 {
+    left: -54px;
+    width: 60px;  /* <- Mobile Größe links */
+  }
+
+  .dart2 {
+    right: -54px;
+    width: 60px;  /* <- Mobile Größe rechts */
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .dart {
+    animation: none !important;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import styles from "./Downloads.module.css"; // <- ggf. anpassen
+import styles from "./Downloads.module.css";
 
 type QuickLink = {
   icon: string;
