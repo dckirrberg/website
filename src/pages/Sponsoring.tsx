@@ -67,7 +67,7 @@ const packages = [
       "Alle Single-Leistungen",
       "Erwähnung in Vereinsnewslettern",
     ],
-    featured: true,
+    featured: false,
   },
   {
     name: "Triple",
