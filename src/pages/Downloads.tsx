@@ -13,9 +13,9 @@ const dokumenteLinks: QuickLink[] = [
   { icon: "📝", label: "Mitgliedsantrag.pdf", href: "/dateien/Mitgliederantrag.pdf", external: true },
   { icon: "📜", label: "Vereinssatzung.pdf", href: "/dateien/DC_Kirrberg_Satzung.pdf", external: true },
   { icon: "💶", label: "Beitragsordnung.pdf", href: "/dateien/Beitragsordnung.pdf", external: true },
-  { icon: "🏛️", label: "Geschäftsordnung Mitgliederversammlung.pdf", href: "/dateien/GO Mitgliederversammlung.pdf", external: true },
+  { icon: "🏛️", label: "GO Mitgliederversammlung.pdf", href: "/dateien/GO Mitgliederversammlung.pdf", external: true },
   { icon: "🗳️", label: "Wahlordnung.pdf", href: "/dateien/Wahlordnung.pdf", external: true },
-  { icon: "🤝", label: "Sponsorenkonzept_DCK.pdf", href: "/dateien/Sponsorenkonzept_DCK.pdf", external: true },
+  { icon: "🤝", label: "Sponsorenkonzept DCK.pdf", href: "/dateien/Sponsorenkonzept_DCK.pdf", external: true },
 ];
 
 const kalenderLinks: QuickLink[] = [

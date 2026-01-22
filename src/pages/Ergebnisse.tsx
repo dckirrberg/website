@@ -20,14 +20,14 @@ const quickLinks = [
     external: true,
   },
   {
-    icon: "🔶🎯",
+    icon: "🔶",
     label: "Saarländischer Dartverband",
     href: "https://www.sadv.de",
     external: true,
   },
   {
      icon: "🏅",
-     label: "Tussberch Masters 25/26 (Rangliste)",
+     label: "Tussberch Masters 25/26",
      href: "https://masters.dckirrberg.de",
      external: true,
   },
