@@ -5,6 +5,7 @@
     { "name": "Schlag Druck & Werbegraphik", "url": "https://sdwg.de/", "logo": "/img/schlag.png" },
     { "name": "DVAG Frank Bauer", "url": "https://www.dvag.de/frank.bauer/index.html", "logo": "/img/DVAG_FRANK.png" },
     { "name": "Bariel UG", "url": "", "logo": "/img/bariel.jpeg" },
-    { "name": "Zeise Darts", "url": "https://zdart.de/", "logo": "/img/zeise.png" }
+    { "name": "Zeise Darts", "url": "https://zdart.de/", "logo": "/img/zeise.png" },
+    { "name": "Partyservice Linke", "url": "http://www.partyservice-kurtlinke.de/", "logo": "/img/kurt.jpg" }
   ]
 }
