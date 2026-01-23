@@ -35,7 +35,7 @@ const milestones = [
   {
     date: "September 2022",
     title: "Erste Saison",
-    description: "Start in der SADV Saarliga mit zwei Mannschaften.",
+    description: "Start im SADV Ligabetrieb mit zwei Mannschaften.",
   },
   {
     date: "Saison 22/23",

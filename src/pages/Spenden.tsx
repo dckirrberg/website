@@ -134,10 +134,10 @@ export default function Spenden(): JSX.Element {
             </div>
 
             <a
-              href="mailto:vorstand@dckirrberg.de"
+              href="mailto:nadine.tobi-kratz@dckirrberg.de"
               className={styles.contactLink}
             >
-              vorstand@dckirrberg.de
+              nadine.tobi-kratz@dckirrberg.de
             </a>
           </div>
         </section>

@@ -76,7 +76,7 @@ type Contact = {
 const contacts: Contact[] = [
   {
     name: "Michael Boscolo („Bossi“)",
-    role: "Jugendleiter",
+    role: "Jugendleiter (DCK Blackout)",
     image: "/dateien/vorstand/Michael.Boscolo.jpeg",
     mail: "jugendleitung@dckirrberg.de",
     // phone: "+49 176 802 514 40",
