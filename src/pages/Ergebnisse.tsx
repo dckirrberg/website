@@ -3,13 +3,17 @@ import Layout from "@theme/Layout";
 import styles from "./Ergebnisse.module.css";
 
 const teams = [
-  { badge: "1", name: "DCK 1", league: "Saarliga 1" },
-  { badge: "2", name: "DCK 2", league: "Saarliga 2" },
-  { badge: "3", name: "DCK 3", league: "Saarliga 3.3" }, 
-  { badge: "D", name: "DCK Steelsisters", league: "Saarliga 3.1" },
-  { badge: "B", name: "DCK Blackout", league: "Saarliga 3.4" },
-  { badge: "W", name: "DCK Warriors", league: "Saarliga 3.4" },
- 
+  {
+    badge: "1",
+    name: "DC Kirrberg 1",
+    league: "Saarliga 1",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/333/table",
+  },
+  { badge: "2", name: "DC Kirrberg 2", league: "Saarliga 2", tableUrl: "https://2k-dart-software.com/frontend/events/10/event/334/table" },
+  { badge: "3", name: "DC Kirrberg 3", league: "Saarliga 3.3", tableUrl: "https://2k-dart-software.com/frontend/events/10/event/338/table" },
+  { badge: "D", name: "DCK Steelsisters", league: "Saarliga 3.1", tableUrl: "https://2k-dart-software.com/frontend/events/10/event/336/table" },
+  { badge: "B", name: "DCK Blackout", league: "Saarliga 3.4", tableUrl: "https://2k-dart-software.com/frontend/events/10/event/339/table" },
+  { badge: "W", name: "DCK Warriors", league: "Saarliga 3.4", tableUrl: "https://2k-dart-software.com/frontend/events/10/event/339/table" },
 ];
 
 const quickLinks = [
@@ -26,10 +30,10 @@ const quickLinks = [
     external: true,
   },
   {
-     icon: "🏅",
-     label: "Tussberch Masters 25/26",
-     href: "https://masters.dckirrberg.de",
-     external: true,
+    icon: "🏅",
+    label: "Tussberch Masters 25/26",
+    href: "https://masters.dckirrberg.de",
+    external: true,
   },
 ];
 
@@ -84,17 +88,57 @@ export default function Ergebnisse(): JSX.Element {
         <section className={styles.teamsSection}>
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Unsere Mannschaften</h2>
-            <p className={styles.sectionSubtitle}>6 Teams im aktiven Spielbetrieb</p>
+            <p className={styles.sectionSubtitle}>
+              6 Teams im aktiven Spielbetrieb
+            </p>
           </div>
 
           <div className={styles.teamsGrid}>
-            {teams.map((team, idx) => (
-              <div key={idx} className={styles.teamCard}>
-                <div className={styles.teamBadge}>{team.badge}</div>
-                <div className={styles.teamName}>{team.name}</div>
-                <div className={styles.teamLeague}>{team.league}</div>
-              </div>
-            ))}
+            {teams.map((team, idx) => {
+              const hasTable = !!team.tableUrl && team.tableUrl.trim() !== "";
+
+              return (
+                <div
+                  key={idx}
+                  className={`${styles.teamCard} ${
+                    hasTable ? styles.teamCardClickable : ""
+                  }`}
+                  onClick={() => {
+                    if (hasTable) {
+                      window.open(team.tableUrl, "_blank", "noopener,noreferrer");
+                    }
+                  }}
+                  role={hasTable ? "link" : undefined}
+                  tabIndex={hasTable ? 0 : undefined}
+                  onKeyDown={(e) => {
+                    if (!hasTable) return;
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      window.open(team.tableUrl, "_blank", "noopener,noreferrer");
+                    }
+                  }}
+                >
+                  <div className={styles.teamBadge}>{team.badge}</div>
+                  <div className={styles.teamName}>{team.name}</div>
+                  <div className={styles.teamLeague}>{team.league}</div>
+
+                  {hasTable && (
+                    <div className={styles.teamActions}>
+                      <a
+                        href={team.tableUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.teamActionButton}
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        Zur Tabelle {" "}
+                        <span className={styles.teamActionArrow}>↗</span>
+                      </a>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </section>
 

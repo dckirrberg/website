@@ -47,7 +47,7 @@ const milestones = [
     title: "Sportpark Lerchenhübel",
     description: "Kooperation mit SV Kirrberg 1945 e.V. und Umzug in den Sportpark.",
   },
-    {
+  {
     date: "Saison 23/24",
     title: "Meister & Aufstieg",
     description: "DCK1 wird Meister der Saarliga 2 - DCK2 steigt in die Saarliga 2 auf.",
@@ -79,36 +79,42 @@ const teams = [
     name: "DC Kirrberg 1",
     league: "Saarliga 1",
     info: "Höchste saarländische Liga - Meister 24/25",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/333/table",
   },
   {
     number: "2",
     name: "DC Kirrberg 2",
     league: "Saarliga 2",
     info: "Zweithöchste Spielklasse",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/334/table",
   },
   {
     number: "3",
     name: "DC Kirrberg 3",
     league: "Saarliga 3.3",
     info: "Ligabetrieb im SADV",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/338/table",
   },
   {
     number: "4",
     name: "DCK Blackout",
     league: "Saarliga 3.4",
     info: "Ligabetrieb im SADV",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/339/table",
   },
   {
     number: "5",
     name: "DCK Warriors",
     league: "Saarliga 3.4",
     info: "Ligabetrieb im SADV",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/339/table",
   },
   {
     number: "D",
     name: "DCK Steelsisters",
     league: "Saarliga 3.1",
     info: "Ligabetrieb im SADV",
+    tableUrl: "https://2k-dart-software.com/frontend/events/10/event/336/table",
   },
 ];
 
@@ -176,7 +182,9 @@ export default function Team(): JSX.Element {
                 <div className={styles.timelineDot} />
                 <div className={styles.timelineDate}>{milestone.date}</div>
                 <div className={styles.timelineTitle}>{milestone.title}</div>
-                <div className={styles.timelineDescription}>{milestone.description}</div>
+                <div className={styles.timelineDescription}>
+                  {milestone.description}
+                </div>
               </div>
             ))}
           </div>
@@ -216,16 +224,49 @@ export default function Team(): JSX.Element {
           </div>
 
           <div className={styles.teamsGrid}>
-            {teams.map((team, idx) => (
-              <div key={idx} className={styles.teamCard}>
-                <div className={styles.teamCardHeader}>
-                  <span className={styles.teamNumber}>{team.number}</span>
-                  <span className={styles.teamName}>{team.name}</span>
+            {teams.map((t, idx) => {
+              const hasTable = !!t.tableUrl && t.tableUrl.trim() !== "";
+              return (
+                <div
+                  key={idx}
+                  className={`${styles.teamCard} ${hasTable ? styles.teamCardClickable : ""}`}
+                  onClick={() => {
+                    if (hasTable) window.open(t.tableUrl, "_blank", "noopener,noreferrer");
+                  }}
+                  role={hasTable ? "link" : undefined}
+                  tabIndex={hasTable ? 0 : undefined}
+                  onKeyDown={(e) => {
+                    if (!hasTable) return;
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      window.open(t.tableUrl, "_blank", "noopener,noreferrer");
+                    }
+                  }}
+                >
+                  <div className={styles.teamCardHeader}>
+                    <span className={styles.teamNumber}>{t.number}</span>
+                    <span className={styles.teamName}>{t.name}</span>
+                  </div>
+
+                  <span className={styles.teamLeague}>{t.league}</span>
+                  <div className={styles.teamInfo}>{t.info}</div>
+
+                  {hasTable && (
+                    <div className={styles.teamActions}>
+                      <a
+                        href={t.tableUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.teamActionButton}
+                        onClick={(e) => e.stopPropagation()} /* verhindert Card-Click Doppel-Open */
+                      >
+                        Tabelle öffnen <span className={styles.teamActionArrow}>↗</span>
+                      </a>
+                    </div>
+                  )}
                 </div>
-                <span className={styles.teamLeague}>{team.league}</span>
-                <div className={styles.teamInfo}>{team.info}</div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
 

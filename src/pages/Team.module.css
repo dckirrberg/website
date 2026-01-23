@@ -411,6 +411,53 @@
   line-height: 1.5;
 }
 
+/* --- NEW: Team Card Actions (Table Button) --- */
+.teamActions {
+  margin-top: 0.9rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.teamActionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  padding: 0.6rem 0.95rem;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #C8313E 0%, #a02830 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  border: 1px solid rgba(200, 49, 62, 0.45);
+  box-shadow: 0 6px 18px rgba(200, 49, 62, 0.18);
+
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.teamActionButton:hover {
+  background: linear-gradient(135deg, #d64050 0%, #C8313E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(200, 49, 62, 0.28);
+  border-color: rgba(200, 49, 62, 0.65);
+  color: #ffffff;
+}
+
+.teamActionButton:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(200, 49, 62, 0.35), 0 10px 22px rgba(200, 49, 62, 0.28);
+}
+
+.teamActionArrow {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
 /* Responsive Styles for New Sections */
 @media (max-width: 900px) {
   .statsBar {
@@ -491,6 +538,15 @@
   .teamsGrid {
     grid-template-columns: 1fr;
   }
+
+  .teamActions {
+    gap: 0.6rem;
+  }
+
+  .teamActionButton {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Animation keyframes are defined in custom.css */
@@ -504,3 +560,77 @@
     transform: translateY(0);
   }
 }
+
+/* --- NEW: clickable cards + Team Card Actions (Table Button) --- */
+
+.teamCardClickable {
+  cursor: pointer;
+}
+
+.teamCardClickable:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(200, 49, 62, 0.35), 0 10px 30px rgba(200, 49, 62, 0.2);
+}
+
+/* Button-Container */
+.teamActions {
+  margin-top: 0.9rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2; /* über evtl. Overlays */
+}
+
+/* Button selbst */
+.teamActionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  padding: 0.6rem 0.95rem;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #C8313E 0%, #a02830 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  border: 1px solid rgba(200, 49, 62, 0.45);
+  box-shadow: 0 6px 18px rgba(200, 49, 62, 0.18);
+
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  pointer-events: auto; /* falls irgendwas drüber liegt */
+}
+
+.teamActionButton:hover {
+  background: linear-gradient(135deg, #d64050 0%, #C8313E 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(200, 49, 62, 0.28);
+  border-color: rgba(200, 49, 62, 0.65);
+  color: #ffffff;
+}
+
+.teamActionButton:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(200, 49, 62, 0.35), 0 10px 22px rgba(200, 49, 62, 0.28);
+}
+
+.teamActionArrow {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+  .teamActions {
+    gap: 0.6rem;
+  }
+
+  .teamActionButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
