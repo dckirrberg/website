@@ -50,6 +50,7 @@ const config = {
       navbar: {
         title: "DC Kirrberg e.V.",
         items: [
+          { to: "/", label: "Startseite", position: "left", exact: true },
           { to: "/team", label: "Über uns", position: "left" },
           { to: "/mitgliedwerden", label: "Mitglied werden", position: "left" },
           { to: "/ergebnisse", label: "Teams & Ergebnisse", position: "left" },
